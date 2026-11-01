@@ -1,0 +1,93 @@
+{
+  "tag": "full",
+  "reference": "MDAC",
+  "algorithms": [
+    "MDAC",
+    "MDAC-ctr",
+    "MDAC-noFCP",
+    "jSO",
+    "L-SHADE-SPACMA",
+    "L-SHADE",
+    "EBOwithCMAR",
+    "CMA-ES"
+  ],
+  "cells": 28,
+  "overall_rank_thr": {
+    "MDAC": 4.247899159663865,
+    "MDAC-ctr": 4.030812324929972,
+    "MDAC-noFCP": 3.8399859943977583,
+    "jSO": 4.106792717086834,
+    "L-SHADE-SPACMA": 3.889705882352941,
+    "L-SHADE": 3.569677871148459,
+    "EBOwithCMAR": 5.4072128851540615,
+    "CMA-ES": 6.907913165266106
+  },
+  "overall_rank_raw": {
+    "MDAC": 4.346638655462185,
+    "MDAC-ctr": 4.019257703081232,
+    "MDAC-noFCP": 3.7734593837535018,
+    "jSO": 4.037464985994398,
+    "L-SHADE-SPACMA": 3.8378851540616243,
+    "L-SHADE": 3.512605042016807,
+    "EBOwithCMAR": 5.540266106442577,
+    "CMA-ES": 6.932422969187676
+  },
+  "category_rank_thr": {
+    "CEC hybrid": {
+      "MDAC": 3.281862745098039,
+      "MDAC-ctr": 3.836601307189543,
+      "MDAC-noFCP": 4.0057189542483655,
+      "jSO": 3.776143790849673,
+      "L-SHADE-SPACMA": 3.1143790849673203,
+      "L-SHADE": 3.8823529411764706,
+      "EBOwithCMAR": 6.15032679738562,
+      "CMA-ES": 7.9526143790849675
+    },
+    "CEC multimodal": {
+      "MDAC": 4.9724264705882355,
+      "MDAC-ctr": 4.176470588235294,
+      "MDAC-noFCP": 3.715686274509804,
+      "jSO": 4.3547794117647065,
+      "L-SHADE-SPACMA": 4.471200980392156,
+      "L-SHADE": 3.335171568627451,
+      "EBOwithCMAR": 4.849877450980392,
+      "CMA-ES": 6.124387254901961
+    }
+  },
+  "zero_threshold": 1e-08,
+  "benchmark": "CEC2017_* official, C-exact (crosscheck_cec2017_c.py 30/30)",
+  "excluded_from_stats": [
+    "CEC2017_F2_sum_diff_pow_c17"
+  ],
+  "pairing": "runs paired by run index (shared seed)",
+  "cec_friedman": {
+    "all": {
+      "cells": 28,
+      "k": 8,
+      "friedman_chi2": 70.85365853658526,
+      "friedman_p": 9.929320451481665e-13,
+      "iman_davenport_F": 15.286493860845802,
+      "nemenyi_cd_0.05": 1.9841757025097781,
+      "mean_rank": {
+        "MDAC": 4.25,
+        "MDAC-ctr": 3.8392857142857144,
+        "MDAC-noFCP": 3.732142857142857,
+        "jSO": 3.857142857142857,
+        "L-SHADE-SPACMA": 3.9464285714285716,
+        "L-SHADE": 3.4464285714285716,
+        "EBOwithCMAR": 5.267857142857143,
+        "CMA-ES": 7.660714285714286
+      },
+      "median_rank": {
+        "MDAC": 4.107142857142857,
+        "MDAC-ctr": 4.053571428571429,
+        "MDAC-noFCP": 3.642857142857143,
+        "jSO": 3.9285714285714284,
+        "L-SHADE-SPACMA": 3.8214285714285716,
+        "L-SHADE": 3.482142857142857,
+        "EBOwithCMAR": 5.535714285714286,
+        "CMA-ES": 7.428571428571429
+      }
+    }
+  }
+}

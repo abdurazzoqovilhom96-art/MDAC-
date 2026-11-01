@@ -1,0 +1,69 @@
+{
+  "tag": "rw_pub",
+  "reference": "MDAC",
+  "algorithms": [
+    "MDAC",
+    "jSO",
+    "L-SHADE-SPACMA",
+    "L-SHADE",
+    "EBOwithCMAR",
+    "CMA-ES"
+  ],
+  "cells": 8,
+  "overall_rank_thr": {
+    "MDAC": 3.329656862745098,
+    "jSO": 3.153186274509804,
+    "L-SHADE-SPACMA": 3.3517156862745097,
+    "L-SHADE": 3.077205882352941,
+    "EBOwithCMAR": 2.3651960784313726,
+    "CMA-ES": 5.723039215686275
+  },
+  "overall_rank_raw": {
+    "MDAC": 3.329656862745098,
+    "jSO": 3.153186274509804,
+    "L-SHADE-SPACMA": 3.3517156862745097,
+    "L-SHADE": 3.077205882352941,
+    "EBOwithCMAR": 2.3651960784313726,
+    "CMA-ES": 5.723039215686275
+  },
+  "category_rank_thr": {
+    "CEC2011 real-world": {
+      "MDAC": 3.329656862745098,
+      "jSO": 3.153186274509804,
+      "L-SHADE-SPACMA": 3.3517156862745097,
+      "L-SHADE": 3.077205882352941,
+      "EBOwithCMAR": 2.3651960784313726,
+      "CMA-ES": 5.723039215686275
+    }
+  },
+  "zero_threshold": 1e-08,
+  "benchmark": "CEC2011_* real-world problems, ported from the official MATLAB code (crosscheck_cec2011_octave.py)",
+  "excluded_from_stats": [],
+  "pairing": "runs paired by run index (shared seed)",
+  "cec_friedman": {
+    "all": {
+      "cells": 8,
+      "k": 6,
+      "friedman_chi2": 20.785714285714278,
+      "friedman_p": 0.0008891460512051984,
+      "iman_davenport_F": 7.572490706319696,
+      "nemenyi_cd_0.05": 2.6656553333533743,
+      "mean_rank": {
+        "MDAC": 3.75,
+        "jSO": 3.25,
+        "L-SHADE-SPACMA": 3.25,
+        "L-SHADE": 2.625,
+        "EBOwithCMAR": 2.125,
+        "CMA-ES": 6.0
+      },
+      "median_rank": {
+        "MDAC": 3.25,
+        "jSO": 3.125,
+        "L-SHADE-SPACMA": 3.5,
+        "L-SHADE": 2.625,
+        "EBOwithCMAR": 2.5,
+        "CMA-ES": 6.0
+      }
+    }
+  }
+}

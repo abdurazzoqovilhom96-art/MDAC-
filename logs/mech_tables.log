@@ -1,0 +1,187 @@
+
+== CEC2020_RC15_speed_reducer   f* = 2994.424466
+  MDAC            FR  1.00  best      2994.4245  median      2994.4245  mean      2994.4245  worst      2994.4245  std   4.59e-13  best-f*  -4.33e-08  
+  MDAC-ctr        FR  1.00  best      2994.4245  median      2994.4245  mean      2994.4245  worst      2994.4245  std   4.59e-13  best-f*  -4.33e-08  MDAC vs: T
+  MDAC-noFCP      FR  1.00  best      2994.4245  median      2994.4245  mean      2994.4245  worst      2994.4245  std   4.59e-13  best-f*  -4.33e-08  MDAC vs: T
+  jSO             FR  1.00  best      2994.4245  median      2994.4245  mean      2994.4245  worst      2994.4245  std   4.59e-13  best-f*  -4.33e-08  MDAC vs: T
+  L-SHADE-SPACMA  FR  1.00  best      2994.4245  median      2994.4245  mean      2994.4245  worst      2994.4245  std   4.59e-13  best-f*  -4.33e-08  MDAC vs: T
+  L-SHADE         FR  1.00  best      2994.4245  median      2994.4245  mean      2994.4245  worst      2994.4245  std   4.59e-13  best-f*  -4.33e-08  MDAC vs: T
+  EBOwithCMAR     FR  1.00  best      2994.4245  median      2994.4245  mean      2994.4245  worst      2994.4245  std   4.59e-13  best-f*  -4.33e-08  MDAC vs: T
+  CMA-ES          FR  1.00  best      3028.9615  median      3055.8432  mean      3053.9644  worst      3073.3624  std       10.2  best-f*       34.5  MDAC vs: W
+
+== CEC2020_RC16_refrigeration_system   f* = 0.03221300081
+  MDAC            FR  0.92  best    0.032213001  median    0.032213001  mean    0.032213001  worst    0.032213001  std   1.17e-17  best-f*      7e-11  
+  MDAC-ctr        FR  1.00  best    0.032213001  median    0.032213001  mean    0.032213001  worst    0.032213001  std   1.25e-17  best-f*      7e-11  MDAC vs: T
+  MDAC-noFCP      FR  1.00  best    0.032213001  median    0.032213001  mean    0.032213001  worst    0.032213001  std   1.31e-17  best-f*      7e-11  MDAC vs: T
+  jSO             FR  1.00  best    0.032213001  median    0.032213001  mean    0.032213001  worst    0.032213001  std   1.11e-17  best-f*      7e-11  MDAC vs: T
+  L-SHADE-SPACMA  FR  0.94  best    0.032213001  median    0.032213001  mean    0.032213001  worst    0.032213001  std   5.36e-18  best-f*      7e-11  MDAC vs: T
+  L-SHADE         FR  1.00  best    0.032213001  median    0.032213001  mean    0.032213001  worst    0.032213001  std   1.25e-17  best-f*      7e-11  MDAC vs: T
+  EBOwithCMAR     FR  1.00  best    0.032213001  median    0.032213001  mean    0.032213001  worst    0.032213001  std   9.56e-18  best-f*      7e-11  MDAC vs: T
+  CMA-ES          FR  1.00  best      22.075408  median       1104.109  mean      58602.536  worst      774120.51  std    1.6e+05  best-f*         22  MDAC vs: W
+
+== CEC2020_RC17_spring_case1   f* = 0.01266523279
+  MDAC            FR  1.00  best    0.012665233  median    0.012665236  mean     0.01266529  worst    0.012667211  std   2.77e-07  best-f*   3.19e-13  
+  MDAC-ctr        FR  1.00  best    0.012665233  median    0.012665233  mean    0.012665236  worst    0.012665327  std   1.42e-08  best-f*   3.19e-13  MDAC vs: L
+  MDAC-noFCP      FR  1.00  best    0.012665233  median    0.012665233  mean    0.012665245  worst    0.012665643  std   6.01e-08  best-f*   3.19e-13  MDAC vs: L
+  jSO             FR  1.00  best    0.012665233  median    0.012665244  mean    0.012665885  worst    0.012673839  std   1.56e-06  best-f*   3.19e-13  MDAC vs: T
+  L-SHADE-SPACMA  FR  1.00  best    0.012665233  median     0.01266558  mean    0.012666958  worst     0.01268977  std   4.15e-06  best-f*   3.38e-13  MDAC vs: W
+  L-SHADE         FR  1.00  best    0.012665233  median    0.012665233  mean    0.012665237  worst      0.0126653  std   1.33e-08  best-f*   3.19e-13  MDAC vs: L
+  EBOwithCMAR     FR  1.00  best    0.012665233  median    0.012666664  mean    0.012668199  worst    0.012686259  std   4.02e-06  best-f*   3.19e-13  MDAC vs: W
+  CMA-ES          FR  1.00  best    0.012665233  median    0.013083754  mean    0.013020931  worst    0.013204448  std   0.000164  best-f*    1.4e-11  MDAC vs: W
+
+== CEC2020_RC18_pressure_vessel   f* = 5885.332774
+  MDAC            FR  1.00  best      6059.7143  median      6090.5262  mean      6121.1677  worst      6820.4101  std        137  best-f*        174  
+  MDAC-ctr        FR  1.00  best      6059.7143  median      6059.7143  mean       6062.131  worst      6090.5262  std       8.37  best-f*        174  MDAC vs: L
+  MDAC-noFCP      FR  1.00  best      6059.7143  median      6059.7143  mean      6072.4594  worst      6370.7797  std       44.5  best-f*        174  MDAC vs: T
+  jSO             FR  1.00  best      6059.7143  median      6059.7143  mean      6060.9226  worst      6090.5262  std       6.04  best-f*        174  MDAC vs: L
+  L-SHADE-SPACMA  FR  1.00  best      6059.7143  median      6090.5262  mean      6155.5464  worst      6410.0868  std        137  best-f*        174  MDAC vs: T
+  L-SHADE         FR  1.00  best      6059.7143  median      6059.7143  mean      6070.6469  worst      6370.7797  std       44.3  best-f*        174  MDAC vs: L
+  EBOwithCMAR     FR  1.00  best      6059.7143  median      6090.5262  mean      6124.3877  worst      6410.0868  std        110  best-f*        174  MDAC vs: T
+  CMA-ES          FR  1.00  best      6059.7143  median      6059.7143  mean      6108.9032  worst      6733.8016  std        127  best-f*        174  MDAC vs: T
+
+== CEC2020_RC19_welded_beam   f* = 1.670217726
+  MDAC            FR  1.00  best      1.6702177  median      1.6702177  mean      1.6702177  worst      1.6702177  std   2.22e-16  best-f*  -2.01e-11  
+  MDAC-ctr        FR  1.00  best      1.6702177  median      1.6702177  mean      1.6702177  worst      1.6702177  std   2.24e-16  best-f*  -2.01e-11  MDAC vs: T
+  MDAC-noFCP      FR  1.00  best      1.6702177  median      1.6702177  mean      1.6702177  worst      1.6702177  std   2.24e-16  best-f*  -2.01e-11  MDAC vs: T
+  jSO             FR  1.00  best      1.6702177  median      1.6702177  mean      1.6702177  worst      1.6702177  std   2.06e-16  best-f*  -2.01e-11  MDAC vs: T
+  L-SHADE-SPACMA  FR  1.00  best      1.6702177  median      1.6702177  mean      1.6702177  worst      1.6702177  std   2.15e-16  best-f*  -2.01e-11  MDAC vs: T
+  L-SHADE         FR  1.00  best      1.6702177  median      1.6702177  mean      1.6702177  worst      1.6702177  std   2.24e-16  best-f*  -2.01e-11  MDAC vs: T
+  EBOwithCMAR     FR  1.00  best      1.6702177  median      1.6702177  mean      1.6702177  worst      1.6702177  std   2.24e-16  best-f*  -2.01e-11  MDAC vs: T
+  CMA-ES          FR  1.00  best      1.6702177  median      1.8392516  mean      1.8236575  worst      2.1371524  std      0.154  best-f*  -2.01e-11  MDAC vs: W
+
+== CEC2020_RC20_three_bar_truss   f* = 263.8958434
+  MDAC            FR  1.00  best      263.89584  median      263.89584  mean      263.89584  worst      263.89584  std   5.74e-14  best-f*  -3.53e-09  
+  MDAC-ctr        FR  1.00  best      263.89584  median      263.89584  mean      263.89584  worst      263.89584  std   5.74e-14  best-f*  -3.53e-09  MDAC vs: T
+  MDAC-noFCP      FR  1.00  best      263.89584  median      263.89584  mean      263.89584  worst      263.89584  std   5.74e-14  best-f*  -3.53e-09  MDAC vs: T
+  jSO             FR  1.00  best      263.89584  median      263.89584  mean      263.89584  worst      263.89584  std   5.74e-14  best-f*  -3.53e-09  MDAC vs: T
+  L-SHADE-SPACMA  FR  1.00  best      263.89584  median      263.89584  mean      263.89584  worst      263.89584  std   5.74e-14  best-f*  -3.53e-09  MDAC vs: T
+  L-SHADE         FR  1.00  best      263.89584  median      263.89584  mean      263.89584  worst      263.89584  std   5.74e-14  best-f*  -3.53e-09  MDAC vs: T
+  EBOwithCMAR     FR  1.00  best      263.89584  median      263.89584  mean      263.89584  worst      263.89584  std   5.74e-14  best-f*  -3.53e-09  MDAC vs: T
+  CMA-ES          FR  1.00  best      263.89584  median      263.91901  mean      263.99233  worst      264.67468  std      0.152  best-f*  -3.53e-09  MDAC vs: W
+
+== CEC2020_RC21_clutch_brake   f* = 0.2352424579
+  MDAC            FR  1.00  best     0.23524246  median     0.23524246  mean     0.23524246  worst     0.23524246  std    2.8e-17  best-f*   8.04e-13  
+  MDAC-ctr        FR  1.00  best     0.23524246  median     0.23524246  mean     0.23524246  worst     0.23524246  std    2.8e-17  best-f*   8.04e-13  MDAC vs: T
+  MDAC-noFCP      FR  1.00  best     0.23524246  median     0.23524246  mean     0.23524246  worst     0.23524246  std    2.8e-17  best-f*   8.04e-13  MDAC vs: T
+  jSO             FR  1.00  best     0.23524246  median     0.23524246  mean     0.23524246  worst     0.23524246  std    2.8e-17  best-f*   8.04e-13  MDAC vs: T
+  L-SHADE-SPACMA  FR  1.00  best     0.23524246  median     0.23524246  mean     0.23524246  worst     0.23524246  std    2.8e-17  best-f*   8.04e-13  MDAC vs: T
+  L-SHADE         FR  1.00  best     0.23524246  median     0.23524246  mean     0.23524246  worst     0.23524246  std    2.8e-17  best-f*   8.04e-13  MDAC vs: T
+  EBOwithCMAR     FR  1.00  best     0.23524246  median     0.23524246  mean     0.23524246  worst     0.23524246  std    2.8e-17  best-f*   8.04e-13  MDAC vs: T
+  CMA-ES          FR  1.00  best     0.23524313  median      0.2352814  mean     0.23529518  worst     0.23547513  std   5.12e-05  best-f*   6.72e-07  MDAC vs: W
+
+== CEC2020_RC22_planetary_gear_train   f* = 0.5257687075
+  MDAC            FR  1.00  best     0.52558866  median     0.52734694  mean       0.528803  worst     0.54384615  std     0.0039  best-f*   -0.00018  
+  MDAC-ctr        FR  1.00  best     0.52576871  median     0.52576871  mean     0.52598497  worst     0.52781377  std   0.000351  best-f*   2.99e-12  MDAC vs: L
+  MDAC-noFCP      FR  1.00  best     0.52576871  median     0.52576871  mean     0.52602108  worst           0.53  std   0.000611  best-f*   2.99e-12  MDAC vs: L
+  jSO             FR  1.00  best     0.52576871  median     0.52576871  mean     0.52588237  worst     0.52636364  std   0.000219  best-f*   2.99e-12  MDAC vs: L
+  L-SHADE-SPACMA  FR  1.00  best     0.52558866  median     0.52596737  mean     0.52668175  worst     0.53188984  std    0.00139  best-f*   -0.00018  MDAC vs: T
+  L-SHADE         FR  1.00  best     0.52558866  median     0.52596737  mean     0.52603931  worst      0.5268955  std   0.000316  best-f*   -0.00018  MDAC vs: L
+  EBOwithCMAR     FR  1.00  best     0.52576871  median     0.52576871  mean     0.52586293  worst     0.52628057  std   0.000197  best-f*   2.99e-12  MDAC vs: L
+  CMA-ES          FR  1.00  best     0.52596737  median     0.83424617  mean     0.79008664  worst         1.2225  std      0.136  best-f*   0.000199  MDAC vs: W
+
+== CEC2020_RC23_step_cone_pulley   f* = 16.06986872
+  MDAC            FR  1.00  best      16.069869  median      16.069869  mean      16.069869  worst      16.069869  std    1.6e-14  best-f*   1.22e-10  
+  MDAC-ctr        FR  1.00  best      16.069869  median      16.069869  mean      16.069869  worst      16.069869  std          0  best-f*   1.22e-10  MDAC vs: T
+  MDAC-noFCP      FR  1.00  best      16.069869  median      16.069869  mean      16.069869  worst      16.069869  std          0  best-f*   1.22e-10  MDAC vs: T
+  jSO             FR  1.00  best      16.069869  median      16.069869  mean      16.069869  worst      16.069869  std          0  best-f*   1.22e-10  MDAC vs: T
+  L-SHADE-SPACMA  FR  1.00  best      16.069869  median      16.069869  mean      16.069869  worst      16.069869  std          0  best-f*   1.22e-10  MDAC vs: T
+  L-SHADE         FR  1.00  best      16.069869  median      16.069869  mean      16.069869  worst      16.069869  std          0  best-f*   1.22e-10  MDAC vs: T
+  EBOwithCMAR     FR  1.00  best      16.069869  median      16.069869  mean      16.069869  worst      16.069869  std   1.16e-14  best-f*   1.22e-10  MDAC vs: T
+  CMA-ES          FR  0.00  (no feasible run; median violation 0.00121)  MDAC vs: W
+
+== CEC2020_RC25_thrust_bearing   f* = 1625.442809
+  MDAC            FR  1.00  best      1616.1198  median      1616.1198  mean      1623.6107  worst      1742.3243  std       25.3  best-f*      -9.32  
+  MDAC-ctr        FR  1.00  best      1616.1198  median      1616.1198  mean      1616.2153  worst      1620.9916  std      0.682  best-f*      -9.32  MDAC vs: T
+  MDAC-noFCP      FR  1.00  best      1616.1198  median      1616.1198  mean      1616.1198  worst      1616.1198  std   1.31e-12  best-f*      -9.32  MDAC vs: L
+  jSO             FR  1.00  best      1616.1198  median      1616.1198  mean      1616.1198  worst      1616.1198  std   6.08e-11  best-f*      -9.32  MDAC vs: T
+  L-SHADE-SPACMA  FR  1.00  best      1616.1198  median      1682.3467  mean      1710.6994  worst      2010.9693  std       99.5  best-f*      -9.32  MDAC vs: W
+  L-SHADE         FR  1.00  best      1616.1198  median      1616.1198  mean      1616.1198  worst      1616.1198  std   1.38e-12  best-f*      -9.32  MDAC vs: L
+  EBOwithCMAR     FR  1.00  best      1616.1198  median      1616.1198  mean      1623.4672  worst      1762.3089  std       25.5  best-f*      -9.32  MDAC vs: T
+  CMA-ES          FR  1.00  best        1868.46  median      3775.4122  mean      3824.1402  worst      7692.4549  std    1.3e+03  best-f*        243  MDAC vs: W
+
+== CEC2020_RC26_four_stage_gearbox   f* = 35.35923197
+  MDAC            FR  0.92  best      35.359232  median      40.116132  mean      48.654473  worst      121.62113  std       20.5  best-f*   3.06e-10  
+  MDAC-ctr        FR  1.00  best      35.359232  median      37.253771  mean      37.193515  worst      41.028558  std       1.18  best-f*   3.06e-10  MDAC vs: L
+  MDAC-noFCP      FR  1.00  best      35.359232  median      36.248244  mean      36.187742  worst      39.284041  std      0.873  best-f*   3.06e-10  MDAC vs: L
+  jSO             FR  1.00  best      35.359232  median      36.443023  mean      36.655929  worst      40.820912  std       1.06  best-f*   3.06e-10  MDAC vs: L
+  L-SHADE-SPACMA  FR  0.96  best      35.359232  median      37.267472  mean      38.482356  worst      45.507766  std       2.96  best-f*   3.06e-10  MDAC vs: T
+  L-SHADE         FR  1.00  best      35.359232  median      36.248244  mean      36.404082  worst       40.91568  std       1.21  best-f*   3.06e-10  MDAC vs: L
+  EBOwithCMAR     FR  1.00  best      35.359232  median      36.281569  mean      37.301553  worst       43.40593  std       2.03  best-f*   3.06e-10  MDAC vs: L
+  CMA-ES          FR  0.00  (no feasible run; median violation 2.18)  MDAC vs: W
+
+== CEC2020_RC27_ten_bar_truss   f* = 524.4507607
+  MDAC            FR  1.00  best      524.45076  median      524.45076  mean      524.45076  worst      524.45076  std   8.76e-10  best-f*  -1.34e-08  
+  MDAC-ctr        FR  1.00  best      524.45076  median      524.45076  mean      524.45076  worst      524.45076  std   1.68e-10  best-f*  -1.34e-08  MDAC vs: T
+  MDAC-noFCP      FR  1.00  best      524.45076  median      524.45076  mean      524.45076  worst      524.45076  std   6.41e-10  best-f*  -1.34e-08  MDAC vs: T
+  jSO             FR  1.00  best      524.45076  median      524.45076  mean      524.45076  worst      524.45076  std    9.1e-12  best-f*  -1.34e-08  MDAC vs: T
+  L-SHADE-SPACMA  FR  1.00  best      524.45076  median      524.45076  mean      524.45076  worst      524.45076  std   1.52e-09  best-f*  -1.34e-08  MDAC vs: T
+  L-SHADE         FR  1.00  best      524.45076  median      524.45076  mean      524.45076  worst      524.45076  std   2.08e-11  best-f*  -1.34e-08  MDAC vs: T
+  EBOwithCMAR     FR  1.00  best      524.45076  median      524.45076  mean      524.45076  worst      524.45076  std   8.82e-09  best-f*  -1.34e-08  MDAC vs: T
+  CMA-ES          FR  1.00  best      525.07891  median      528.09085  mean      531.58312  worst      690.66331  std       22.8  best-f*      0.628  MDAC vs: W
+
+== CEC2020_RC28_rolling_bearing   f* = 14614.13572
+  MDAC            FR  1.00  best      16958.202  median      16958.202  mean      16958.202  worst      16958.202  std          0  best-f*   2.34e+03  
+  MDAC-ctr        FR  1.00  best      16958.202  median      16958.202  mean      16958.202  worst      16958.202  std          0  best-f*   2.34e+03  MDAC vs: T
+  MDAC-noFCP      FR  1.00  best      16958.202  median      16958.202  mean      16958.202  worst      16958.202  std          0  best-f*   2.34e+03  MDAC vs: T
+  jSO             FR  1.00  best      16958.202  median      16958.202  mean      16958.202  worst      16958.202  std          0  best-f*   2.34e+03  MDAC vs: T
+  L-SHADE-SPACMA  FR  1.00  best      16958.202  median      16958.202  mean      16958.202  worst      16958.202  std          0  best-f*   2.34e+03  MDAC vs: T
+  L-SHADE         FR  1.00  best      16958.202  median      16958.202  mean      16958.202  worst      16958.202  std          0  best-f*   2.34e+03  MDAC vs: T
+  EBOwithCMAR     FR  1.00  best      16958.202  median      16958.202  mean      16958.202  worst      16958.202  std          0  best-f*   2.34e+03  MDAC vs: T
+  CMA-ES          FR  1.00  best       17016.07  median      17083.233  mean       17093.07  worst       17241.79  std       51.1  best-f*    2.4e+03  MDAC vs: W
+
+== CEC2020_RC29_gas_compressor   f* = 2964895.417
+  MDAC            FR  1.00  best      2964895.4  median      2964895.4  mean      2964895.4  worst      2964895.4  std   9.41e-10  best-f*   3.92e-05  
+  MDAC-ctr        FR  1.00  best      2964895.4  median      2964895.4  mean      2964895.4  worst      2964895.4  std   9.41e-10  best-f*   3.92e-05  MDAC vs: T
+  MDAC-noFCP      FR  1.00  best      2964895.4  median      2964895.4  mean      2964895.4  worst      2964895.4  std   9.41e-10  best-f*   3.92e-05  MDAC vs: T
+  jSO             FR  1.00  best      2964895.4  median      2964895.4  mean      2964895.4  worst      2964895.4  std   9.41e-10  best-f*   3.92e-05  MDAC vs: T
+  L-SHADE-SPACMA  FR  1.00  best      2964895.4  median      2964895.4  mean      2964895.4  worst      2964895.4  std   9.41e-10  best-f*   3.92e-05  MDAC vs: T
+  L-SHADE         FR  1.00  best      2964895.4  median      2964895.4  mean      2964895.4  worst      2964895.4  std   9.41e-10  best-f*   3.92e-05  MDAC vs: T
+  EBOwithCMAR     FR  1.00  best      2964895.4  median      2964895.4  mean      2964895.4  worst      2964895.4  std   9.41e-10  best-f*   3.92e-05  MDAC vs: T
+  CMA-ES          FR  1.00  best      2964896.2  median      3220724.3  mean        3205542  worst      3453117.4  std   1.04e+05  best-f*      0.813  MDAC vs: W
+
+== CEC2020_RC30_spring_case2   f* = 2.613884058
+  MDAC            FR  1.00  best      2.6585592  median      2.6691189  mean      2.7565549  worst      3.9597812  std      0.259  best-f*     0.0447  
+  MDAC-ctr        FR  1.00  best      2.6585592  median      2.6585592  mean      2.6601644  worst      2.6994937  std    0.00802  best-f*     0.0447  MDAC vs: L
+  MDAC-noFCP      FR  1.00  best      2.6585592  median      2.6585592  mean      2.6601644  worst      2.6994937  std    0.00802  best-f*     0.0447  MDAC vs: L
+  jSO             FR  1.00  best      2.6585592  median      2.6585592  mean      2.6609671  worst      2.6994937  std    0.00973  best-f*     0.0447  MDAC vs: L
+  L-SHADE-SPACMA  FR  1.00  best      2.6585592  median      2.6585592  mean      2.6829883  worst      2.9032238  std     0.0411  best-f*     0.0447  MDAC vs: T
+  L-SHADE         FR  1.00  best      2.6585592  median      2.6585592  mean      2.6593618  worst      2.6994937  std    0.00573  best-f*     0.0447  MDAC vs: L
+  EBOwithCMAR     FR  1.00  best      2.6585592  median      2.6585592  mean      2.6585592  worst      2.6585592  std   4.49e-16  best-f*     0.0447  MDAC vs: L
+  CMA-ES          FR  1.00  best      2.7010071  median      3.3215444  mean      3.2781247  worst      3.9485286  std      0.291  best-f*     0.0871  MDAC vs: W
+
+== CEC2020_RC31_gear_train   f* = 0
+  MDAC            FR  1.00  best              0  median              0  mean              0  worst              0  std          0  best-f*          0  
+  MDAC-ctr        FR  1.00  best              0  median              0  mean  4.5023591e-16  worst  2.2962032e-14  std   3.22e-15  best-f*          0  MDAC vs: T
+  MDAC-noFCP      FR  1.00  best              0  median              0  mean  2.0959595e-28  worst  1.0689393e-26  std    1.5e-27  best-f*          0  MDAC vs: T
+  jSO             FR  1.00  best              0  median              0  mean  1.8057466e-19  worst  4.7626725e-18  std    7.7e-19  best-f*          0  MDAC vs: T
+  L-SHADE-SPACMA  FR  1.00  best              0  median              0  mean  4.4047151e-32  worst  2.2464047e-30  std   3.15e-31  best-f*          0  MDAC vs: T
+  L-SHADE         FR  1.00  best              0  median              0  mean  2.6826569e-17  worst  1.3514548e-15  std   1.89e-16  best-f*          0  MDAC vs: T
+  EBOwithCMAR     FR  1.00  best              0  median              0  mean  3.1268039e-33  worst  7.7037198e-32  std   1.38e-32  best-f*          0  MDAC vs: T
+  CMA-ES          FR  1.00  best  2.1755723e-15  median  2.4712932e-12  mean  1.3389561e-11  worst  1.7390356e-10  std   2.98e-11  best-f*   2.18e-15  MDAC vs: T
+
+== CEC2020_RC32_himmelblau   f* = -30665.53867
+  MDAC            FR  1.00  best     -30665.539  median     -30665.539  mean     -30665.539  worst     -30665.539  std   3.67e-12  best-f*   2.17e-07  
+  MDAC-ctr        FR  1.00  best     -30665.539  median     -30665.539  mean     -30665.539  worst     -30665.539  std   3.67e-12  best-f*   2.17e-07  MDAC vs: T
+  MDAC-noFCP      FR  1.00  best     -30665.539  median     -30665.539  mean     -30665.539  worst     -30665.539  std   3.67e-12  best-f*   2.17e-07  MDAC vs: T
+  jSO             FR  1.00  best     -30665.539  median     -30665.539  mean     -30665.539  worst     -30665.539  std   3.67e-12  best-f*   2.17e-07  MDAC vs: T
+  L-SHADE-SPACMA  FR  1.00  best     -30665.539  median     -30665.539  mean     -30665.539  worst     -30665.539  std   3.67e-12  best-f*   2.17e-07  MDAC vs: T
+  L-SHADE         FR  1.00  best     -30665.539  median     -30665.539  mean     -30665.539  worst     -30665.539  std   3.67e-12  best-f*   2.17e-07  MDAC vs: T
+  EBOwithCMAR     FR  1.00  best     -30665.539  median     -30665.539  mean     -30665.539  worst     -30665.539  std   3.67e-12  best-f*   2.17e-07  MDAC vs: T
+  CMA-ES          FR  1.00  best     -30660.374  median     -30625.208  mean     -30613.545  worst      -30468.69  std       38.1  best-f*       5.16  MDAC vs: W
+
+== CEC2020_RC33_topology   f* = 2.639346497
+  MDAC            FR  1.00  best      2.6393465  median      2.6393465  mean      2.6393465  worst      2.6393465  std   3.61e-16  best-f*    3.6e-11  
+  MDAC-ctr        FR  1.00  best      2.6393465  median      2.6393465  mean      2.6393465  worst      2.6393465  std   4.26e-16  best-f*    3.6e-11  MDAC vs: T
+  MDAC-noFCP      FR  1.00  best      2.6393465  median      2.6393465  mean      2.6393465  worst      2.6393465  std   3.97e-16  best-f*    3.6e-11  MDAC vs: T
+  jSO             FR  1.00  best      2.6393465  median      2.6393465  mean      2.6393465  worst      2.6393465  std   1.88e-15  best-f*    3.6e-11  MDAC vs: T
+  L-SHADE-SPACMA  FR  1.00  best      2.6393465  median      2.6393465  mean      2.6394527  worst      2.6410179  std   0.000396  best-f*    3.6e-11  MDAC vs: T
+  L-SHADE         FR  1.00  best      2.6393465  median      2.6393465  mean      2.6393465  worst      2.6393465  std   5.82e-16  best-f*    3.6e-11  MDAC vs: T
+  EBOwithCMAR     FR  1.00  best      2.6393465  median      2.6393465  mean      2.6393465  worst      2.6393465  std   9.65e-16  best-f*    3.6e-11  MDAC vs: T
+  CMA-ES          FR  1.00  best      2.6599766  median      2.6867889  mean      2.6860968  worst      2.7096068  std     0.0115  best-f*     0.0206  MDAC vs: W
+
+MDAC rank by official median among the published six, histogram: {1: 12, 2: 1, 4: 2, 5: 3}
+  MDAC vs jSO             W/T/L = 0/14/4
+  MDAC vs L-SHADE-SPACMA  W/T/L = 2/16/0
+  MDAC vs L-SHADE         W/T/L = 0/12/6
+  MDAC vs EBOwithCMAR     W/T/L = 1/14/3
+  MDAC vs CMA-ES          W/T/L = 16/2/0

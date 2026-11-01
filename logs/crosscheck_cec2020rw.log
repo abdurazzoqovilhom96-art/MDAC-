@@ -1,0 +1,21 @@
+﻿problem                     pts cols complex pts  max rel diff (real pts)  non-finite agree  feasible agree  verdict
+RC15 speed_reducer          400   12           0                 0.00e+00      400/400          400/400      ok
+RC16 refrigeration_system   400   16           0                 0.00e+00      400/400          400/400      ok
+RC17 spring_case1           400    5           0                 1.70e-16      400/400          400/400      ok
+RC18 pressure_vessel        400    5           0                 1.45e-16      400/400          400/400      ok
+RC19 welded_beam            400    6           0                 0.00e+00      400/400          400/400      ok
+RC20 three_bar_truss        400    4           0                 0.00e+00      400/400          400/400      ok
+RC21 clutch_brake           400    9           0                 0.00e+00      400/400          400/400      ok
+RC22 planetary_gear_train   400   12           0                 0.00e+00      400/400          400/400      ok
+RC23 step_cone_pulley       400   12           0                 2.27e-16      400/400          400/400      ok
+RC25 thrust_bearing         400    8           0                 0.00e+00      400/400          400/400      ok
+RC26 four_stage_gearbox     400   87           0                 0.00e+00      400/400          400/400      ok
+RC27 ten_bar_truss          400    4           0                 1.53e-13      400/400          400/400      ok
+RC28 rolling_bearing        400   10           0                 0.00e+00      400/400          400/400      ok
+RC29 gas_compressor         400    2           0                 0.00e+00      400/400          400/400      ok
+RC30 spring_case2           400    9           0                 0.00e+00      400/400          400/400      ok
+RC31 gear_train             400    3           0                 0.00e+00      400/400          400/400      ok
+RC32 himmelblau             400    7           0                 0.00e+00      400/400          400/400      ok
+RC33 topology               400   31           0                 2.36e-09      400/400          400/400      ok
+
+matching problems: all (relative tolerance 1e-08; points where Octave returns complex values are counted, not compared)

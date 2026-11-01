@@ -1,0 +1,63 @@
+﻿
+=== jSO: ours vs the authors' submitted CEC2017 results (116 cells)
+  mean A12 (ours better than original) = 0.458   Bonferroni-significant: ours WORSE in 7, ours BETTER in 3, both medians 0 in 16
+    D=10  A12 0.434   worse  4  better  1
+    D=30  A12 0.476   worse  1  better  1
+    D=50  A12 0.487   worse  0  better  1
+    D=100 A12 0.436   worse  2  better  0
+  largest significant deficits of our port:
+    F28 D30  A12 0.075  mean ours 309 vs orig 309   median ours 300 vs orig 300
+    F3  D100 A12 0.101  mean ours 1.31e-05 vs orig 2.39e-06   median ours 7.61e-06 vs orig 1.45e-06
+    F28 D10  A12 0.145  mean ours 336 vs orig 339   median ours 300 vs orig 300
+    F20 D10  A12 0.154  mean ours 0.367 vs orig 0.343   median ours 0.312 vs orig 0.312
+    F23 D10  A12 0.260  mean ours 302 vs orig 301   median ours 303 vs orig 300
+    F21 D10  A12 0.263  mean ours 138 vs orig 132   median ours 100 vs orig 100
+    F24 D100 A12 0.266  mean ours 910 vs orig 902   median ours 910 vs orig 903
+  largest significant advantages of our port:
+    F4  D30  A12 1.000  mean ours 58.6 vs orig 58.7   median ours 58.6 vs orig 58.6
+    F28 D50  A12 1.000  mean ours 459 vs orig 460   median ours 459 vs orig 459
+    F27 D10  A12 0.795  mean ours 389 vs orig 389   median ours 390 vs orig 390
+
+=== L-SHADE-SPACMA: ours vs the authors' submitted CEC2017 results (116 cells)
+  mean A12 (ours better than original) = 0.527   Bonferroni-significant: ours WORSE in 25, ours BETTER in 31, both medians 0 in 18
+    D=10  A12 0.402   worse  8  better  2
+    D=30  A12 0.518   worse  6  better  9
+    D=50  A12 0.559   worse  5  better  8
+    D=100 A12 0.629   worse  6  better 12
+  largest significant deficits of our port:
+    F3  D100 A12 0.000  mean ours 0.000115 vs orig 0   median ours 9.47e-05 vs orig 0
+    F7  D100 A12 0.000  mean ours 140 vs orig 112   median ours 139 vs orig 112
+    F7  D50  A12 0.001  mean ours 67.6 vs orig 57   median ours 67.9 vs orig 57
+    F7  D30  A12 0.020  mean ours 37.7 vs orig 33.8   median ours 37.8 vs orig 33.6
+    F28 D50  A12 0.020  mean ours 459 vs orig 460   median ours 459 vs orig 459
+    F21 D10  A12 0.024  mean ours 166 vs orig 101   median ours 202 vs orig 100
+    F8  D30  A12 0.032  mean ours 7.68 vs orig 3.2   median ours 8.06 vs orig 2.98
+    F12 D100 A12 0.033  mean ours 9.29e+03 vs orig 4.8e+03   median ours 7.79e+03 vs orig 4.78e+03
+  largest significant advantages of our port:
+    F22 D100 A12 1.000  mean ours 1.43e+03 vs orig 9.99e+03   median ours 1.09e+03 vs orig 9.7e+03
+    F24 D100 A12 1.000  mean ours 876 vs orig 919   median ours 876 vs orig 919
+    F26 D100 A12 1.000  mean ours 2.65e+03 vs orig 3.14e+03   median ours 2.66e+03 vs orig 3.13e+03
+    F26 D50  A12 1.000  mean ours 862 vs orig 1.14e+03   median ours 879 vs orig 1.15e+03
+    F16 D100 A12 0.991  mean ours 274 vs orig 1.25e+03   median ours 208 vs orig 1.22e+03
+
+=== EBOwithCMAR: ours vs the authors' submitted CEC2017 results (116 cells)
+  mean A12 (ours better than original) = 0.461   Bonferroni-significant: ours WORSE in 23, ours BETTER in 14, both medians 0 in 18
+    D=10  A12 0.409   worse  7  better  0
+    D=30  A12 0.471   worse  6  better  6
+    D=50  A12 0.473   worse  5  better  4
+    D=100 A12 0.490   worse  5  better  4
+  largest significant deficits of our port:
+    F22 D10  A12 0.038  mean ours 97.5 vs orig 98.5   median ours 100 vs orig 100
+    F23 D10  A12 0.066  mean ours 301 vs orig 300   median ours 300 vs orig 300
+    F16 D100 A12 0.067  mean ours 2.64e+03 vs orig 1.41e+03   median ours 2.72e+03 vs orig 1.36e+03
+    F19 D30  A12 0.086  mean ours 12.1 vs orig 8.04   median ours 11.8 vs orig 8.14
+    F28 D10  A12 0.095  mean ours 288 vs orig 307   median ours 300 vs orig 300
+    F17 D30  A12 0.104  mean ours 42.8 vs orig 29.8   median ours 42.2 vs orig 31
+    F10 D100 A12 0.105  mean ours 1.3e+04 vs orig 9.91e+03   median ours 1.32e+04 vs orig 9.5e+03
+    F22 D100 A12 0.140  mean ours 1.27e+04 vs orig 1.02e+04   median ours 1.32e+04 vs orig 1.02e+04
+  largest significant advantages of our port:
+    F27 D50  A12 1.000  mean ours 0 vs orig 522   median ours 0 vs orig 523
+    F29 D50  A12 1.000  mean ours 0 vs orig 347   median ours 0 vs orig 345
+    F3  D100 A12 1.000  mean ours 0 vs orig 2.99e-07   median ours 0 vs orig 1.86e-07
+    F27 D100 A12 1.000  mean ours 6.33 vs orig 588   median ours 0 vs orig 586
+    F29 D30  A12 0.981  mean ours 8.99 vs orig 433   median ours 0 vs orig 434

@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite them as below."
+type: software
+title: "MDAC: learned global-local co-allocation in a differential evolution / CMA-ES hybrid (code, verified benchmark ports and raw results)"
+version: 1.0.0
+date-released: 2026-11-01
+license: MIT
+repository-code: "https://github.com/abdurazzoqovilhom96-art/MDAC"
+authors:
+  - given-names: Ilhom
+    family-names: Abdurazzokov
+    orcid: "https://orcid.org/0009-0004-0745-3915"
+    affiliation: "Institute of Fundamental and Applied Research (IFAR), TIIAME National Research University; Termez State Pedagogical Institute"
+  - given-names: Qobil
+    family-names: Ibragimov
+    orcid: "https://orcid.org/0009-0009-9077-917X"
+    affiliation: "Termez State Pedagogical Institute"
+  - given-names: Hakimbek
+    family-names: Norqobilov
+    orcid: "https://orcid.org/0009-0004-7623-2278"
+    affiliation: "Termez State Pedagogical Institute"
+  - given-names: Rufatbek
+    family-names: Mamatmurotov
+    orcid: "https://orcid.org/0009-0003-7878-9574"
+    affiliation: "Termez State Pedagogical Institute"
+  - given-names: Feruza
+    family-names: Nuraliyeva
+    orcid: "https://orcid.org/0009-0005-5599-9063"
+    affiliation: "Termez State Pedagogical Institute"
+keywords:
+  - differential evolution
+  - CMA-ES
+  - hybrid metaheuristics
+  - adaptive operator allocation
+  - CEC2017
+  - engineering design optimisation

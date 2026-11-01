@@ -1,0 +1,5 @@
+# Tested with Python 3.14, numpy 2.4.4, scipy 1.18.0, scikit-learn 1.9.1
+# (most stages also ran with Python 3.13 and numpy 2.5.3)
+numpy>=2.4
+scipy>=1.18
+scikit-learn>=1.9  # clustering stage only

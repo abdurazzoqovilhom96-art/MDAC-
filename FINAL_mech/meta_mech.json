@@ -1,0 +1,81 @@
+{
+  "tag": "mech",
+  "reference": "MDAC",
+  "algorithms": [
+    "MDAC",
+    "MDAC-ctr",
+    "MDAC-noFCP",
+    "jSO",
+    "L-SHADE-SPACMA",
+    "L-SHADE",
+    "EBOwithCMAR",
+    "CMA-ES"
+  ],
+  "cells": 18,
+  "overall_rank_thr": {
+    "MDAC": 4.322440087145969,
+    "MDAC-ctr": 3.7069716775599124,
+    "MDAC-noFCP": 3.5751633986928106,
+    "jSO": 4.019607843137255,
+    "L-SHADE-SPACMA": 4.5054466230936825,
+    "L-SHADE": 3.6013071895424837,
+    "EBOwithCMAR": 4.467320261437909,
+    "CMA-ES": 7.801742919389978
+  },
+  "overall_rank_raw": {
+    "MDAC": 4.322440087145969,
+    "MDAC-ctr": 3.7069716775599124,
+    "MDAC-noFCP": 3.5751633986928106,
+    "jSO": 4.019607843137255,
+    "L-SHADE-SPACMA": 4.5054466230936825,
+    "L-SHADE": 3.6013071895424837,
+    "EBOwithCMAR": 4.467320261437909,
+    "CMA-ES": 7.801742919389978
+  },
+  "category_rank_thr": {
+    "CEC2020 mechanical": {
+      "MDAC": 4.322440087145969,
+      "MDAC-ctr": 3.7069716775599124,
+      "MDAC-noFCP": 3.5751633986928106,
+      "jSO": 4.019607843137255,
+      "L-SHADE-SPACMA": 4.5054466230936825,
+      "L-SHADE": 3.6013071895424837,
+      "EBOwithCMAR": 4.467320261437909,
+      "CMA-ES": 7.801742919389978
+    }
+  },
+  "zero_threshold": 1e-08,
+  "benchmark": "CEC2020_* mechanical constrained problems, ported from the official MATLAB code (crosscheck_cec2020rw_octave.py)",
+  "excluded_from_stats": [],
+  "pairing": "runs paired by run index (shared seed)",
+  "cec_friedman": {
+    "all": {
+      "cells": 18,
+      "k": 8,
+      "friedman_chi2": 64.59120673526654,
+      "friedman_p": 1.8168949523270712e-11,
+      "iman_davenport_F": 17.880998080614166,
+      "nemenyi_cd_0.05": 2.4747018913176957,
+      "mean_rank": {
+        "MDAC": 4.888888888888889,
+        "MDAC-ctr": 3.5277777777777777,
+        "MDAC-noFCP": 3.4166666666666665,
+        "jSO": 3.611111111111111,
+        "L-SHADE-SPACMA": 5.166666666666667,
+        "L-SHADE": 3.361111111111111,
+        "EBOwithCMAR": 4.305555555555555,
+        "CMA-ES": 7.722222222222222
+      },
+      "median_rank": {
+        "MDAC": 4.555555555555555,
+        "MDAC-ctr": 3.5833333333333335,
+        "MDAC-noFCP": 3.3055555555555554,
+        "jSO": 3.861111111111111,
+        "L-SHADE-SPACMA": 4.805555555555555,
+        "L-SHADE": 3.361111111111111,
+        "EBOwithCMAR": 4.694444444444445,
+        "CMA-ES": 7.833333333333333
+      }
+    }
+  }
+}

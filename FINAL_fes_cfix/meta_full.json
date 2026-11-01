@@ -1,0 +1,93 @@
+{
+  "tag": "full",
+  "reference": "MDAC",
+  "algorithms": [
+    "MDAC",
+    "MDAC-ctr",
+    "MDAC-noFCP",
+    "jSO",
+    "L-SHADE-SPACMA",
+    "L-SHADE",
+    "EBOwithCMAR",
+    "CMA-ES"
+  ],
+  "cells": 28,
+  "overall_rank_thr": {
+    "MDAC": 3.202380952380952,
+    "MDAC-ctr": 4.770658263305322,
+    "MDAC-noFCP": 4.351190476190476,
+    "jSO": 4.260854341736694,
+    "L-SHADE-SPACMA": 3.564425770308123,
+    "L-SHADE": 4.592086834733893,
+    "EBOwithCMAR": 3.6712184873949583,
+    "CMA-ES": 7.587184873949581
+  },
+  "overall_rank_raw": {
+    "MDAC": 3.137605042016807,
+    "MDAC-ctr": 4.727941176470589,
+    "MDAC-noFCP": 4.320028011204482,
+    "jSO": 4.253501400560224,
+    "L-SHADE-SPACMA": 3.474089635854342,
+    "L-SHADE": 4.612394957983193,
+    "EBOwithCMAR": 3.841736694677871,
+    "CMA-ES": 7.632703081232493
+  },
+  "category_rank_thr": {
+    "CEC hybrid": {
+      "MDAC": 3.4215686274509807,
+      "MDAC-ctr": 4.419117647058823,
+      "MDAC-noFCP": 4.472222222222222,
+      "jSO": 3.4199346405228757,
+      "L-SHADE-SPACMA": 3.0825163398692808,
+      "L-SHADE": 4.629901960784314,
+      "EBOwithCMAR": 4.558006535947713,
+      "CMA-ES": 7.996732026143792
+    },
+    "CEC multimodal": {
+      "MDAC": 3.0379901960784315,
+      "MDAC-ctr": 5.034313725490197,
+      "MDAC-noFCP": 4.260416666666667,
+      "jSO": 4.891544117647059,
+      "L-SHADE-SPACMA": 3.925857843137255,
+      "L-SHADE": 4.563725490196079,
+      "EBOwithCMAR": 3.006127450980392,
+      "CMA-ES": 7.280024509803922
+    }
+  },
+  "zero_threshold": 1e-08,
+  "benchmark": "CEC2017_* official, C-exact (crosscheck_cec2017_c.py 30/30)",
+  "excluded_from_stats": [
+    "CEC2017_F2_sum_diff_pow_c17"
+  ],
+  "pairing": "runs paired by run index (shared seed)",
+  "cec_friedman": {
+    "all": {
+      "cells": 28,
+      "k": 8,
+      "friedman_chi2": 85.18893129770989,
+      "friedman_p": 1.199201852702089e-15,
+      "iman_davenport_F": 20.75696202531644,
+      "nemenyi_cd_0.05": 1.9841757025097781,
+      "mean_rank": {
+        "MDAC": 3.125,
+        "MDAC-ctr": 5.0,
+        "MDAC-noFCP": 4.196428571428571,
+        "jSO": 4.0,
+        "L-SHADE-SPACMA": 3.5,
+        "L-SHADE": 4.910714285714286,
+        "EBOwithCMAR": 3.392857142857143,
+        "CMA-ES": 7.875
+      },
+      "median_rank": {
+        "MDAC": 2.9464285714285716,
+        "MDAC-ctr": 4.982142857142857,
+        "MDAC-noFCP": 4.214285714285714,
+        "jSO": 4.017857142857143,
+        "L-SHADE-SPACMA": 3.517857142857143,
+        "L-SHADE": 4.75,
+        "EBOwithCMAR": 3.8214285714285716,
+        "CMA-ES": 7.75
+      }
+    }
+  }
+}

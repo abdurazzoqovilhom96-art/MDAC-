@@ -1,0 +1,100 @@
+{
+  "tag": "parity",
+  "reference": "MDAC",
+  "algorithms": [
+    "MDAC",
+    "MDAC-allocTerminal",
+    "L-SHADE+cma",
+    "L-SHADE-MA+cma",
+    "L-SHADE-SPACMA+cma",
+    "CMA-ES+cma",
+    "A-GDESA-ng+cma",
+    "DE+cma",
+    "PSO+cma"
+  ],
+  "cells": 14,
+  "overall_rank_thr": {
+    "MDAC": 2.490196078431373,
+    "MDAC-allocTerminal": 4.165966386554622,
+    "L-SHADE+cma": 3.36484593837535,
+    "L-SHADE-MA+cma": 4.735994397759105,
+    "L-SHADE-SPACMA+cma": 3.036414565826331,
+    "CMA-ES+cma": 7.158263305322128,
+    "A-GDESA-ng+cma": 6.55532212885154,
+    "DE+cma": 5.55532212885154,
+    "PSO+cma": 7.937675070028011
+  },
+  "overall_rank_raw": {
+    "MDAC": 2.2990196078431375,
+    "MDAC-allocTerminal": 4.313725490196079,
+    "L-SHADE+cma": 3.313025210084034,
+    "L-SHADE-MA+cma": 4.644257703081232,
+    "L-SHADE-SPACMA+cma": 2.854341736694678,
+    "CMA-ES+cma": 7.143557422969188,
+    "A-GDESA-ng+cma": 7.000700280112045,
+    "DE+cma": 5.547619047619047,
+    "PSO+cma": 7.883753501400561
+  },
+  "category_rank_thr": {
+    "CEC hybrid": {
+      "MDAC": 2.271241830065359,
+      "MDAC-allocTerminal": 4.493464052287582,
+      "L-SHADE+cma": 3.0637254901960786,
+      "L-SHADE-MA+cma": 4.663398692810458,
+      "L-SHADE-SPACMA+cma": 2.918300653594771,
+      "CMA-ES+cma": 8.624183006535949,
+      "A-GDESA-ng+cma": 5.995098039215686,
+      "DE+cma": 4.647058823529412,
+      "PSO+cma": 8.323529411764705
+    },
+    "CEC multimodal": {
+      "MDAC": 2.6544117647058822,
+      "MDAC-allocTerminal": 3.9203431372549025,
+      "L-SHADE+cma": 3.590686274509804,
+      "L-SHADE-MA+cma": 4.790441176470588,
+      "L-SHADE-SPACMA+cma": 3.125,
+      "CMA-ES+cma": 6.0588235294117645,
+      "A-GDESA-ng+cma": 6.9754901960784315,
+      "DE+cma": 6.236519607843137,
+      "PSO+cma": 7.64828431372549
+    }
+  },
+  "zero_threshold": 1e-08,
+  "benchmark": "CEC2017_* official, C-exact (crosscheck_cec2017_c.py 30/30)",
+  "excluded_from_stats": [
+    "CEC2017_F2_sum_diff_pow_c17"
+  ],
+  "pairing": "runs paired by run index (shared seed)",
+  "cec_friedman": {
+    "all": {
+      "cells": 14,
+      "k": 9,
+      "friedman_chi2": 76.32631578947371,
+      "friedman_p": 2.674829172363553e-13,
+      "iman_davenport_F": 27.814399527884362,
+      "nemenyi_cd_0.05": 3.210595924351002,
+      "mean_rank": {
+        "MDAC": 2.2142857142857144,
+        "MDAC-allocTerminal": 3.5357142857142856,
+        "L-SHADE+cma": 3.1785714285714284,
+        "L-SHADE-MA+cma": 5.428571428571429,
+        "L-SHADE-SPACMA+cma": 3.0,
+        "CMA-ES+cma": 7.571428571428571,
+        "A-GDESA-ng+cma": 6.607142857142857,
+        "DE+cma": 5.25,
+        "PSO+cma": 8.214285714285714
+      },
+      "median_rank": {
+        "MDAC": 2.2857142857142856,
+        "MDAC-allocTerminal": 4.142857142857143,
+        "L-SHADE+cma": 3.1785714285714284,
+        "L-SHADE-MA+cma": 4.964285714285714,
+        "L-SHADE-SPACMA+cma": 3.0,
+        "CMA-ES+cma": 7.392857142857143,
+        "A-GDESA-ng+cma": 6.75,
+        "DE+cma": 5.392857142857143,
+        "PSO+cma": 7.892857142857143
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+﻿problem                   pts both finite  max rel diff  non-finite agree oct complex oct error  verdict
+P1  fm_sound_waves        401         401      7.72e-16      401/401                0         0  ok
+P2  lennard_jones         400         400      0.00e+00      400/400                0         0  ok
+P5  tersoff_si_b          400         144      0.00e+00      400/400                0         0  ok
+P6  tersoff_si_c          400          84      0.00e+00      400/400                0         0  ok
+P7  radar_polyphase       400         400      0.00e+00      400/400                0         0  ok
+P10 circular_antenna      400         400      8.37e-15      400/400                0         0  ok
+P12 messenger             400         400      0.00e+00      400/400                0         0  ok
+P13 cassini2              400         400      0.00e+00      400/400                0         0  ok
+
+matching problems: all (relative tolerance 1e-08)

@@ -1,0 +1,19 @@
+﻿problem                    feasible uniform  max |f| feasible       C_k
+RC15 speed_reducer                      219           5901.85     1e+07
+RC16 refrigeration_system                 0       3.93991e+06     1e+10
+RC17 spring_case1                      1484          0.291805     1e+03
+RC18 pressure_vessel                  80131            716262     1e+09
+RC19 welded_beam                      53401           62.5618     1e+05
+RC20 three_bar_truss                  43335           382.459     1e+06
+RC21 clutch_brake                    170151           5.17561     1e+04
+RC22 planetary_gear_train                38           7.17681     1e+04
+RC23 step_cone_pulley                     0                 0     1e+03
+RC25 thrust_bearing                     148           10416.4     1e+08
+RC26 four_stage_gearbox                   0                 0     1e+03
+RC27 ten_bar_truss                      237           1232.59     1e+07
+RC28 rolling_bearing                     56           46092.9     1e+08
+RC29 gas_compressor                  105241       3.77133e+07     1e+11
+RC30 spring_case2                      2484           32.6816     1e+05
+RC31 gear_train                      200000           436.571     1e+06
+RC32 himmelblau                       53738           30639.3     1e+08
+RC33 topology                          2000       7.64784e+08     1e+12

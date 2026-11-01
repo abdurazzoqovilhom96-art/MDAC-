@@ -1,0 +1,69 @@
+{
+  "tag": "mech_pub",
+  "reference": "MDAC",
+  "algorithms": [
+    "MDAC",
+    "jSO",
+    "L-SHADE-SPACMA",
+    "L-SHADE",
+    "EBOwithCMAR",
+    "CMA-ES"
+  ],
+  "cells": 18,
+  "overall_rank_thr": {
+    "MDAC": 3.1236383442265794,
+    "jSO": 2.9155773420479303,
+    "L-SHADE-SPACMA": 3.277777777777778,
+    "L-SHADE": 2.6111111111111116,
+    "EBOwithCMAR": 3.229302832244009,
+    "CMA-ES": 5.842592592592593
+  },
+  "overall_rank_raw": {
+    "MDAC": 3.1236383442265794,
+    "jSO": 2.9155773420479303,
+    "L-SHADE-SPACMA": 3.277777777777778,
+    "L-SHADE": 2.6111111111111116,
+    "EBOwithCMAR": 3.229302832244009,
+    "CMA-ES": 5.842592592592593
+  },
+  "category_rank_thr": {
+    "CEC2020 mechanical": {
+      "MDAC": 3.1236383442265794,
+      "jSO": 2.9155773420479303,
+      "L-SHADE-SPACMA": 3.277777777777778,
+      "L-SHADE": 2.6111111111111116,
+      "EBOwithCMAR": 3.229302832244009,
+      "CMA-ES": 5.842592592592593
+    }
+  },
+  "zero_threshold": 1e-08,
+  "benchmark": "CEC2020_* mechanical constrained problems, ported from the official MATLAB code (crosscheck_cec2020rw_octave.py)",
+  "excluded_from_stats": [],
+  "pairing": "runs paired by run index (shared seed)",
+  "cec_friedman": {
+    "all": {
+      "cells": 18,
+      "k": 6,
+      "friedman_chi2": 48.114583333333286,
+      "friedman_p": 3.3656739781899886e-09,
+      "iman_davenport_F": 19.52822680925139,
+      "nemenyi_cd_0.05": 1.7771035555689163,
+      "mean_rank": {
+        "MDAC": 3.4444444444444446,
+        "jSO": 2.611111111111111,
+        "L-SHADE-SPACMA": 3.7222222222222223,
+        "L-SHADE": 2.4166666666666665,
+        "EBOwithCMAR": 3.0833333333333335,
+        "CMA-ES": 5.722222222222222
+      },
+      "median_rank": {
+        "MDAC": 3.2222222222222223,
+        "jSO": 2.75,
+        "L-SHADE-SPACMA": 3.4166666666666665,
+        "L-SHADE": 2.4166666666666665,
+        "EBOwithCMAR": 3.361111111111111,
+        "CMA-ES": 5.833333333333333
+      }
+    }
+  }
+}

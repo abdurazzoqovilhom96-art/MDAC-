@@ -1,0 +1,163 @@
+{
+  "tag": "parity",
+  "reference": "MDAC",
+  "algorithms": [
+    "MDAC",
+    "MDAC-allocTerminal",
+    "L-SHADE+cma",
+    "L-SHADE-MA+cma",
+    "L-SHADE-SPACMA+cma",
+    "CMA-ES+cma",
+    "A-GDESA-ng+cma",
+    "DE+cma",
+    "PSO+cma"
+  ],
+  "cells": 82,
+  "overall_rank_thr": {
+    "MDAC": 3.6623625059780007,
+    "MDAC-allocTerminal": 4.335604973696795,
+    "L-SHADE+cma": 3.8675274988044004,
+    "L-SHADE-MA+cma": 4.684481109516978,
+    "L-SHADE-SPACMA+cma": 3.747250119560019,
+    "CMA-ES+cma": 6.8764945002391205,
+    "A-GDESA-ng+cma": 5.636298421807748,
+    "DE+cma": 5.048780487804878,
+    "PSO+cma": 7.141200382592062
+  },
+  "overall_rank_raw": {
+    "MDAC": 3.2511956001912963,
+    "MDAC-allocTerminal": 4.288617886178861,
+    "L-SHADE+cma": 3.669894787183166,
+    "L-SHADE-MA+cma": 4.425394548063128,
+    "L-SHADE-SPACMA+cma": 3.383668101386896,
+    "CMA-ES+cma": 6.9319703491152564,
+    "A-GDESA-ng+cma": 6.155786704925872,
+    "DE+cma": 5.476924916307986,
+    "PSO+cma": 7.416547106647537
+  },
+  "category_rank_thr": {
+    "CEC multimodal": {
+      "MDAC": 2.709383753501401,
+      "MDAC-allocTerminal": 4.023109243697479,
+      "L-SHADE+cma": 3.6295518207282913,
+      "L-SHADE-MA+cma": 4.525910364145658,
+      "L-SHADE-SPACMA+cma": 3.1666666666666665,
+      "CMA-ES+cma": 6.586834733893556,
+      "A-GDESA-ng+cma": 6.647759103641457,
+      "DE+cma": 6.186974789915967,
+      "PSO+cma": 7.523809523809524
+    },
+    "CEC hybrid": {
+      "MDAC": 3.1308823529411764,
+      "MDAC-allocTerminal": 4.33578431372549,
+      "L-SHADE+cma": 3.1862745098039214,
+      "L-SHADE-MA+cma": 4.5583333333333345,
+      "L-SHADE-SPACMA+cma": 3.292647058823529,
+      "CMA-ES+cma": 8.538235294117646,
+      "A-GDESA-ng+cma": 5.563725490196079,
+      "DE+cma": 4.163725490196079,
+      "PSO+cma": 8.230392156862745
+    },
+    "CEC unimodal": {
+      "MDAC": 5.0,
+      "MDAC-allocTerminal": 5.0,
+      "L-SHADE+cma": 5.0,
+      "L-SHADE-MA+cma": 5.0,
+      "L-SHADE-SPACMA+cma": 5.0,
+      "CMA-ES+cma": 5.0,
+      "A-GDESA-ng+cma": 5.0,
+      "DE+cma": 5.0,
+      "PSO+cma": 5.0
+    },
+    "CEC composition": {
+      "MDAC": 3.463235294117647,
+      "MDAC-allocTerminal": 4.032843137254901,
+      "L-SHADE+cma": 3.85343137254902,
+      "L-SHADE-MA+cma": 4.8656862745098035,
+      "L-SHADE-SPACMA+cma": 3.5490196078431366,
+      "CMA-ES+cma": 7.327450980392156,
+      "A-GDESA-ng+cma": 5.413235294117646,
+      "DE+cma": 4.8431372549019605,
+      "PSO+cma": 7.651960784313727
+    },
+    "classic-12": {
+      "MDAC": 4.604166666666667,
+      "MDAC-allocTerminal": 4.659313725490196,
+      "L-SHADE+cma": 4.397058823529412,
+      "L-SHADE-MA+cma": 4.678513071895424,
+      "L-SHADE-SPACMA+cma": 4.421160130718954,
+      "CMA-ES+cma": 5.59763071895425,
+      "A-GDESA-ng+cma": 5.398692810457516,
+      "DE+cma": 5.301879084967321,
+      "PSO+cma": 5.941584967320263
+    }
+  },
+  "zero_threshold": 1e-08,
+  "benchmark": "CL_* shifted classics + CEC2017_* official, C-exact (crosscheck_cec2017_c.py 30/30)",
+  "excluded_from_stats": [
+    "CEC2017_F2_sum_diff_pow_c17"
+  ],
+  "pairing": "runs paired by run index (shared seed)",
+  "cec_friedman": {
+    "all": {
+      "cells": 82,
+      "k": 9,
+      "friedman_chi2": 256.38217628160356,
+      "friedman_p": 7.637349537403383e-51,
+      "iman_davenport_F": 51.96704212433726,
+      "nemenyi_cd_0.05": 1.3266083963343336,
+      "mean_rank": {
+        "MDAC": 3.8841463414634148,
+        "MDAC-allocTerminal": 4.012195121951219,
+        "L-SHADE+cma": 3.707317073170732,
+        "L-SHADE-MA+cma": 5.0182926829268295,
+        "L-SHADE-SPACMA+cma": 3.707317073170732,
+        "CMA-ES+cma": 7.25,
+        "A-GDESA-ng+cma": 5.2317073170731705,
+        "DE+cma": 4.682926829268292,
+        "PSO+cma": 7.5060975609756095
+      },
+      "median_rank": {
+        "MDAC": 3.6158536585365852,
+        "MDAC-allocTerminal": 4.298780487804878,
+        "L-SHADE+cma": 3.7439024390243905,
+        "L-SHADE-MA+cma": 4.75,
+        "L-SHADE-SPACMA+cma": 3.6219512195121952,
+        "CMA-ES+cma": 7.030487804878049,
+        "A-GDESA-ng+cma": 5.737804878048781,
+        "DE+cma": 4.908536585365853,
+        "PSO+cma": 7.2926829268292686
+      }
+    },
+    "CEC2017 only": {
+      "cells": 58,
+      "k": 9,
+      "friedman_chi2": 201.1805623273199,
+      "friedman_p": 3.603530855548258e-39,
+      "iman_davenport_F": 43.631826299464194,
+      "nemenyi_cd_0.05": 1.5773776068833563,
+      "mean_rank": {
+        "MDAC": 3.6551724137931036,
+        "MDAC-allocTerminal": 3.8620689655172415,
+        "L-SHADE+cma": 3.5344827586206895,
+        "L-SHADE-MA+cma": 5.206896551724138,
+        "L-SHADE-SPACMA+cma": 3.5086206896551726,
+        "CMA-ES+cma": 7.637931034482759,
+        "A-GDESA-ng+cma": 5.25,
+        "DE+cma": 4.482758620689655,
+        "PSO+cma": 7.862068965517241
+      },
+      "median_rank": {
+        "MDAC": 3.206896551724138,
+        "MDAC-allocTerminal": 4.146551724137931,
+        "L-SHADE+cma": 3.4741379310344827,
+        "L-SHADE-MA+cma": 4.758620689655173,
+        "L-SHADE-SPACMA+cma": 3.2844827586206895,
+        "CMA-ES+cma": 7.663793103448276,
+        "A-GDESA-ng+cma": 5.853448275862069,
+        "DE+cma": 4.75,
+        "PSO+cma": 7.862068965517241
+      }
+    }
+  }
+}

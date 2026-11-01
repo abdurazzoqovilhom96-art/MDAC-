@@ -1,0 +1,657 @@
+key,function,dim,category,competitor,p_value,A12,A12_magnitude,MDAC_mean,competitor_mean,reject_H0,verdict
+CEC2017_F10_schwefel|D10|MDAC-allocTerminal,CEC2017_F10_schwefel,10,CEC multimodal,MDAC-allocTerminal,0.20238305217721309,0.687043444828912,Medium,30.10411179098276,29.07527724095866,False,T
+CEC2017_F10_schwefel|D10|L-SHADE+cma,CEC2017_F10_schwefel,10,CEC multimodal,L-SHADE+cma,0.053491193268102324,0.643598615916955,Medium,30.10411179098276,32.86720043424801,False,T
+CEC2017_F10_schwefel|D10|L-SHADE-MA+cma,CEC2017_F10_schwefel,10,CEC multimodal,L-SHADE-MA+cma,0.8293038638946328,0.5113417916186083,Negligible,30.10411179098276,35.50089223578052,False,T
+CEC2017_F10_schwefel|D10|L-SHADE-SPACMA+cma,CEC2017_F10_schwefel,10,CEC multimodal,L-SHADE-SPACMA+cma,0.8660142670624964,0.5742022299115724,Small,30.10411179098276,15.890978116238722,False,T
+CEC2017_F10_schwefel|D10|CMA-ES+cma,CEC2017_F10_schwefel,10,CEC multimodal,CMA-ES+cma,5.145276051717656e-10,0.9946174548250671,Large,30.10411179098276,607.6264905677605,True,W
+CEC2017_F10_schwefel|D10|A-GDESA-ng+cma,CEC2017_F10_schwefel,10,CEC multimodal,A-GDESA-ng+cma,1.4859101930296196e-09,0.948481353325644,Large,30.10411179098276,292.3158187371193,True,W
+CEC2017_F10_schwefel|D10|DE+cma,CEC2017_F10_schwefel,10,CEC multimodal,DE+cma,6.150606318040015e-10,0.942714340638216,Large,30.10411179098276,303.4652487637244,True,W
+CEC2017_F10_schwefel|D10|PSO+cma,CEC2017_F10_schwefel,10,CEC multimodal,PSO+cma,5.145276051717656e-10,0.9992310649750095,Large,30.10411179098276,522.2489597712073,True,W
+CEC2017_F10_schwefel|D30|MDAC-allocTerminal,CEC2017_F10_schwefel,30,CEC multimodal,MDAC-allocTerminal,5.796704657296606e-10,0.9807766243752403,Large,733.9157078443195,1946.9276121744922,True,W
+CEC2017_F10_schwefel|D30|L-SHADE+cma,CEC2017_F10_schwefel,30,CEC multimodal,L-SHADE+cma,9.306355334878568e-10,0.9573241061130335,Large,733.9157078443195,1418.087527144375,True,W
+CEC2017_F10_schwefel|D30|L-SHADE-MA+cma,CEC2017_F10_schwefel,30,CEC multimodal,L-SHADE-MA+cma,7.349853257469353e-10,0.974240676662822,Large,733.9157078443195,2215.364946955076,True,W
+CEC2017_F10_schwefel|D30|L-SHADE-SPACMA+cma,CEC2017_F10_schwefel,30,CEC multimodal,L-SHADE-SPACMA+cma,8.648363053904011e-09,0.8781237985390234,Large,733.9157078443195,1255.193503432289,True,W
+CEC2017_F10_schwefel|D30|CMA-ES+cma,CEC2017_F10_schwefel,30,CEC multimodal,CMA-ES+cma,5.145276051717656e-10,1.0,Large,733.9157078443195,3347.976576383476,True,W
+CEC2017_F10_schwefel|D30|A-GDESA-ng+cma,CEC2017_F10_schwefel,30,CEC multimodal,A-GDESA-ng+cma,5.145276051717656e-10,1.0,Large,733.9157078443195,2988.095389684053,True,W
+CEC2017_F10_schwefel|D30|DE+cma,CEC2017_F10_schwefel,30,CEC multimodal,DE+cma,5.145276051717656e-10,1.0,Large,733.9157078443195,2905.9198540716066,True,W
+CEC2017_F10_schwefel|D30|PSO+cma,CEC2017_F10_schwefel,30,CEC multimodal,PSO+cma,5.145276051717656e-10,1.0,Large,733.9157078443195,3097.2195031781876,True,W
+CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin|D10|MDAC-allocTerminal,CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin,10,CEC hybrid,MDAC-allocTerminal,0.15729920705028502,0.4803921568627451,Negligible,0.03901800223895728,0.0,False,T
+CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin|D10|L-SHADE+cma,CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin,10,CEC hybrid,L-SHADE+cma,0.15729920705028502,0.4803921568627451,Negligible,0.03901800223895728,0.0,False,T
+CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin|D10|L-SHADE-MA+cma,CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin,10,CEC hybrid,L-SHADE-MA+cma,0.00010887377310924507,0.6776239907727798,Medium,0.03901800223895728,0.4822660550861005,True,W
+CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin|D10|L-SHADE-SPACMA+cma,CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin,10,CEC hybrid,L-SHADE-SPACMA+cma,0.5637028616507731,0.49019607843137253,Negligible,0.03901800223895728,0.01950900111947864,False,T
+CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin|D10|CMA-ES+cma,CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin,10,CEC hybrid,CMA-ES+cma,7.473615963948637e-10,0.9882737408688966,Large,0.03901800223895728,13.766714426607477,True,W
+CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin|D10|A-GDESA-ng+cma,CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin,10,CEC hybrid,A-GDESA-ng+cma,1.0491015719211628e-08,0.9146482122260667,Large,0.03901800223895728,1.037052504151907,True,W
+CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin|D10|DE+cma,CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin,10,CEC hybrid,DE+cma,0.012615667221804572,0.5713187235678586,Small,0.03901800223895728,0.21459901231430514,False,T
+CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin|D10|PSO+cma,CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin,10,CEC hybrid,PSO+cma,5.116277121770882e-10,0.9992310649750095,Large,0.03901800223895728,8.823957455267905,True,W
+CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin|D30|MDAC-allocTerminal,CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin,30,CEC hybrid,MDAC-allocTerminal,0.008439576430816735,0.4448289119569397,Negligible,48.726153641196944,27.865445010229053,False,T
+CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin|D30|L-SHADE+cma,CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin,30,CEC hybrid,L-SHADE+cma,0.0022448564592140274,0.38139177239523264,Small,48.726153641196944,23.570338960056905,False,T
+CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin|D30|L-SHADE-MA+cma,CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin,30,CEC hybrid,L-SHADE-MA+cma,2.0099034595869383e-06,0.28662053056516723,Large,48.726153641196944,16.41796024561141,True,L
+CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin|D30|L-SHADE-SPACMA+cma,CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin,30,CEC hybrid,L-SHADE-SPACMA+cma,4.429671109539838e-05,0.32968089196462896,Medium,48.726153641196944,18.788638190760913,True,L
+CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin|D30|CMA-ES+cma,CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin,30,CEC hybrid,CMA-ES+cma,6.528366037592496e-10,0.9842368319876972,Large,48.726153641196944,189.33980152405817,True,W
+CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin|D30|A-GDESA-ng+cma,CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin,30,CEC hybrid,A-GDESA-ng+cma,2.1936577712402924e-08,0.20953479430988084,Large,48.726153641196944,12.59344152069094,True,L
+CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin|D30|DE+cma,CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin,30,CEC hybrid,DE+cma,2.1936577712402924e-08,0.21068819684736634,Large,48.726153641196944,12.524932827251119,True,L
+CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin|D30|PSO+cma,CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin,30,CEC hybrid,PSO+cma,8.271870119246836e-10,0.9492502883506343,Large,48.726153641196944,128.64314265098702,True,W
+CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar|D10|MDAC-allocTerminal,CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar,10,CEC hybrid,MDAC-allocTerminal,4.6952039430917903e-07,0.2243367935409457,Large,133.4704489389391,49.13563396430213,True,L
+CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar|D10|L-SHADE+cma,CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar,10,CEC hybrid,L-SHADE+cma,0.000817864859390594,0.2687427912341407,Large,133.4704489389391,64.72601668473017,False,T
+CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar|D10|L-SHADE-MA+cma,CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar,10,CEC hybrid,L-SHADE-MA+cma,0.3936595606875317,0.5517108804306037,Negligible,133.4704489389391,165.89710440734217,False,T
+CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar|D10|L-SHADE-SPACMA+cma,CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar,10,CEC hybrid,L-SHADE-SPACMA+cma,0.21659461700282667,0.5497885428681276,Negligible,133.4704489389391,164.75909459737537,False,T
+CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar|D10|CMA-ES+cma,CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar,10,CEC hybrid,CMA-ES+cma,1.8649908157337358e-08,0.8525567089580931,Large,133.4704489389391,619.0969880154325,True,W
+CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar|D10|A-GDESA-ng+cma,CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar,10,CEC hybrid,A-GDESA-ng+cma,4.941220076835978e-09,0.12533640907343327,Large,133.4704489389391,1.413724082808692,True,L
+CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar|D10|DE+cma,CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar,10,CEC hybrid,DE+cma,1.380690611812121e-09,0.09957708573625527,Large,133.4704489389391,2.629427704642021,True,L
+CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar|D10|PSO+cma,CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar,10,CEC hybrid,PSO+cma,8.646745123784623e-09,0.859284890426759,Large,133.4704489389391,737.653865718443,True,W
+CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar|D30|MDAC-allocTerminal,CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar,30,CEC hybrid,MDAC-allocTerminal,0.9402244705136732,0.5274894271434063,Negligible,1050.8153780620498,1060.563379290426,False,T
+CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar|D30|L-SHADE+cma,CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar,30,CEC hybrid,L-SHADE+cma,0.7007471100234679,0.5428681276432141,Negligible,1050.8153780620498,1090.4947622502575,False,T
+CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar|D30|L-SHADE-MA+cma,CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar,30,CEC hybrid,L-SHADE-MA+cma,0.1462550297459625,0.41791618608227604,Small,1050.8153780620498,900.94687052327,False,T
+CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar|D30|L-SHADE-SPACMA+cma,CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar,30,CEC hybrid,L-SHADE-SPACMA+cma,0.0005239908344855039,0.2787389465590158,Large,1050.8153780620498,702.2587389079463,False,T
+CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar|D30|CMA-ES+cma,CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar,30,CEC hybrid,CMA-ES+cma,7.319306280667348e-09,0.8527489427143405,Large,1050.8153780620498,5850.9163118700435,True,W
+CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar|D30|A-GDESA-ng+cma,CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar,30,CEC hybrid,A-GDESA-ng+cma,0.0001909941160561932,0.734717416378316,Large,1050.8153780620498,1699.9250356381983,False,T
+CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar|D30|DE+cma,CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar,30,CEC hybrid,DE+cma,0.9178771482083954,0.4644367550941946,Negligible,1050.8153780620498,1157.8035438393588,False,T
+CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar|D30|PSO+cma,CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar,30,CEC hybrid,PSO+cma,8.271870119246836e-10,0.9430988081507112,Large,1050.8153780620498,15126.321910142933,True,W
+CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17|D10|MDAC-allocTerminal,CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17,10,CEC hybrid,MDAC-allocTerminal,0.004249556137208999,0.42079969242599,Small,5.066278043297773,3.6856002112298056,False,T
+CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17|D10|L-SHADE+cma,CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17,10,CEC hybrid,L-SHADE+cma,0.0437542379966393,0.43560169165705503,Small,5.066278043297773,4.036090553750366,False,T
+CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17|D10|L-SHADE-MA+cma,CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17,10,CEC hybrid,L-SHADE-MA+cma,0.6943332701969243,0.6093810073048828,Small,5.066278043297773,4.994024354497915,False,T
+CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17|D10|L-SHADE-SPACMA+cma,CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17,10,CEC hybrid,L-SHADE-SPACMA+cma,0.801474459334625,0.5409457900807382,Negligible,5.066278043297773,5.029487993042258,False,T
+CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17|D10|CMA-ES+cma,CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17,10,CEC hybrid,CMA-ES+cma,5.145276051717656e-10,0.9988465974625144,Large,5.066278043297773,299.92349466627024,True,W
+CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17|D10|A-GDESA-ng+cma,CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17,10,CEC hybrid,A-GDESA-ng+cma,0.008672890030255103,0.3808150711264898,Small,5.066278043297773,3.9849221795756975,False,T
+CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17|D10|DE+cma,CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17,10,CEC hybrid,DE+cma,0.0002305979736019047,0.3389081122645136,Medium,5.066278043297773,3.409261344624499,False,T
+CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17|D10|PSO+cma,CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17,10,CEC hybrid,PSO+cma,5.145276051717656e-10,0.996155324875048,Large,5.066278043297773,84.6257814554639,True,W
+CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17|D30|MDAC-allocTerminal,CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17,30,CEC hybrid,MDAC-allocTerminal,2.939482171344491e-07,0.8439061899269513,Large,13.549348509391615,26.54992552800665,True,W
+CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17|D30|L-SHADE+cma,CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17,30,CEC hybrid,L-SHADE+cma,3.486349987149915e-06,0.7939254133025758,Large,13.549348509391615,20.717129633433682,True,W
+CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17|D30|L-SHADE-MA+cma,CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17,30,CEC hybrid,L-SHADE-MA+cma,6.355819966907303e-08,0.8519800076893503,Large,13.549348509391615,34.390227792883294,True,W
+CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17|D30|L-SHADE-SPACMA+cma,CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17,30,CEC hybrid,L-SHADE-SPACMA+cma,1.8383191273708857e-05,0.8231449442522107,Large,13.549348509391615,19.544153501785004,True,W
+CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17|D30|CMA-ES+cma,CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17,30,CEC hybrid,CMA-ES+cma,5.145276051717656e-10,1.0,Large,13.549348509391615,2946.293314495061,True,W
+CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17|D30|A-GDESA-ng+cma,CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17,30,CEC hybrid,A-GDESA-ng+cma,6.15193134744293e-10,0.9826989619377164,Large,13.549348509391615,36.50336328833649,True,W
+CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17|D30|DE+cma,CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17,30,CEC hybrid,DE+cma,6.528366037592496e-10,0.9680891964628989,Large,13.549348509391615,32.478204758608456,True,W
+CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17|D30|PSO+cma,CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17,30,CEC hybrid,PSO+cma,5.145276051717656e-10,1.0,Large,13.549348509391615,1605.4421465711816,True,W
+CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin|D10|MDAC-allocTerminal,CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin,10,CEC hybrid,MDAC-allocTerminal,3.9997516745107394e-05,0.8465974625144175,Large,0.2536170145532134,0.5754007691036626,True,W
+CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin|D10|L-SHADE+cma,CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin,10,CEC hybrid,L-SHADE+cma,0.0016484650376077474,0.7285659361783929,Large,0.2536170145532134,0.6538878061457589,False,T
+CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin|D10|L-SHADE-MA+cma,CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin,10,CEC hybrid,L-SHADE-MA+cma,4.7389651461090624e-08,0.874471357170319,Large,0.2536170145532134,7.96175694590625,True,W
+CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin|D10|L-SHADE-SPACMA+cma,CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin,10,CEC hybrid,L-SHADE-SPACMA+cma,0.22244358701982891,0.5665128796616685,Small,0.2536170145532134,0.7548799220543666,False,T
+CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin|D10|CMA-ES+cma,CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin,10,CEC hybrid,CMA-ES+cma,5.145276051717656e-10,1.0,Large,0.2536170145532134,101.75714082174015,True,W
+CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin|D10|A-GDESA-ng+cma,CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin,10,CEC hybrid,A-GDESA-ng+cma,5.1441579784081e-10,0.9992310649750095,Large,0.2536170145532134,7.544695957618098,True,W
+CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin|D10|DE+cma,CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin,10,CEC hybrid,DE+cma,0.00028917828473891855,0.8446751249519415,Large,0.2536170145532134,1.510985969214677,False,T
+CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin|D10|PSO+cma,CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin,10,CEC hybrid,PSO+cma,5.145276051717656e-10,1.0,Large,0.2536170145532134,60.88820045717423,True,W
+CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin|D30|MDAC-allocTerminal,CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin,30,CEC hybrid,MDAC-allocTerminal,5.145276051717656e-10,1.0,Large,19.502706452649175,31.090178013705643,True,W
+CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin|D30|L-SHADE+cma,CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin,30,CEC hybrid,L-SHADE+cma,1.2726693725124743e-08,0.9673202614379084,Large,19.502706452649175,22.47775365440431,True,W
+CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin|D30|L-SHADE-MA+cma,CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin,30,CEC hybrid,L-SHADE-MA+cma,5.145276051717656e-10,0.9976931949250287,Large,19.502706452649175,25.932379445458995,True,W
+CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin|D30|L-SHADE-SPACMA+cma,CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin,30,CEC hybrid,L-SHADE-SPACMA+cma,5.461520578031993e-10,0.9657823913879277,Large,19.502706452649175,23.906222010045074,True,W
+CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin|D30|CMA-ES+cma,CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin,30,CEC hybrid,CMA-ES+cma,5.145276051717656e-10,1.0,Large,19.502706452649175,272.7151169958821,True,W
+CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin|D30|A-GDESA-ng+cma,CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin,30,CEC hybrid,A-GDESA-ng+cma,5.145276051717656e-10,1.0,Large,19.502706452649175,59.10756583151751,True,W
+CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin|D30|DE+cma,CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin,30,CEC hybrid,DE+cma,5.145276051717656e-10,1.0,Large,19.502706452649175,54.79998518716517,True,W
+CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin|D30|PSO+cma,CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin,30,CEC hybrid,PSO+cma,5.145276051717656e-10,1.0,Large,19.502706452649175,232.15475422454355,True,W
+CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock|D10|MDAC-allocTerminal,CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock,10,CEC hybrid,MDAC-allocTerminal,2.2672083181060322e-05,0.18300653594771246,Large,0.42686245545629015,0.2025864841363469,True,L
+CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock|D10|L-SHADE+cma,CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock,10,CEC hybrid,L-SHADE+cma,2.0853206477522703e-05,0.18992695117262592,Large,0.42686245545629015,0.22240519363743474,True,L
+CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock|D10|L-SHADE-MA+cma,CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock,10,CEC hybrid,L-SHADE-MA+cma,0.6800224151142729,0.3194925028835064,Medium,0.42686245545629015,0.48437933816490375,False,T
+CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock|D10|L-SHADE-SPACMA+cma,CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock,10,CEC hybrid,L-SHADE-SPACMA+cma,0.06480905425763897,0.2806612841214917,Large,0.42686245545629015,0.36499414612411535,False,T
+CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock|D10|CMA-ES+cma,CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock,10,CEC hybrid,CMA-ES+cma,5.145276051717656e-10,1.0,Large,0.42686245545629015,103.79811016333933,True,W
+CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock|D10|A-GDESA-ng+cma,CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock,10,CEC hybrid,A-GDESA-ng+cma,0.02568873999366418,0.3787004998077662,Small,0.42686245545629015,0.34291165170731674,False,T
+CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock|D10|DE+cma,CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock,10,CEC hybrid,DE+cma,1.768408698752163e-09,0.09496347558631296,Large,0.42686245545629015,0.04171173826524614,True,L
+CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock|D10|PSO+cma,CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock,10,CEC hybrid,PSO+cma,5.145276051717656e-10,1.0,Large,0.42686245545629015,30.46113930250258,True,W
+CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock|D30|MDAC-allocTerminal,CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock,30,CEC hybrid,MDAC-allocTerminal,1.1401547090854903e-08,0.9642445213379469,Large,2.333416983252302,9.415810402727216,True,W
+CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock|D30|L-SHADE+cma,CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock,30,CEC hybrid,L-SHADE+cma,3.9563600248842875e-07,0.890811226451365,Large,2.333416983252302,5.840136966244423,True,W
+CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock|D30|L-SHADE-MA+cma,CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock,30,CEC hybrid,L-SHADE-MA+cma,3.1960076681430284e-08,0.9381007304882738,Large,2.333416983252302,9.883898518711133,True,W
+CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock|D30|L-SHADE-SPACMA+cma,CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock,30,CEC hybrid,L-SHADE-SPACMA+cma,2.3157655668180674e-08,0.9281045751633986,Large,2.333416983252302,7.1767570543791575,True,W
+CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock|D30|CMA-ES+cma,CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock,30,CEC hybrid,CMA-ES+cma,5.145276051717656e-10,1.0,Large,2.333416983252302,527.9896071382672,True,W
+CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock|D30|A-GDESA-ng+cma,CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock,30,CEC hybrid,A-GDESA-ng+cma,3.943710397995901e-09,0.9788542868127643,Large,2.333416983252302,14.851485920032937,True,W
+CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock|D30|DE+cma,CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock,30,CEC hybrid,DE+cma,8.648363053904011e-09,0.9777008842752787,Large,2.333416983252302,12.795187257779094,True,W
+CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock|D30|PSO+cma,CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock,30,CEC hybrid,PSO+cma,5.145276051717656e-10,0.9996155324875049,Large,2.333416983252302,278.78406119531627,True,W
+CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel|D10|MDAC-allocTerminal,CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel,10,CEC hybrid,MDAC-allocTerminal,0.006199243172000469,0.7731641676278356,Large,8.382551405265682,0.9714419746996609,False,T
+CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel|D10|L-SHADE+cma,CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel,10,CEC hybrid,L-SHADE+cma,0.04009302215777456,0.40753556324490575,Small,8.382551405265682,0.45317085735349094,False,T
+CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel|D10|L-SHADE-MA+cma,CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel,10,CEC hybrid,L-SHADE-MA+cma,0.07646343192414391,0.6839677047289504,Medium,8.382551405265682,0.9660448965975427,False,T
+CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel|D10|L-SHADE-SPACMA+cma,CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel,10,CEC hybrid,L-SHADE-SPACMA+cma,0.4421163856032494,0.6182237600922722,Small,8.382551405265682,0.6654251673668586,False,T
+CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel|D10|CMA-ES+cma,CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel,10,CEC hybrid,CMA-ES+cma,7.819590726464061e-07,0.9369473279507881,Large,8.382551405265682,51.27232392572942,True,W
+CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel|D10|A-GDESA-ng+cma,CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel,10,CEC hybrid,A-GDESA-ng+cma,0.5866747207433314,0.5148019992310651,Negligible,8.382551405265682,0.5805790024298635,False,T
+CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel|D10|DE+cma,CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel,10,CEC hybrid,DE+cma,0.01168681024032215,0.35524798154555937,Medium,8.382551405265682,0.39859846862413284,False,T
+CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel|D10|PSO+cma,CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel,10,CEC hybrid,PSO+cma,1.9851338229518463e-09,0.9515570934256056,Large,8.382551405265682,177.77054450937612,True,W
+CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel|D30|MDAC-allocTerminal,CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel,30,CEC hybrid,MDAC-allocTerminal,5.05592656102171e-07,0.9211841599384852,Large,21.842739896819012,59.96665768426699,True,W
+CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel|D30|L-SHADE+cma,CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel,30,CEC hybrid,L-SHADE+cma,5.308734078689822e-07,0.8811995386389849,Large,21.842739896819012,42.460730875492125,True,W
+CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel|D30|L-SHADE-MA+cma,CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel,30,CEC hybrid,L-SHADE-MA+cma,0.0009368543132336339,0.6366782006920415,Small,21.842739896819012,82.88878909447445,False,T
+CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel|D30|L-SHADE-SPACMA+cma,CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel,30,CEC hybrid,L-SHADE-SPACMA+cma,0.1770868094124466,0.4648212226066897,Negligible,21.842739896819012,16.593723966818416,False,T
+CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel|D30|CMA-ES+cma,CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel,30,CEC hybrid,CMA-ES+cma,5.145276051717656e-10,1.0,Large,21.842739896819012,912.9182758168168,True,W
+CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel|D30|A-GDESA-ng+cma,CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel,30,CEC hybrid,A-GDESA-ng+cma,5.145276051717656e-10,0.9946174548250671,Large,21.842739896819012,415.09736225546555,True,W
+CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel|D30|DE+cma,CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel,30,CEC hybrid,DE+cma,1.3225524535196487e-09,0.9784698193002692,Large,21.842739896819012,279.69011653341903,True,W
+CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel|D30|PSO+cma,CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel,30,CEC hybrid,PSO+cma,5.145276051717656e-10,1.0,Large,21.842739896819012,770.3639261981367,True,W
+CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin|D10|MDAC-allocTerminal,CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin,10,CEC hybrid,MDAC-allocTerminal,5.225989785372797e-06,0.8796616685890042,Large,1.581273984503883,0.8975030931414681,True,W
+CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin|D10|L-SHADE+cma,CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin,10,CEC hybrid,L-SHADE+cma,0.7713744910172167,0.5893886966551327,Small,1.581273984503883,0.27040448751492974,False,T
+CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin|D10|L-SHADE-MA+cma,CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin,10,CEC hybrid,L-SHADE-MA+cma,2.796802093401817e-06,0.8269896193771625,Large,1.581273984503883,3.3129910248355827,True,W
+CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin|D10|L-SHADE-SPACMA+cma,CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin,10,CEC hybrid,L-SHADE-SPACMA+cma,0.34378139801909813,0.5659361783929258,Small,1.581273984503883,0.22167492153594406,False,T
+CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin|D10|CMA-ES+cma,CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin,10,CEC hybrid,CMA-ES+cma,5.145276051717656e-10,0.9876970396001539,Large,1.581273984503883,34.05027326007814,True,W
+CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin|D10|A-GDESA-ng+cma,CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin,10,CEC hybrid,A-GDESA-ng+cma,1.4019139660245744e-09,0.9657823913879277,Large,1.581273984503883,17.540522708585858,True,W
+CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin|D10|DE+cma,CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin,10,CEC hybrid,DE+cma,4.3652445319513903e-07,0.9434832756632066,Large,1.581273984503883,8.360257818333718,True,W
+CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin|D10|PSO+cma,CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin,10,CEC hybrid,PSO+cma,5.145276051717656e-10,0.9884659746251441,Large,1.581273984503883,44.71234015738296,True,W
+CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin|D30|MDAC-allocTerminal,CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin,30,CEC hybrid,MDAC-allocTerminal,1.4522341063452507e-07,0.9527104959630912,Large,28.419271722604066,52.35314410474338,True,W
+CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin|D30|L-SHADE+cma,CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin,30,CEC hybrid,L-SHADE+cma,2.776001542903553e-06,0.859284890426759,Large,28.419271722604066,34.81210891004719,True,W
+CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin|D30|L-SHADE-MA+cma,CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin,30,CEC hybrid,L-SHADE-MA+cma,1.4522341063452507e-07,0.9450211457131874,Large,28.419271722604066,46.47101650037988,True,W
+CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin|D30|L-SHADE-SPACMA+cma,CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin,30,CEC hybrid,L-SHADE-SPACMA+cma,0.40944819102604935,0.4282968089196463,Small,28.419271722604066,23.45620382952898,False,T
+CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin|D30|CMA-ES+cma,CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin,30,CEC hybrid,CMA-ES+cma,5.145276051717656e-10,1.0,Large,28.419271722604066,505.81148461463755,True,W
+CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin|D30|A-GDESA-ng+cma,CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin,30,CEC hybrid,A-GDESA-ng+cma,3.943710397995901e-09,0.9646289888504422,Large,28.419271722604066,101.57393333923295,True,W
+CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin|D30|DE+cma,CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin,30,CEC hybrid,DE+cma,2.530809258891762e-07,0.9288735101883892,Large,28.419271722604066,38.7286342154406,True,W
+CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin|D30|PSO+cma,CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin,30,CEC hybrid,PSO+cma,5.461520578031993e-10,0.9900038446751248,Large,28.419271722604066,297.7689423060545,True,W
+CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus|D10|MDAC-allocTerminal,CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus,10,CEC hybrid,MDAC-allocTerminal,2.2672083181060322e-05,0.24644367550941948,Large,4.754497270534678,0.2847858178157438,True,L
+CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus|D10|L-SHADE+cma,CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus,10,CEC hybrid,L-SHADE+cma,7.446239154307425e-06,0.22568242983467893,Large,4.754497270534678,0.6705251925361564,True,L
+CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus|D10|L-SHADE-MA+cma,CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus,10,CEC hybrid,L-SHADE-MA+cma,0.015997131427213294,0.5936178392925797,Small,4.754497270534678,10.225303142519948,False,T
+CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus|D10|L-SHADE-SPACMA+cma,CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus,10,CEC hybrid,L-SHADE-SPACMA+cma,0.7785539322162471,0.5001922337562476,Negligible,4.754497270534678,4.462203011436348,False,T
+CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus|D10|CMA-ES+cma,CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus,10,CEC hybrid,CMA-ES+cma,5.145276051717656e-10,1.0,Large,4.754497270534678,101.41742582672842,True,W
+CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus|D10|A-GDESA-ng+cma,CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus,10,CEC hybrid,A-GDESA-ng+cma,1.6728036016757065e-08,0.11188004613610152,Large,4.754497270534678,0.1074588175055637,True,L
+CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus|D10|DE+cma,CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus,10,CEC hybrid,DE+cma,1.768408698752163e-09,0.05651672433679355,Large,4.754497270534678,0.03520155023318908,True,L
+CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus|D10|PSO+cma,CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus,10,CEC hybrid,PSO+cma,5.145276051717656e-10,0.9957708573625528,Large,4.754497270534678,67.98993618292296,True,W
+CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus|D30|MDAC-allocTerminal,CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus,30,CEC hybrid,MDAC-allocTerminal,9.633615782858667e-08,0.8950403690888119,Large,21.305611226489976,23.46184847935872,True,W
+CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus|D30|L-SHADE+cma,CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus,30,CEC hybrid,L-SHADE+cma,1.4522341063452507e-07,0.8492887351018839,Large,21.305611226489976,23.110028401557248,True,W
+CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus|D30|L-SHADE-MA+cma,CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus,30,CEC hybrid,L-SHADE-MA+cma,5.461520578031993e-10,0.9480968858131489,Large,21.305611226489976,29.80366590598903,True,W
+CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus|D30|L-SHADE-SPACMA+cma,CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus,30,CEC hybrid,L-SHADE-SPACMA+cma,1.1836114914247092e-07,0.8808150711264898,Large,21.305611226489976,22.912133047574223,True,W
+CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus|D30|CMA-ES+cma,CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus,30,CEC hybrid,CMA-ES+cma,5.145276051717656e-10,1.0,Large,21.305611226489976,756.8509628834609,True,W
+CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus|D30|A-GDESA-ng+cma,CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus,30,CEC hybrid,A-GDESA-ng+cma,1.4019139660245744e-09,0.9573241061130335,Large,21.305611226489976,25.243858842325682,True,W
+CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus|D30|DE+cma,CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus,30,CEC hybrid,DE+cma,4.944083093762296e-09,0.9588619761630143,Large,21.305611226489976,24.643597228979697,True,W
+CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus|D30|PSO+cma,CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus,30,CEC hybrid,PSO+cma,5.145276051717656e-10,1.0,Large,21.305611226489976,305.42403924976713,True,W
+CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6|D10|MDAC-allocTerminal,CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6,10,CEC hybrid,MDAC-allocTerminal,0.014055246809720966,0.4552095347943099,Negligible,0.6119075056217521,0.117798663386967,False,T
+CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6|D10|L-SHADE+cma,CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6,10,CEC hybrid,L-SHADE+cma,5.850579740504269e-07,0.2698961937716263,Large,0.6119075056217521,0.016248569688309098,True,L
+CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6|D10|L-SHADE-MA+cma,CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6,10,CEC hybrid,L-SHADE-MA+cma,0.10733264999181563,0.4621299500192234,Negligible,0.6119075056217521,0.4749276677763887,False,T
+CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6|D10|L-SHADE-SPACMA+cma,CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6,10,CEC hybrid,L-SHADE-SPACMA+cma,0.0015696658367493818,0.41426374471357164,Small,0.6119075056217521,0.20280538379167376,False,T
+CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6|D10|CMA-ES+cma,CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6,10,CEC hybrid,CMA-ES+cma,5.145276051717656e-10,1.0,Large,0.6119075056217521,108.36244790995501,True,W
+CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6|D10|A-GDESA-ng+cma,CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6,10,CEC hybrid,A-GDESA-ng+cma,0.04101129696419458,0.5217224144559784,Negligible,0.6119075056217521,0.2722435932364667,False,T
+CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6|D10|DE+cma,CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6,10,CEC hybrid,DE+cma,3.872600691536026e-05,0.32179930795847755,Medium,0.6119075056217521,0.03468747076657582,True,L
+CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6|D10|PSO+cma,CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6,10,CEC hybrid,PSO+cma,5.145276051717656e-10,1.0,Large,0.6119075056217521,37.37672811022817,True,W
+CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6|D30|MDAC-allocTerminal,CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6,30,CEC hybrid,MDAC-allocTerminal,6.766878445496859e-07,0.9158016147635525,Large,8.87864689238405,13.15440592006502,True,W
+CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6|D30|L-SHADE+cma,CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6,30,CEC hybrid,L-SHADE+cma,0.154224574855407,0.5943867743175701,Small,8.87864689238405,7.93658643194485,False,T
+CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6|D30|L-SHADE-MA+cma,CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6,30,CEC hybrid,L-SHADE-MA+cma,0.0001041925428963103,0.7812379853902346,Large,8.87864689238405,9.974618567112042,True,W
+CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6|D30|L-SHADE-SPACMA+cma,CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6,30,CEC hybrid,L-SHADE-SPACMA+cma,0.015997131427213294,0.6720492118415994,Medium,8.87864689238405,8.654076388270097,False,T
+CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6|D30|CMA-ES+cma,CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6,30,CEC hybrid,CMA-ES+cma,5.145276051717656e-10,1.0,Large,8.87864689238405,3886.968154999373,True,W
+CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6|D30|A-GDESA-ng+cma,CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6,30,CEC hybrid,A-GDESA-ng+cma,1.204642740368099e-08,0.9588619761630143,Large,8.87864689238405,24.585620345980853,True,W
+CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6|D30|DE+cma,CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6,30,CEC hybrid,DE+cma,2.1940464103751417e-08,0.948481353325644,Large,8.87864689238405,20.120992360955995,True,W
+CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6|D30|PSO+cma,CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6,30,CEC hybrid,PSO+cma,5.145276051717656e-10,1.0,Large,8.87864689238405,336.66863468163734,True,W
+CEC2017_F1_bent_cigar|D10|MDAC-allocTerminal,CEC2017_F1_bent_cigar,10,CEC unimodal,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F1_bent_cigar|D10|L-SHADE+cma,CEC2017_F1_bent_cigar,10,CEC unimodal,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F1_bent_cigar|D10|L-SHADE-MA+cma,CEC2017_F1_bent_cigar,10,CEC unimodal,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F1_bent_cigar|D10|L-SHADE-SPACMA+cma,CEC2017_F1_bent_cigar,10,CEC unimodal,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F1_bent_cigar|D10|CMA-ES+cma,CEC2017_F1_bent_cigar,10,CEC unimodal,CMA-ES+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F1_bent_cigar|D10|A-GDESA-ng+cma,CEC2017_F1_bent_cigar,10,CEC unimodal,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F1_bent_cigar|D10|DE+cma,CEC2017_F1_bent_cigar,10,CEC unimodal,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F1_bent_cigar|D10|PSO+cma,CEC2017_F1_bent_cigar,10,CEC unimodal,PSO+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F1_bent_cigar|D30|MDAC-allocTerminal,CEC2017_F1_bent_cigar,30,CEC unimodal,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F1_bent_cigar|D30|L-SHADE+cma,CEC2017_F1_bent_cigar,30,CEC unimodal,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F1_bent_cigar|D30|L-SHADE-MA+cma,CEC2017_F1_bent_cigar,30,CEC unimodal,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F1_bent_cigar|D30|L-SHADE-SPACMA+cma,CEC2017_F1_bent_cigar,30,CEC unimodal,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F1_bent_cigar|D30|CMA-ES+cma,CEC2017_F1_bent_cigar,30,CEC unimodal,CMA-ES+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F1_bent_cigar|D30|A-GDESA-ng+cma,CEC2017_F1_bent_cigar,30,CEC unimodal,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F1_bent_cigar|D30|DE+cma,CEC2017_F1_bent_cigar,30,CEC unimodal,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F1_bent_cigar|D30|PSO+cma,CEC2017_F1_bent_cigar,30,CEC unimodal,PSO+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17|D10|MDAC-allocTerminal,CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17,10,CEC hybrid,MDAC-allocTerminal,8.924629462434457e-05,0.9019607843137255,Large,0.03060522117464768,0.0026838826215323792,True,W
+CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17|D10|L-SHADE+cma,CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17,10,CEC hybrid,L-SHADE+cma,0.4142161782425253,0.4803921568627451,Negligible,0.03060522117464768,0.018363132704788607,False,T
+CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17|D10|L-SHADE-MA+cma,CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17,10,CEC hybrid,L-SHADE-MA+cma,7.397174196971538e-09,0.9056132256824299,Large,0.03060522117464768,1.1890567808208932,True,W
+CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17|D10|L-SHADE-SPACMA+cma,CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17,10,CEC hybrid,L-SHADE-SPACMA+cma,0.10829365589900912,0.5597846981930027,Negligible,0.03060522117464768,0.06733148658422936,False,T
+CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17|D10|CMA-ES+cma,CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17,10,CEC hybrid,CMA-ES+cma,5.145276051717656e-10,1.0,Large,0.03060522117464768,52.27898460268864,True,W
+CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17|D10|A-GDESA-ng+cma,CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17,10,CEC hybrid,A-GDESA-ng+cma,5.145276051717656e-10,0.996155324875048,Large,0.03060522117464768,2.9022780362165133,True,W
+CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17|D10|DE+cma,CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17,10,CEC hybrid,DE+cma,2.3031372649238415e-08,0.9232987312572088,Large,0.03060522117464768,0.21555280693702097,True,W
+CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17|D10|PSO+cma,CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17,10,CEC hybrid,PSO+cma,5.1441579784081e-10,1.0,Large,0.03060522117464768,54.42572762385851,True,W
+CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17|D30|MDAC-allocTerminal,CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17,30,CEC hybrid,MDAC-allocTerminal,1.092487333965933e-06,0.9434832756632066,Large,30.856074392512472,61.53301188175808,True,W
+CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17|D30|L-SHADE+cma,CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17,30,CEC hybrid,L-SHADE+cma,1.1503972479053568e-05,0.8358323721645521,Large,30.856074392512472,33.69157208892629,True,W
+CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17|D30|L-SHADE-MA+cma,CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17,30,CEC hybrid,L-SHADE-MA+cma,5.723300876381906e-08,0.8938869665513265,Large,30.856074392512472,53.9368096013871,True,W
+CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17|D30|L-SHADE-SPACMA+cma,CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17,30,CEC hybrid,L-SHADE-SPACMA+cma,0.27277447022761003,0.5866974240676663,Small,30.856074392512472,24.983570646361336,False,T
+CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17|D30|CMA-ES+cma,CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17,30,CEC hybrid,CMA-ES+cma,5.461520578031993e-10,0.9903883121876202,Large,30.856074392512472,275.6650421796226,True,W
+CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17|D30|A-GDESA-ng+cma,CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17,30,CEC hybrid,A-GDESA-ng+cma,2.0785472528589027e-08,0.9434832756632066,Large,30.856074392512472,78.54560739161397,True,W
+CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17|D30|DE+cma,CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17,30,CEC hybrid,DE+cma,1.4874297841678763e-05,0.8904267589388696,Large,30.856074392512472,31.037069035578025,True,W
+CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17|D30|PSO+cma,CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17,30,CEC hybrid,PSO+cma,5.145276051717656e-10,0.9976931949250287,Large,30.856074392512472,334.4469186968014,True,W
+CEC2017_F21_comp_rosenbrock_elliptic_rastrigin|D10|MDAC-allocTerminal,CEC2017_F21_comp_rosenbrock_elliptic_rastrigin,10,CEC composition,MDAC-allocTerminal,0.2968696668696891,0.6255286428296808,Small,169.78863049358472,161.0815750409743,False,T
+CEC2017_F21_comp_rosenbrock_elliptic_rastrigin|D10|L-SHADE+cma,CEC2017_F21_comp_rosenbrock_elliptic_rastrigin,10,CEC composition,L-SHADE+cma,0.06479880302540912,0.6637831603229527,Medium,169.78863049358472,165.17496930589783,False,T
+CEC2017_F21_comp_rosenbrock_elliptic_rastrigin|D10|L-SHADE-MA+cma,CEC2017_F21_comp_rosenbrock_elliptic_rastrigin,10,CEC composition,L-SHADE-MA+cma,0.0009741001584348182,0.7220299884659745,Large,169.78863049358472,171.8105509397099,False,T
+CEC2017_F21_comp_rosenbrock_elliptic_rastrigin|D10|L-SHADE-SPACMA+cma,CEC2017_F21_comp_rosenbrock_elliptic_rastrigin,10,CEC composition,L-SHADE-SPACMA+cma,0.12137604149787544,0.578239138792772,Small,169.78863049358472,164.42106020038636,False,T
+CEC2017_F21_comp_rosenbrock_elliptic_rastrigin|D10|CMA-ES+cma,CEC2017_F21_comp_rosenbrock_elliptic_rastrigin,10,CEC composition,CMA-ES+cma,0.07217879767839742,0.4148404459823145,Small,169.78863049358472,128.76106234006667,False,T
+CEC2017_F21_comp_rosenbrock_elliptic_rastrigin|D10|A-GDESA-ng+cma,CEC2017_F21_comp_rosenbrock_elliptic_rastrigin,10,CEC composition,A-GDESA-ng+cma,0.3354767358776788,0.5205690119184928,Negligible,169.78863049358472,146.9405703863987,False,T
+CEC2017_F21_comp_rosenbrock_elliptic_rastrigin|D10|DE+cma,CEC2017_F21_comp_rosenbrock_elliptic_rastrigin,10,CEC composition,DE+cma,0.46425102532692974,0.5190311418685121,Negligible,169.78863049358472,146.2588156549047,False,T
+CEC2017_F21_comp_rosenbrock_elliptic_rastrigin|D10|PSO+cma,CEC2017_F21_comp_rosenbrock_elliptic_rastrigin,10,CEC composition,PSO+cma,2.2504257757572973e-05,0.807766243752403,Large,169.78863049358472,186.37483271840466,True,W
+CEC2017_F21_comp_rosenbrock_elliptic_rastrigin|D30|MDAC-allocTerminal,CEC2017_F21_comp_rosenbrock_elliptic_rastrigin,30,CEC composition,MDAC-allocTerminal,8.774256111345653e-10,0.9511726259131105,Large,204.7285059245867,212.48028660116603,True,W
+CEC2017_F21_comp_rosenbrock_elliptic_rastrigin|D30|L-SHADE+cma,CEC2017_F21_comp_rosenbrock_elliptic_rastrigin,30,CEC composition,L-SHADE+cma,2.796644891958909e-07,0.8442906574394464,Large,204.7285059245867,208.37096243134272,True,W
+CEC2017_F21_comp_rosenbrock_elliptic_rastrigin|D30|L-SHADE-MA+cma,CEC2017_F21_comp_rosenbrock_elliptic_rastrigin,30,CEC composition,L-SHADE-MA+cma,5.461520578031993e-10,0.9803921568627451,Large,204.7285059245867,217.09236464395087,True,W
+CEC2017_F21_comp_rosenbrock_elliptic_rastrigin|D30|L-SHADE-SPACMA+cma,CEC2017_F21_comp_rosenbrock_elliptic_rastrigin,30,CEC composition,L-SHADE-SPACMA+cma,0.0010845019501392556,0.6808919646289888,Medium,204.7285059245867,206.8144227740704,False,T
+CEC2017_F21_comp_rosenbrock_elliptic_rastrigin|D30|CMA-ES+cma,CEC2017_F21_comp_rosenbrock_elliptic_rastrigin,30,CEC composition,CMA-ES+cma,5.145276051717656e-10,1.0,Large,204.7285059245867,257.6119476586385,True,W
+CEC2017_F21_comp_rosenbrock_elliptic_rastrigin|D30|A-GDESA-ng+cma,CEC2017_F21_comp_rosenbrock_elliptic_rastrigin,30,CEC composition,A-GDESA-ng+cma,5.145276051717656e-10,1.0,Large,204.7285059245867,243.15422040782593,True,W
+CEC2017_F21_comp_rosenbrock_elliptic_rastrigin|D30|DE+cma,CEC2017_F21_comp_rosenbrock_elliptic_rastrigin,30,CEC composition,DE+cma,5.145276051717656e-10,1.0,Large,204.7285059245867,239.48830802204105,True,W
+CEC2017_F21_comp_rosenbrock_elliptic_rastrigin|D30|PSO+cma,CEC2017_F21_comp_rosenbrock_elliptic_rastrigin,30,CEC composition,PSO+cma,5.145276051717656e-10,1.0,Large,204.7285059245867,281.62210544175167,True,W
+CEC2017_F22_comp_rastrigin_griewank_schwefel|D10|MDAC-allocTerminal,CEC2017_F22_comp_rastrigin_griewank_schwefel,10,CEC composition,MDAC-allocTerminal,0.027281171477617997,0.5570934256055363,Negligible,94.57110052691425,100.01807106874217,False,T
+CEC2017_F22_comp_rastrigin_griewank_schwefel|D10|L-SHADE+cma,CEC2017_F22_comp_rastrigin_griewank_schwefel,10,CEC composition,L-SHADE+cma,0.011616044899262472,0.5847750865051903,Small,94.57110052691425,100.03605872391404,False,T
+CEC2017_F22_comp_rastrigin_griewank_schwefel|D10|L-SHADE-MA+cma,CEC2017_F22_comp_rastrigin_griewank_schwefel,10,CEC composition,L-SHADE-MA+cma,8.263388776833152e-06,0.7693194925028835,Large,94.57110052691425,100.19412442511036,True,W
+CEC2017_F22_comp_rastrigin_griewank_schwefel|D10|L-SHADE-SPACMA+cma,CEC2017_F22_comp_rastrigin_griewank_schwefel,10,CEC composition,L-SHADE-SPACMA+cma,0.10247043485974937,0.5294117647058824,Negligible,94.57110052691425,100.0000002366869,False,T
+CEC2017_F22_comp_rastrigin_griewank_schwefel|D10|CMA-ES+cma,CEC2017_F22_comp_rastrigin_griewank_schwefel,10,CEC composition,CMA-ES+cma,0.13609738111439368,0.5745866974240676,Small,94.57110052691425,94.96292944725339,False,T
+CEC2017_F22_comp_rastrigin_griewank_schwefel|D10|A-GDESA-ng+cma,CEC2017_F22_comp_rastrigin_griewank_schwefel,10,CEC composition,A-GDESA-ng+cma,7.322913845749895e-05,0.9029219530949635,Large,94.57110052691425,90.80274124517905,True,W
+CEC2017_F22_comp_rastrigin_griewank_schwefel|D10|DE+cma,CEC2017_F22_comp_rastrigin_griewank_schwefel,10,CEC composition,DE+cma,3.292363212182307e-05,0.8844675124951942,Large,94.57110052691425,90.41286320936551,True,W
+CEC2017_F22_comp_rastrigin_griewank_schwefel|D10|PSO+cma,CEC2017_F22_comp_rastrigin_griewank_schwefel,10,CEC composition,PSO+cma,5.145276051717656e-10,0.9815455594002307,Large,94.57110052691425,99.30751830813325,True,W
+CEC2017_F22_comp_rastrigin_griewank_schwefel|D30|MDAC-allocTerminal,CEC2017_F22_comp_rastrigin_griewank_schwefel,30,CEC composition,MDAC-allocTerminal,0.37803183083717795,0.5592079969242599,Negligible,108.137289100317,100.00000317511422,False,T
+CEC2017_F22_comp_rastrigin_griewank_schwefel|D30|L-SHADE+cma,CEC2017_F22_comp_rastrigin_griewank_schwefel,30,CEC composition,L-SHADE+cma,0.2557754175895596,0.5686274509803921,Small,108.137289100317,100.00000317511422,False,T
+CEC2017_F22_comp_rastrigin_griewank_schwefel|D30|L-SHADE-MA+cma,CEC2017_F22_comp_rastrigin_griewank_schwefel,30,CEC composition,L-SHADE-MA+cma,0.2557754175895596,0.5686274509803921,Small,108.137289100317,100.00000317511422,False,T
+CEC2017_F22_comp_rastrigin_griewank_schwefel|D30|L-SHADE-SPACMA+cma,CEC2017_F22_comp_rastrigin_griewank_schwefel,30,CEC composition,L-SHADE-SPACMA+cma,0.05813606642458148,0.41791618608227604,Small,108.137289100317,100.00000317511406,False,T
+CEC2017_F22_comp_rastrigin_griewank_schwefel|D30|CMA-ES+cma,CEC2017_F22_comp_rastrigin_griewank_schwefel,30,CEC composition,CMA-ES+cma,3.52012717907143e-09,0.9454056132256825,Large,108.137289100317,2737.3431042124325,True,W
+CEC2017_F22_comp_rastrigin_griewank_schwefel|D30|A-GDESA-ng+cma,CEC2017_F22_comp_rastrigin_griewank_schwefel,30,CEC composition,A-GDESA-ng+cma,1.0851582344536922e-07,0.9607843137254902,Large,108.137289100317,100.00000317511584,True,W
+CEC2017_F22_comp_rastrigin_griewank_schwefel|D30|DE+cma,CEC2017_F22_comp_rastrigin_griewank_schwefel,30,CEC composition,DE+cma,0.2557754175895596,0.5686274509803921,Small,108.137289100317,100.00000317511422,False,T
+CEC2017_F22_comp_rastrigin_griewank_schwefel|D30|PSO+cma,CEC2017_F22_comp_rastrigin_griewank_schwefel,30,CEC composition,PSO+cma,1.355557844076394e-08,0.9338715878508266,Large,108.137289100317,1694.1047467577343,True,W
+CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin|D10|MDAC-allocTerminal,CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin,10,CEC composition,MDAC-allocTerminal,7.978974587679054e-05,0.7283737024221454,Large,301.8853072794822,303.3824548298504,True,W
+CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin|D10|L-SHADE+cma,CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin,10,CEC composition,L-SHADE+cma,5.208402566546849e-07,0.8093041138023839,Large,301.8853072794822,303.8068903156802,True,W
+CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin|D10|L-SHADE-MA+cma,CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin,10,CEC composition,L-SHADE-MA+cma,1.0843649818480818e-07,0.8589004229142636,Large,301.8853072794822,304.7757616959606,True,W
+CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin|D10|L-SHADE-SPACMA+cma,CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin,10,CEC composition,L-SHADE-SPACMA+cma,0.6671942139221155,0.49231064975009614,Negligible,301.8853072794822,301.72492247855365,False,T
+CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin|D10|CMA-ES+cma,CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin,10,CEC composition,CMA-ES+cma,5.145276051717656e-10,1.0,Large,301.8853072794822,317.8812828992614,True,W
+CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin|D10|A-GDESA-ng+cma,CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin,10,CEC composition,A-GDESA-ng+cma,5.145276051717656e-10,0.9950019223375626,Large,301.8853072794822,308.3597656093608,True,W
+CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin|D10|DE+cma,CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin,10,CEC composition,DE+cma,1.2265120486349766e-09,0.9440599769319491,Large,301.8853072794822,306.7422660313858,True,W
+CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin|D10|PSO+cma,CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin,10,CEC composition,PSO+cma,5.145276051717656e-10,1.0,Large,301.8853072794822,316.0397423157317,True,W
+CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin|D30|MDAC-allocTerminal,CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin,30,CEC composition,MDAC-allocTerminal,6.927239855967196e-10,0.9734717416378315,Large,341.4730760271492,360.34228631500923,True,W
+CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin|D30|L-SHADE+cma,CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin,30,CEC composition,L-SHADE+cma,2.9671656946762475e-09,0.9381007304882738,Large,341.4730760271492,353.42584661633686,True,W
+CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin|D30|L-SHADE-MA+cma,CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin,30,CEC composition,L-SHADE-MA+cma,1.0466620052186515e-09,0.9715494040753556,Large,341.4730760271492,365.4436798487836,True,W
+CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin|D30|L-SHADE-SPACMA+cma,CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin,30,CEC composition,L-SHADE-SPACMA+cma,0.023883041812255704,0.6207227989234909,Small,341.4730760271492,347.7248272774928,False,T
+CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin|D30|CMA-ES+cma,CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin,30,CEC composition,CMA-ES+cma,5.145276051717656e-10,1.0,Large,341.4730760271492,463.0717331320413,True,W
+CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin|D30|A-GDESA-ng+cma,CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin,30,CEC composition,A-GDESA-ng+cma,5.145276051717656e-10,1.0,Large,341.4730760271492,393.25754433335413,True,W
+CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin|D30|DE+cma,CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin,30,CEC composition,DE+cma,5.145276051717656e-10,0.9992310649750095,Large,341.4730760271492,388.1118325136842,True,W
+CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin|D30|PSO+cma,CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin,30,CEC composition,PSO+cma,5.145276051717656e-10,1.0,Large,341.4730760271492,479.86964980814616,True,W
+CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin|D10|MDAC-allocTerminal,CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin,10,CEC composition,MDAC-allocTerminal,0.1288816866467778,0.6766628219915417,Medium,319.57835763197494,308.16100934096295,False,T
+CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin|D10|L-SHADE+cma,CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin,10,CEC composition,L-SHADE+cma,0.005066752457656571,0.7322183775470973,Large,319.57835763197494,308.66765069079696,False,T
+CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin|D10|L-SHADE-MA+cma,CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin,10,CEC composition,L-SHADE-MA+cma,1.32006527983104e-06,0.8010380622837371,Large,319.57835763197494,328.1453358511378,True,W
+CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin|D10|L-SHADE-SPACMA+cma,CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin,10,CEC composition,L-SHADE-SPACMA+cma,0.3875775827002449,0.45232602845059594,Negligible,319.57835763197494,329.4477263150635,False,T
+CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin|D10|CMA-ES+cma,CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin,10,CEC composition,CMA-ES+cma,1.1243713097292355e-07,0.9615532487504808,Large,319.57835763197494,335.29897145530236,True,W
+CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin|D10|A-GDESA-ng+cma,CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin,10,CEC composition,A-GDESA-ng+cma,0.2732164660089689,0.7435601691657056,Large,319.57835763197494,275.95462356037336,False,T
+CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin|D10|DE+cma,CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin,10,CEC composition,DE+cma,0.6459808001971464,0.6459054209919262,Medium,319.57835763197494,271.79741119209166,False,T
+CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin|D10|PSO+cma,CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin,10,CEC composition,PSO+cma,0.0005386107244460064,0.865051903114187,Large,319.57835763197494,309.4746472334666,False,T
+CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin|D30|MDAC-allocTerminal,CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin,30,CEC composition,MDAC-allocTerminal,5.145276051717656e-10,0.9938485198000769,Large,423.3067680279575,431.22946493285855,True,W
+CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin|D30|L-SHADE+cma,CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin,30,CEC composition,L-SHADE+cma,1.9851338229518463e-09,0.9750096116878123,Large,423.3067680279575,428.1228859036768,True,W
+CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin|D30|L-SHADE-MA+cma,CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin,30,CEC composition,L-SHADE-MA+cma,7.349853257469353e-10,0.982314494425221,Large,423.3067680279575,434.3442840081454,True,W
+CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin|D30|L-SHADE-SPACMA+cma,CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin,30,CEC composition,L-SHADE-SPACMA+cma,0.02164734441973716,0.6063052672049212,Small,423.3067680279575,423.7276523146855,False,T
+CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin|D30|CMA-ES+cma,CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin,30,CEC composition,CMA-ES+cma,5.145276051717656e-10,1.0,Large,423.3067680279575,520.5174127665417,True,W
+CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin|D30|A-GDESA-ng+cma,CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin,30,CEC composition,A-GDESA-ng+cma,5.145276051717656e-10,1.0,Large,423.3067680279575,457.69598806467377,True,W
+CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin|D30|DE+cma,CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin,30,CEC composition,DE+cma,5.145276051717656e-10,1.0,Large,423.3067680279575,454.5377170274084,True,W
+CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin|D30|PSO+cma,CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin,30,CEC composition,PSO+cma,5.145276051717656e-10,1.0,Large,423.3067680279575,544.5724854380388,True,W
+CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock|D10|MDAC-allocTerminal,CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock,10,CEC composition,MDAC-allocTerminal,2.0340715314407205e-06,0.18896578239138798,Large,434.80502347083245,413.2261980568117,True,L
+CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock|D10|L-SHADE+cma,CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock,10,CEC composition,L-SHADE+cma,3.3692054174513714e-07,0.14744329104190704,Large,434.80502347083245,406.0428356481161,True,L
+CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock|D10|L-SHADE-MA+cma,CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock,10,CEC composition,L-SHADE-MA+cma,0.8807807195813315,0.5442137639369474,Negligible,434.80502347083245,428.7936011353539,False,T
+CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock|D10|L-SHADE-SPACMA+cma,CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock,10,CEC composition,L-SHADE-SPACMA+cma,0.1825628049409277,0.42733564013840836,Small,434.80502347083245,430.41349846118516,False,T
+CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock|D10|CMA-ES+cma,CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock,10,CEC composition,CMA-ES+cma,0.9178771482083954,0.6053440984236832,Small,434.80502347083245,424.5051881278752,False,T
+CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock|D10|A-GDESA-ng+cma,CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock,10,CEC composition,A-GDESA-ng+cma,1.0671175512807408e-08,0.13091118800461365,Large,434.80502347083245,398.8445059494485,True,L
+CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock|D10|DE+cma,CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock,10,CEC composition,DE+cma,2.18068913017318e-09,0.07958477508650519,Large,434.80502347083245,398.8004004284192,True,L
+CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock|D10|PSO+cma,CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock,10,CEC composition,PSO+cma,0.13367795585698114,0.47943098808150714,Negligible,434.80502347083245,419.9047619710392,False,T
+CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock|D30|MDAC-allocTerminal,CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock,30,CEC composition,MDAC-allocTerminal,3.19708795758212e-06,0.8200692041522493,Large,386.69710646908834,386.5998144671582,True,W
+CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock|D30|L-SHADE+cma,CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock,30,CEC composition,L-SHADE+cma,2.1029914037503654e-09,0.9342560553633217,Large,386.69710646908834,386.72596340185424,True,W
+CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock|D30|L-SHADE-MA+cma,CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock,30,CEC composition,L-SHADE-MA+cma,1.3800197197335782e-07,0.9592464436755094,Large,386.69710646908834,386.63938786261076,True,W
+CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock|D30|L-SHADE-SPACMA+cma,CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock,30,CEC composition,L-SHADE-SPACMA+cma,2.6767132046695233e-05,0.7564398308342944,Large,386.69710646908834,386.7085310910557,True,W
+CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock|D30|CMA-ES+cma,CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock,30,CEC composition,CMA-ES+cma,5.145276051717656e-10,1.0,Large,386.69710646908834,387.069438551051,True,W
+CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock|D30|A-GDESA-ng+cma,CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock,30,CEC composition,A-GDESA-ng+cma,0.00017726752863867924,0.7316416762783544,Large,386.69710646908834,386.5937913406151,False,T
+CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock|D30|DE+cma,CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock,30,CEC composition,DE+cma,5.0628144200557475e-09,0.9056132256824299,Large,386.69710646908834,386.73631423323343,True,W
+CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock|D30|PSO+cma,CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock,30,CEC composition,PSO+cma,0.05955593486535172,0.7843137254901961,Large,386.69710646908834,387.80184692655064,False,T
+CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin|D10|MDAC-allocTerminal,CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin,10,CEC composition,MDAC-allocTerminal,0.17971249487899976,0.5196078431372549,Negligible,292.1568654826089,300.000002147995,False,T
+CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin|D10|L-SHADE+cma,CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin,10,CEC composition,L-SHADE+cma,0.17971249487899976,0.5196078431372549,Negligible,292.1568654826089,300.000002147995,False,T
+CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin|D10|L-SHADE-MA+cma,CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin,10,CEC composition,L-SHADE-MA+cma,0.10880943004054568,0.529027297193387,Negligible,292.1568654826089,300.000002147995,False,T
+CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin|D10|L-SHADE-SPACMA+cma,CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin,10,CEC composition,L-SHADE-SPACMA+cma,0.17971249487899976,0.5196078431372549,Negligible,292.1568654826089,300.000002147995,False,T
+CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin|D10|CMA-ES+cma,CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin,10,CEC composition,CMA-ES+cma,0.011310671074428623,0.5761245674740485,Small,292.1568654826089,305.59691140992754,False,T
+CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin|D10|A-GDESA-ng+cma,CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin,10,CEC composition,A-GDESA-ng+cma,0.17971249487899976,0.5196078431372549,Negligible,292.1568654826089,300.000002147995,False,T
+CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin|D10|DE+cma,CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin,10,CEC composition,DE+cma,0.17971249487899976,0.5196078431372549,Negligible,292.1568654826089,300.000002147995,False,T
+CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin|D10|PSO+cma,CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin,10,CEC composition,PSO+cma,0.2845727561671063,0.5465205690119186,Negligible,292.1568654826089,363.2320577080458,False,T
+CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin|D30|MDAC-allocTerminal,CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin,30,CEC composition,MDAC-allocTerminal,5.145276051717656e-10,1.0,Large,803.7791282324722,1022.058405332457,True,W
+CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin|D30|L-SHADE+cma,CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin,30,CEC composition,L-SHADE+cma,5.145276051717656e-10,1.0,Large,803.7791282324722,976.8821193857507,True,W
+CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin|D30|L-SHADE-MA+cma,CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin,30,CEC composition,L-SHADE-MA+cma,5.145276051717656e-10,0.9988465974625144,Large,803.7791282324722,1024.729762430905,True,W
+CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin|D30|L-SHADE-SPACMA+cma,CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin,30,CEC composition,L-SHADE-SPACMA+cma,0.00038295818014551507,0.6849288735101884,Medium,803.7791282324722,834.9589283943101,False,T
+CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin|D30|CMA-ES+cma,CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin,30,CEC composition,CMA-ES+cma,5.145276051717656e-10,1.0,Large,803.7791282324722,2344.516705418271,True,W
+CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin|D30|A-GDESA-ng+cma,CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin,30,CEC composition,A-GDESA-ng+cma,5.145276051717656e-10,1.0,Large,803.7791282324722,1348.809127164451,True,W
+CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin|D30|DE+cma,CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin,30,CEC composition,DE+cma,4.173553769450346e-09,0.9803921568627451,Large,803.7791282324722,1245.6473375708413,True,W
+CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin|D30|PSO+cma,CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin,30,CEC composition,PSO+cma,1.2044216434402458e-08,0.803921568627451,Large,803.7791282324722,1930.3227970670887,True,W
+CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6|D10|MDAC-allocTerminal,CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6,10,CEC composition,MDAC-allocTerminal,0.0005159915093747953,0.3191080353710111,Medium,390.6474700124098,389.315078971359,False,T
+CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6|D10|L-SHADE+cma,CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6,10,CEC composition,L-SHADE+cma,0.0008049302602801049,0.3144944252210688,Medium,390.6474700124098,389.30586639851117,False,T
+CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6|D10|L-SHADE-MA+cma,CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6,10,CEC composition,L-SHADE-MA+cma,0.11985049115035518,0.3450595924644368,Medium,390.6474700124098,389.6990416776612,False,T
+CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6|D10|L-SHADE-SPACMA+cma,CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6,10,CEC composition,L-SHADE-SPACMA+cma,0.5439213508774517,0.5180699730872741,Negligible,390.6474700124098,389.97918605362014,False,T
+CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6|D10|CMA-ES+cma,CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6,10,CEC composition,CMA-ES+cma,0.0010354490002525902,0.7035755478662054,Medium,390.6474700124098,391.1723318278752,False,T
+CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6|D10|A-GDESA-ng+cma,CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6,10,CEC composition,A-GDESA-ng+cma,7.951090560288606e-07,0.23836985774702035,Large,390.6474700124098,389.0709047255371,True,L
+CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6|D10|DE+cma,CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6,10,CEC composition,DE+cma,0.7908258409999058,0.3963860053825452,Small,390.6474700124098,390.14218378403564,False,T
+CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6|D10|PSO+cma,CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6,10,CEC composition,PSO+cma,4.6353039796152354e-08,0.8942714340638216,Large,390.6474700124098,402.9853673280494,True,W
+CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6|D30|MDAC-allocTerminal,CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6,30,CEC composition,MDAC-allocTerminal,0.6938131678863435,0.5205690119184928,Negligible,506.2364940424509,506.74536068251615,False,T
+CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6|D30|L-SHADE+cma,CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6,30,CEC composition,L-SHADE+cma,0.9030137998838772,0.4807766243752404,Negligible,506.2364940424509,505.934115532248,False,T
+CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6|D30|L-SHADE-MA+cma,CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6,30,CEC composition,L-SHADE-MA+cma,0.15153219217906758,0.40599769319492496,Small,506.2364940424509,504.15638815309796,False,T
+CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6|D30|L-SHADE-SPACMA+cma,CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6,30,CEC composition,L-SHADE-SPACMA+cma,0.054661056670223154,0.5918877354863514,Small,506.2364940424509,508.78460410547467,False,T
+CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6|D30|CMA-ES+cma,CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6,30,CEC composition,CMA-ES+cma,5.145276051717656e-10,0.9788542868127643,Large,506.2364940424509,548.8313905747488,True,W
+CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6|D30|A-GDESA-ng+cma,CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6,30,CEC composition,A-GDESA-ng+cma,5.145276051717656e-10,0.029988465974625178,Large,506.2364940424509,480.4800110028815,True,L
+CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6|D30|DE+cma,CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6,30,CEC composition,DE+cma,2.80231848870069e-09,0.10995770857362555,Large,506.2364940424509,488.48930127630797,True,L
+CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6|D30|PSO+cma,CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6,30,CEC composition,PSO+cma,2.6464028636782697e-09,0.9173394848135332,Large,506.2364940424509,534.662177533159,True,W
+CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6|D10|MDAC-allocTerminal,CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6,10,CEC composition,MDAC-allocTerminal,0.001869463773059062,0.35178777393310257,Medium,453.4610155690634,364.50206768483235,False,T
+CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6|D10|L-SHADE+cma,CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6,10,CEC composition,L-SHADE+cma,0.0014734783996962911,0.3560169165705498,Medium,453.4610155690634,365.0531316202209,False,T
+CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6|D10|L-SHADE-MA+cma,CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6,10,CEC composition,L-SHADE-MA+cma,0.48620496045214445,0.4648212226066897,Negligible,453.4610155690634,434.56760912108194,False,T
+CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6|D10|L-SHADE-SPACMA+cma,CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6,10,CEC composition,L-SHADE-SPACMA+cma,0.7186381214296826,0.5088427527873896,Negligible,453.4610155690634,454.5622773035521,False,T
+CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6|D10|CMA-ES+cma,CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6,10,CEC composition,CMA-ES+cma,0.00016210880020129252,0.33314109957708576,Medium,453.4610155690634,336.24960382792034,False,T
+CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6|D10|A-GDESA-ng+cma,CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6,10,CEC composition,A-GDESA-ng+cma,4.194128326990361e-06,0.24509803921568626,Large,453.4610155690634,300.0000032488115,True,L
+CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6|D10|DE+cma,CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6,10,CEC composition,DE+cma,4.194128326990361e-06,0.24509803921568626,Large,453.4610155690634,300.0000032488115,True,L
+CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6|D10|PSO+cma,CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6,10,CEC composition,PSO+cma,0.17909706976600503,0.5886197616301423,Small,453.4610155690634,467.5953584219609,False,T
+CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6|D30|MDAC-allocTerminal,CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6,30,CEC composition,MDAC-allocTerminal,0.011958750187027823,0.6532103037293349,Medium,306.28522663257417,318.4544161115354,False,T
+CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6|D30|L-SHADE+cma,CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6,30,CEC composition,L-SHADE+cma,0.006536587549111476,0.6624375240292195,Medium,306.28522663257417,316.8304691866772,False,T
+CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6|D30|L-SHADE-MA+cma,CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6,30,CEC composition,L-SHADE-MA+cma,0.008921664702491854,0.6439830834294502,Medium,306.28522663257417,316.9825653100548,False,T
+CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6|D30|L-SHADE-SPACMA+cma,CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6,30,CEC composition,L-SHADE-SPACMA+cma,0.06966804011324448,0.578239138792772,Small,306.28522663257417,314.5956620273822,False,T
+CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6|D30|CMA-ES+cma,CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6,30,CEC composition,CMA-ES+cma,3.446719230542891e-08,0.9657823913879277,Large,306.28522663257417,361.07053095506205,True,W
+CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6|D30|A-GDESA-ng+cma,CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6,30,CEC composition,A-GDESA-ng+cma,1.0644778932706996e-07,0.9442522106881969,Large,306.28522663257417,308.1041394025086,True,W
+CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6|D30|DE+cma,CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6,30,CEC composition,DE+cma,1.2033809626299325e-07,0.9457900807381776,Large,306.28522663257417,310.54524377978333,True,W
+CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6|D30|PSO+cma,CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6,30,CEC composition,PSO+cma,1.4028847161206853e-07,0.9550173010380623,Large,306.28522663257417,334.0334237406157,True,W
+CEC2017_F29_comp_H15_H16_H17|D10|MDAC-allocTerminal,CEC2017_F29_comp_H15_H16_H17,10,CEC composition,MDAC-allocTerminal,6.524525853158977e-06,0.26105344098423683,Large,252.26730029531905,233.32399067653307,True,L
+CEC2017_F29_comp_H15_H16_H17|D10|L-SHADE+cma,CEC2017_F29_comp_H15_H16_H17,10,CEC composition,L-SHADE+cma,0.00028614367702515804,0.3160322952710496,Medium,252.26730029531905,234.3531695903074,False,T
+CEC2017_F29_comp_H15_H16_H17|D10|L-SHADE-MA+cma,CEC2017_F29_comp_H15_H16_H17,10,CEC composition,L-SHADE-MA+cma,0.001583884615723567,0.3452518262206844,Medium,252.26730029531905,234.99275170903536,False,T
+CEC2017_F29_comp_H15_H16_H17|D10|L-SHADE-SPACMA+cma,CEC2017_F29_comp_H15_H16_H17,10,CEC composition,L-SHADE-SPACMA+cma,1.041788429097798e-06,0.26297577854671284,Large,252.26730029531905,233.60162785277768,True,L
+CEC2017_F29_comp_H15_H16_H17|D10|CMA-ES+cma,CEC2017_F29_comp_H15_H16_H17,10,CEC composition,CMA-ES+cma,0.00023840991536798833,0.7858515955401768,Large,252.26730029531905,273.3631184222996,False,T
+CEC2017_F29_comp_H15_H16_H17|D10|A-GDESA-ng+cma,CEC2017_F29_comp_H15_H16_H17,10,CEC composition,A-GDESA-ng+cma,0.26869661608941153,0.4990388312187621,Negligible,252.26730029531905,238.7486794765355,False,T
+CEC2017_F29_comp_H15_H16_H17|D10|DE+cma,CEC2017_F29_comp_H15_H16_H17,10,CEC composition,DE+cma,0.0016888360035893675,0.33756247597078054,Medium,252.26730029531905,234.81610874182797,False,T
+CEC2017_F29_comp_H15_H16_H17|D10|PSO+cma,CEC2017_F29_comp_H15_H16_H17,10,CEC composition,PSO+cma,8.204311287426414e-07,0.8692810457516339,Large,252.26730029531905,300.2364111234358,True,W
+CEC2017_F29_comp_H15_H16_H17|D30|MDAC-allocTerminal,CEC2017_F29_comp_H15_H16_H17,30,CEC composition,MDAC-allocTerminal,5.145276051717656e-10,1.0,Large,404.7870048158946,468.0005768389162,True,W
+CEC2017_F29_comp_H15_H16_H17|D30|L-SHADE+cma,CEC2017_F29_comp_H15_H16_H17,30,CEC composition,L-SHADE+cma,5.145276051717656e-10,0.9973087274125336,Large,404.7870048158946,437.0982528226385,True,W
+CEC2017_F29_comp_H15_H16_H17|D30|L-SHADE-MA+cma,CEC2017_F29_comp_H15_H16_H17,30,CEC composition,L-SHADE-MA+cma,5.145276051717656e-10,1.0,Large,404.7870048158946,466.3608186325933,True,W
+CEC2017_F29_comp_H15_H16_H17|D30|L-SHADE-SPACMA+cma,CEC2017_F29_comp_H15_H16_H17,30,CEC composition,L-SHADE-SPACMA+cma,9.661784910855027e-09,0.8811995386389849,Large,404.7870048158946,418.4986027386326,True,W
+CEC2017_F29_comp_H15_H16_H17|D30|CMA-ES+cma,CEC2017_F29_comp_H15_H16_H17,30,CEC composition,CMA-ES+cma,5.145276051717656e-10,1.0,Large,404.7870048158946,1125.5593687660105,True,W
+CEC2017_F29_comp_H15_H16_H17|D30|A-GDESA-ng+cma,CEC2017_F29_comp_H15_H16_H17,30,CEC composition,A-GDESA-ng+cma,5.145276051717656e-10,1.0,Large,404.7870048158946,626.0047268053753,True,W
+CEC2017_F29_comp_H15_H16_H17|D30|DE+cma,CEC2017_F29_comp_H15_H16_H17,30,CEC composition,DE+cma,5.796704657296606e-10,0.9803921568627451,Large,404.7870048158946,530.5734278662076,True,W
+CEC2017_F29_comp_H15_H16_H17|D30|PSO+cma,CEC2017_F29_comp_H15_H16_H17,30,CEC composition,PSO+cma,5.145276051717656e-10,1.0,Large,404.7870048158946,876.6694631041346,True,W
+CEC2017_F30_comp_H15_H18_H19|D10|MDAC-allocTerminal,CEC2017_F30_comp_H15_H18_H19,10,CEC composition,MDAC-allocTerminal,3.993013130906794e-06,0.19665513264129184,Large,233202.84772813172,16434.604278209677,True,L
+CEC2017_F30_comp_H15_H18_H19|D10|L-SHADE+cma,CEC2017_F30_comp_H15_H18_H19,10,CEC composition,L-SHADE+cma,1.560696156693612e-05,0.2327950788158401,Large,233202.84772813172,16438.43600947369,True,L
+CEC2017_F30_comp_H15_H18_H19|D10|L-SHADE-MA+cma,CEC2017_F30_comp_H15_H18_H19,10,CEC composition,L-SHADE-MA+cma,0.17409820745475224,0.4863514033064206,Negligible,233202.84772813172,32491.341547656495,False,T
+CEC2017_F30_comp_H15_H18_H19|D10|L-SHADE-SPACMA+cma,CEC2017_F30_comp_H15_H18_H19,10,CEC composition,L-SHADE-SPACMA+cma,0.1772464380706017,0.6128412149173396,Small,233202.84772813172,329367.5488538769,False,T
+CEC2017_F30_comp_H15_H18_H19|D10|CMA-ES+cma,CEC2017_F30_comp_H15_H18_H19,10,CEC composition,CMA-ES+cma,0.46469949772563435,0.7293348712033833,Large,233202.84772813172,18251.4952581949,False,T
+CEC2017_F30_comp_H15_H18_H19|D10|A-GDESA-ng+cma,CEC2017_F30_comp_H15_H18_H19,10,CEC composition,A-GDESA-ng+cma,1.6914867492621826e-07,0.27450980392156865,Large,233202.84772813172,397.63346428783024,True,L
+CEC2017_F30_comp_H15_H18_H19|D10|DE+cma,CEC2017_F30_comp_H15_H18_H19,10,CEC composition,DE+cma,5.851411691487379e-07,0.2895040369088812,Large,233202.84772813172,399.5989043219715,True,L
+CEC2017_F30_comp_H15_H18_H19|D10|PSO+cma,CEC2017_F30_comp_H15_H18_H19,10,CEC composition,PSO+cma,0.019596075362947708,0.7716262975778548,Large,233202.84772813172,178114.90798111618,False,T
+CEC2017_F30_comp_H15_H18_H19|D30|MDAC-allocTerminal,CEC2017_F30_comp_H15_H18_H19,30,CEC composition,MDAC-allocTerminal,0.1462550297459625,0.4736639753940792,Negligible,2097.095783496548,2000.7092523018364,False,T
+CEC2017_F30_comp_H15_H18_H19|D30|L-SHADE+cma,CEC2017_F30_comp_H15_H18_H19,30,CEC composition,L-SHADE+cma,0.11749642055143679,0.4525182622068435,Negligible,2097.095783496548,2006.823707353448,False,T
+CEC2017_F30_comp_H15_H18_H19|D30|L-SHADE-MA+cma,CEC2017_F30_comp_H15_H18_H19,30,CEC composition,L-SHADE-MA+cma,0.02447231229945122,0.6620530565167243,Medium,2097.095783496548,2091.4065077401315,False,T
+CEC2017_F30_comp_H15_H18_H19|D30|L-SHADE-SPACMA+cma,CEC2017_F30_comp_H15_H18_H19,30,CEC composition,L-SHADE-SPACMA+cma,0.05955593486535172,0.45290272971933876,Negligible,2097.095783496548,1998.5448071962655,False,T
+CEC2017_F30_comp_H15_H18_H19|D30|CMA-ES+cma,CEC2017_F30_comp_H15_H18_H19,30,CEC composition,CMA-ES+cma,5.145276051717656e-10,0.996155324875048,Large,2097.095783496548,14169.96118304628,True,W
+CEC2017_F30_comp_H15_H18_H19|D30|A-GDESA-ng+cma,CEC2017_F30_comp_H15_H18_H19,30,CEC composition,A-GDESA-ng+cma,9.661784910855027e-09,0.9788542868127643,Large,2097.095783496548,2373.91997051592,True,W
+CEC2017_F30_comp_H15_H18_H19|D30|DE+cma,CEC2017_F30_comp_H15_H18_H19,30,CEC composition,DE+cma,0.10289385706130007,0.5886197616301423,Small,2097.095783496548,2055.480187336774,False,T
+CEC2017_F30_comp_H15_H18_H19|D30|PSO+cma,CEC2017_F30_comp_H15_H18_H19,30,CEC composition,PSO+cma,5.145276051717656e-10,0.9876970396001539,Large,2097.095783496548,6238.773364421025,True,W
+CEC2017_F3_zakharov|D10|MDAC-allocTerminal,CEC2017_F3_zakharov,10,CEC unimodal,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F3_zakharov|D10|L-SHADE+cma,CEC2017_F3_zakharov,10,CEC unimodal,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F3_zakharov|D10|L-SHADE-MA+cma,CEC2017_F3_zakharov,10,CEC unimodal,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F3_zakharov|D10|L-SHADE-SPACMA+cma,CEC2017_F3_zakharov,10,CEC unimodal,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F3_zakharov|D10|CMA-ES+cma,CEC2017_F3_zakharov,10,CEC unimodal,CMA-ES+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F3_zakharov|D10|A-GDESA-ng+cma,CEC2017_F3_zakharov,10,CEC unimodal,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F3_zakharov|D10|DE+cma,CEC2017_F3_zakharov,10,CEC unimodal,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F3_zakharov|D10|PSO+cma,CEC2017_F3_zakharov,10,CEC unimodal,PSO+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F3_zakharov|D30|MDAC-allocTerminal,CEC2017_F3_zakharov,30,CEC unimodal,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F3_zakharov|D30|L-SHADE+cma,CEC2017_F3_zakharov,30,CEC unimodal,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F3_zakharov|D30|L-SHADE-MA+cma,CEC2017_F3_zakharov,30,CEC unimodal,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F3_zakharov|D30|L-SHADE-SPACMA+cma,CEC2017_F3_zakharov,30,CEC unimodal,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F3_zakharov|D30|CMA-ES+cma,CEC2017_F3_zakharov,30,CEC unimodal,CMA-ES+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F3_zakharov|D30|A-GDESA-ng+cma,CEC2017_F3_zakharov,30,CEC unimodal,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F3_zakharov|D30|DE+cma,CEC2017_F3_zakharov,30,CEC unimodal,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F3_zakharov|D30|PSO+cma,CEC2017_F3_zakharov,30,CEC unimodal,PSO+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F4_rosenbrock|D10|MDAC-allocTerminal,CEC2017_F4_rosenbrock,10,CEC multimodal,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F4_rosenbrock|D10|L-SHADE+cma,CEC2017_F4_rosenbrock,10,CEC multimodal,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F4_rosenbrock|D10|L-SHADE-MA+cma,CEC2017_F4_rosenbrock,10,CEC multimodal,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F4_rosenbrock|D10|L-SHADE-SPACMA+cma,CEC2017_F4_rosenbrock,10,CEC multimodal,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F4_rosenbrock|D10|CMA-ES+cma,CEC2017_F4_rosenbrock,10,CEC multimodal,CMA-ES+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F4_rosenbrock|D10|A-GDESA-ng+cma,CEC2017_F4_rosenbrock,10,CEC multimodal,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F4_rosenbrock|D10|DE+cma,CEC2017_F4_rosenbrock,10,CEC multimodal,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F4_rosenbrock|D10|PSO+cma,CEC2017_F4_rosenbrock,10,CEC multimodal,PSO+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F4_rosenbrock|D30|MDAC-allocTerminal,CEC2017_F4_rosenbrock,30,CEC multimodal,MDAC-allocTerminal,4.868581457823463e-05,0.4117647058823529,Small,58.561557302385154,44.52010844534767,True,L
+CEC2017_F4_rosenbrock|D30|L-SHADE+cma,CEC2017_F4_rosenbrock,30,CEC multimodal,L-SHADE+cma,0.00011156791225282443,0.43137254901960786,Small,58.561557302385154,43.92854873129698,True,L
+CEC2017_F4_rosenbrock|D30|L-SHADE-MA+cma,CEC2017_F4_rosenbrock,30,CEC multimodal,L-SHADE-MA+cma,4.414259485069941e-08,0.21568627450980393,Large,58.561557302385154,29.959647955371125,True,L
+CEC2017_F4_rosenbrock|D30|L-SHADE-SPACMA+cma,CEC2017_F4_rosenbrock,30,CEC multimodal,L-SHADE-SPACMA+cma,7.572753633448451e-07,0.3137254901960784,Medium,58.561557302385154,44.4468433826348,True,L
+CEC2017_F4_rosenbrock|D30|CMA-ES+cma,CEC2017_F4_rosenbrock,30,CEC multimodal,CMA-ES+cma,0.0004710738540005315,0.8823529411764706,Large,58.561557302385154,78.01293638074768,False,T
+CEC2017_F4_rosenbrock|D30|A-GDESA-ng+cma,CEC2017_F4_rosenbrock,30,CEC multimodal,A-GDESA-ng+cma,1.308599809102179e-05,0.37254901960784315,Small,58.561557302385154,45.00379972749195,True,L
+CEC2017_F4_rosenbrock|D30|DE+cma,CEC2017_F4_rosenbrock,30,CEC multimodal,DE+cma,0.009418861605998714,0.5294117647058824,Negligible,58.561557302385154,47.61709021437354,False,T
+CEC2017_F4_rosenbrock|D30|PSO+cma,CEC2017_F4_rosenbrock,30,CEC multimodal,PSO+cma,0.05583871869128915,0.7843137254901961,Large,58.561557302385154,70.73526345574304,False,T
+CEC2017_F5_rastrigin|D10|MDAC-allocTerminal,CEC2017_F5_rastrigin,10,CEC multimodal,MDAC-allocTerminal,5.979229967751411e-10,0.9807766243752403,Large,0.5477630188044031,3.0238951735188824,True,W
+CEC2017_F5_rastrigin|D10|L-SHADE+cma,CEC2017_F5_rastrigin,10,CEC multimodal,L-SHADE+cma,5.033448759900666e-10,0.9819300269127259,Large,0.5477630188044031,3.101930980445392,True,W
+CEC2017_F5_rastrigin|D10|L-SHADE-MA+cma,CEC2017_F5_rastrigin,10,CEC multimodal,L-SHADE-MA+cma,1.1978067404666537e-09,0.9479046520569012,Large,0.5477630188044031,3.3945657996658327,True,W
+CEC2017_F5_rastrigin|D10|L-SHADE-SPACMA+cma,CEC2017_F5_rastrigin,10,CEC multimodal,L-SHADE-SPACMA+cma,5.928127438880826e-07,0.8394848135332564,Large,0.5477630188044031,1.6387560940360586,True,W
+CEC2017_F5_rastrigin|D10|CMA-ES+cma,CEC2017_F5_rastrigin,10,CEC multimodal,CMA-ES+cma,5.139687871691251e-10,1.0,Large,0.5477630188044031,12.014271360507196,True,W
+CEC2017_F5_rastrigin|D10|A-GDESA-ng+cma,CEC2017_F5_rastrigin,10,CEC multimodal,A-GDESA-ng+cma,5.132989267027209e-10,0.9930795847750864,Large,0.5477630188044031,7.959725867960366,True,W
+CEC2017_F5_rastrigin|D10|DE+cma,CEC2017_F5_rastrigin,10,CEC multimodal,DE+cma,5.131873597230234e-10,1.0,Large,0.5477630188044031,7.319496553196249,True,W
+CEC2017_F5_rastrigin|D10|PSO+cma,CEC2017_F5_rastrigin,10,CEC multimodal,PSO+cma,5.139687871691251e-10,1.0,Large,0.5477630188044031,11.509236130436946,True,W
+CEC2017_F5_rastrigin|D30|MDAC-allocTerminal,CEC2017_F5_rastrigin,30,CEC multimodal,MDAC-allocTerminal,1.401045412116699e-09,0.9375240292195309,Large,3.5925365320520175,10.612895621187818,True,W
+CEC2017_F5_rastrigin|D30|L-SHADE+cma,CEC2017_F5_rastrigin,30,CEC multimodal,L-SHADE+cma,6.026516559479413e-08,0.854479046520569,Large,3.5925365320520175,7.374402324381607,True,W
+CEC2017_F5_rastrigin|D30|L-SHADE-MA+cma,CEC2017_F5_rastrigin,30,CEC multimodal,L-SHADE-MA+cma,5.140805070467808e-10,0.99519415609381,Large,3.5925365320520175,19.333411612473352,True,W
+CEC2017_F5_rastrigin|D30|L-SHADE-SPACMA+cma,CEC2017_F5_rastrigin,30,CEC multimodal,L-SHADE-SPACMA+cma,1.212810265283003e-07,0.8358323721645521,Large,3.5925365320520175,7.237839415325991,True,W
+CEC2017_F5_rastrigin|D30|CMA-ES+cma,CEC2017_F5_rastrigin,30,CEC multimodal,CMA-ES+cma,5.145276051717656e-10,1.0,Large,3.5925365320520175,43.75522572786985,True,W
+CEC2017_F5_rastrigin|D30|A-GDESA-ng+cma,CEC2017_F5_rastrigin,30,CEC multimodal,A-GDESA-ng+cma,5.145276051717656e-10,1.0,Large,3.5925365320520175,45.43885176935248,True,W
+CEC2017_F5_rastrigin|D30|DE+cma,CEC2017_F5_rastrigin,30,CEC multimodal,DE+cma,5.145276051717656e-10,1.0,Large,3.5925365320520175,37.43553255454945,True,W
+CEC2017_F5_rastrigin|D30|PSO+cma,CEC2017_F5_rastrigin,30,CEC multimodal,PSO+cma,5.145276051717656e-10,1.0,Large,3.5925365320520175,85.89945188322635,True,W
+CEC2017_F6_schaffer_f7_c17_unrotated|D10|MDAC-allocTerminal,CEC2017_F6_schaffer_f7_c17_unrotated,10,CEC multimodal,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F6_schaffer_f7_c17_unrotated|D10|L-SHADE+cma,CEC2017_F6_schaffer_f7_c17_unrotated,10,CEC multimodal,L-SHADE+cma,0.31731050786291415,0.5098039215686274,Negligible,0.0,6.9662702099223824e-09,False,T
+CEC2017_F6_schaffer_f7_c17_unrotated|D10|L-SHADE-MA+cma,CEC2017_F6_schaffer_f7_c17_unrotated,10,CEC multimodal,L-SHADE-MA+cma,0.00011141015990104047,0.6862745098039216,Medium,0.0,1.964085723271887e-06,True,W
+CEC2017_F6_schaffer_f7_c17_unrotated|D10|L-SHADE-SPACMA+cma,CEC2017_F6_schaffer_f7_c17_unrotated,10,CEC multimodal,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F6_schaffer_f7_c17_unrotated|D10|CMA-ES+cma,CEC2017_F6_schaffer_f7_c17_unrotated,10,CEC multimodal,CMA-ES+cma,7.615942892424528e-09,0.9313725490196079,Large,0.0,2.3650635383717167,True,W
+CEC2017_F6_schaffer_f7_c17_unrotated|D10|A-GDESA-ng+cma,CEC2017_F6_schaffer_f7_c17_unrotated,10,CEC multimodal,A-GDESA-ng+cma,5.145276051717656e-10,1.0,Large,0.0,3.314196258355985e-05,True,W
+CEC2017_F6_schaffer_f7_c17_unrotated|D10|DE+cma,CEC2017_F6_schaffer_f7_c17_unrotated,10,CEC multimodal,DE+cma,5.255295360476943e-08,0.8823529411764706,Large,0.0,5.97073441146195e-08,True,W
+CEC2017_F6_schaffer_f7_c17_unrotated|D10|PSO+cma,CEC2017_F6_schaffer_f7_c17_unrotated,10,CEC multimodal,PSO+cma,0.0006467491225764764,0.6470588235294118,Medium,0.0,0.18905454351261142,False,T
+CEC2017_F6_schaffer_f7_c17_unrotated|D30|MDAC-allocTerminal,CEC2017_F6_schaffer_f7_c17_unrotated,30,CEC multimodal,MDAC-allocTerminal,0.017960477526078766,0.5686274509803921,Small,0.0,1.7152813722764133e-08,False,T
+CEC2017_F6_schaffer_f7_c17_unrotated|D30|L-SHADE+cma,CEC2017_F6_schaffer_f7_c17_unrotated,30,CEC multimodal,L-SHADE+cma,0.00012374806330360953,0.6862745098039216,Medium,0.0,9.107214050434813e-08,True,W
+CEC2017_F6_schaffer_f7_c17_unrotated|D30|L-SHADE-MA+cma,CEC2017_F6_schaffer_f7_c17_unrotated,30,CEC multimodal,L-SHADE-MA+cma,5.131873597230234e-10,1.0,Large,0.0,6.61104518837651e-06,True,W
+CEC2017_F6_schaffer_f7_c17_unrotated|D30|L-SHADE-SPACMA+cma,CEC2017_F6_schaffer_f7_c17_unrotated,30,CEC multimodal,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F6_schaffer_f7_c17_unrotated|D30|CMA-ES+cma,CEC2017_F6_schaffer_f7_c17_unrotated,30,CEC multimodal,CMA-ES+cma,5.145276051717656e-10,1.0,Large,0.0,1.0181853854419922,True,W
+CEC2017_F6_schaffer_f7_c17_unrotated|D30|A-GDESA-ng+cma,CEC2017_F6_schaffer_f7_c17_unrotated,30,CEC multimodal,A-GDESA-ng+cma,5.145276051717656e-10,1.0,Large,0.0,0.002769913735844556,True,W
+CEC2017_F6_schaffer_f7_c17_unrotated|D30|DE+cma,CEC2017_F6_schaffer_f7_c17_unrotated,30,CEC multimodal,DE+cma,5.145276051717656e-10,1.0,Large,0.0,7.5118739326118135e-06,True,W
+CEC2017_F6_schaffer_f7_c17_unrotated|D30|PSO+cma,CEC2017_F6_schaffer_f7_c17_unrotated,30,CEC multimodal,PSO+cma,5.145276051717656e-10,1.0,Large,0.0,7.330769204880305,True,W
+CEC2017_F7_lunacek_c17|D10|MDAC-allocTerminal,CEC2017_F7_lunacek_c17,10,CEC multimodal,MDAC-allocTerminal,1.5748039913260536e-09,0.9344482891195693,Large,11.142621077685128,12.400641319053047,True,W
+CEC2017_F7_lunacek_c17|D10|L-SHADE+cma,CEC2017_F7_lunacek_c17,10,CEC multimodal,L-SHADE+cma,2.6464028636782697e-09,0.9454056132256825,Large,11.142621077685128,12.36290004000614,True,W
+CEC2017_F7_lunacek_c17|D10|L-SHADE-MA+cma,CEC2017_F7_lunacek_c17,10,CEC multimodal,L-SHADE-MA+cma,7.319306280667348e-09,0.8838908112264514,Large,11.142621077685128,13.383143580759995,True,W
+CEC2017_F7_lunacek_c17|D10|L-SHADE-SPACMA+cma,CEC2017_F7_lunacek_c17,10,CEC multimodal,L-SHADE-SPACMA+cma,3.872600691536026e-05,0.7081891580161477,Medium,11.142621077685128,11.505762734605135,True,W
+CEC2017_F7_lunacek_c17|D10|CMA-ES+cma,CEC2017_F7_lunacek_c17,10,CEC multimodal,CMA-ES+cma,2.2276551751144597e-09,0.9081122645136486,Large,11.142621077685128,14.061389854545338,True,W
+CEC2017_F7_lunacek_c17|D10|A-GDESA-ng+cma,CEC2017_F7_lunacek_c17,10,CEC multimodal,A-GDESA-ng+cma,5.145276051717656e-10,0.9992310649750095,Large,11.142621077685128,20.621726712183087,True,W
+CEC2017_F7_lunacek_c17|D10|DE+cma,CEC2017_F7_lunacek_c17,10,CEC multimodal,DE+cma,6.528366037592496e-10,0.9796232218377545,Large,11.142621077685128,19.412839871019433,True,W
+CEC2017_F7_lunacek_c17|D10|PSO+cma,CEC2017_F7_lunacek_c17,10,CEC multimodal,PSO+cma,1.4019139660245744e-09,0.9803921568627451,Large,11.142621077685128,19.06692664403423,True,W
+CEC2017_F7_lunacek_c17|D30|MDAC-allocTerminal,CEC2017_F7_lunacek_c17,30,CEC multimodal,MDAC-allocTerminal,1.5748039913260536e-09,0.910803537101115,Large,36.27363619779456,41.54033732994006,True,W
+CEC2017_F7_lunacek_c17|D30|L-SHADE+cma,CEC2017_F7_lunacek_c17,30,CEC multimodal,L-SHADE+cma,0.00025652907738441395,0.7189542483660131,Large,36.27363619779456,37.82394103727281,False,T
+CEC2017_F7_lunacek_c17|D30|L-SHADE-MA+cma,CEC2017_F7_lunacek_c17,30,CEC multimodal,L-SHADE-MA+cma,5.796704657296606e-10,0.9750096116878123,Large,36.27363619779456,44.32272252167686,True,W
+CEC2017_F7_lunacek_c17|D30|L-SHADE-SPACMA+cma,CEC2017_F7_lunacek_c17,30,CEC multimodal,L-SHADE-SPACMA+cma,0.00011252319995869441,0.7297193387158786,Large,36.27363619779456,37.90509422462934,True,W
+CEC2017_F7_lunacek_c17|D30|CMA-ES+cma,CEC2017_F7_lunacek_c17,30,CEC multimodal,CMA-ES+cma,2.17728484131092e-07,0.9058054594386775,Large,36.27363619779456,51.53512456634377,True,W
+CEC2017_F7_lunacek_c17|D30|A-GDESA-ng+cma,CEC2017_F7_lunacek_c17,30,CEC multimodal,A-GDESA-ng+cma,5.145276051717656e-10,1.0,Large,36.27363619779456,80.85864562287956,True,W
+CEC2017_F7_lunacek_c17|D30|DE+cma,CEC2017_F7_lunacek_c17,30,CEC multimodal,DE+cma,5.145276051717656e-10,1.0,Large,36.27363619779456,70.92984747359736,True,W
+CEC2017_F7_lunacek_c17|D30|PSO+cma,CEC2017_F7_lunacek_c17,30,CEC multimodal,PSO+cma,5.145276051717656e-10,1.0,Large,36.27363619779456,118.87204917021397,True,W
+CEC2017_F8_noncont_rastrigin_c17|D10|MDAC-allocTerminal,CEC2017_F8_noncont_rastrigin_c17,10,CEC multimodal,MDAC-allocTerminal,6.035663113705438e-09,0.9225297962322183,Large,0.7613493094519945,2.5166611444125393,True,W
+CEC2017_F8_noncont_rastrigin_c17|D10|L-SHADE+cma,CEC2017_F8_noncont_rastrigin_c17,10,CEC multimodal,L-SHADE+cma,4.481977050417777e-09,0.9279123414071512,Large,0.7613493094519945,2.497152143293083,True,W
+CEC2017_F8_noncont_rastrigin_c17|D10|L-SHADE-MA+cma,CEC2017_F8_noncont_rastrigin_c17,10,CEC multimodal,L-SHADE-MA+cma,2.442058213038183e-08,0.8915801614763552,Large,0.7613493094519945,3.2580027944883097,True,W
+CEC2017_F8_noncont_rastrigin_c17|D10|L-SHADE-SPACMA+cma,CEC2017_F8_noncont_rastrigin_c17,10,CEC multimodal,L-SHADE-SPACMA+cma,0.00011154400056412794,0.7439446366782007,Large,0.7613493094519945,1.5217020873192582,True,W
+CEC2017_F8_noncont_rastrigin_c17|D10|CMA-ES+cma,CEC2017_F8_noncont_rastrigin_c17,10,CEC multimodal,CMA-ES+cma,1.0909670536567896e-09,0.9529027297193386,Large,0.7613493094519945,4.740686185444363,True,W
+CEC2017_F8_noncont_rastrigin_c17|D10|A-GDESA-ng+cma,CEC2017_F8_noncont_rastrigin_c17,10,CEC multimodal,A-GDESA-ng+cma,5.136337586443854e-10,1.0,Large,0.7613493094519945,9.190278048889846,True,W
+CEC2017_F8_noncont_rastrigin_c17|D10|DE+cma,CEC2017_F8_noncont_rastrigin_c17,10,CEC multimodal,DE+cma,5.125184160898306e-10,0.9998077662437523,Large,0.7613493094519945,7.862987360718396,True,W
+CEC2017_F8_noncont_rastrigin_c17|D10|PSO+cma,CEC2017_F8_noncont_rastrigin_c17,10,CEC multimodal,PSO+cma,5.135221261596271e-10,0.9996155324875049,Large,0.7613493094519945,10.82748375871214,True,W
+CEC2017_F8_noncont_rastrigin_c17|D30|MDAC-allocTerminal,CEC2017_F8_noncont_rastrigin_c17,30,CEC multimodal,MDAC-allocTerminal,5.136337586443854e-10,0.9677047289504038,Large,4.788359442308099,12.40772293393368,True,W
+CEC2017_F8_noncont_rastrigin_c17|D30|L-SHADE+cma,CEC2017_F8_noncont_rastrigin_c17,30,CEC multimodal,L-SHADE+cma,4.456056262552211e-06,0.8050749711649366,Large,4.788359442308099,7.569492335576596,True,W
+CEC2017_F8_noncont_rastrigin_c17|D30|L-SHADE-MA+cma,CEC2017_F8_noncont_rastrigin_c17,30,CEC multimodal,L-SHADE-MA+cma,5.138570891453554e-10,1.0,Large,4.788359442308099,19.74310023996834,True,W
+CEC2017_F8_noncont_rastrigin_c17|D30|L-SHADE-SPACMA+cma,CEC2017_F8_noncont_rastrigin_c17,30,CEC multimodal,L-SHADE-SPACMA+cma,3.3084149362671344e-05,0.7787389465590158,Large,4.788359442308099,7.6475282412737515,True,W
+CEC2017_F8_noncont_rastrigin_c17|D30|CMA-ES+cma,CEC2017_F8_noncont_rastrigin_c17,30,CEC multimodal,CMA-ES+cma,5.1441579784081e-10,1.0,Large,4.788359442308099,35.751241149229465,True,W
+CEC2017_F8_noncont_rastrigin_c17|D30|A-GDESA-ng+cma,CEC2017_F8_noncont_rastrigin_c17,30,CEC multimodal,A-GDESA-ng+cma,5.145276051717656e-10,1.0,Large,4.788359442308099,45.57262062052891,True,W
+CEC2017_F8_noncont_rastrigin_c17|D30|DE+cma,CEC2017_F8_noncont_rastrigin_c17,30,CEC multimodal,DE+cma,5.1441579784081e-10,1.0,Large,4.788359442308099,41.73791411312598,True,W
+CEC2017_F8_noncont_rastrigin_c17|D30|PSO+cma,CEC2017_F8_noncont_rastrigin_c17,30,CEC multimodal,PSO+cma,5.145276051717656e-10,1.0,Large,4.788359442308099,83.94342512195894,True,W
+CEC2017_F9_levy_c17|D10|MDAC-allocTerminal,CEC2017_F9_levy_c17,10,CEC multimodal,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F9_levy_c17|D10|L-SHADE+cma,CEC2017_F9_levy_c17,10,CEC multimodal,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F9_levy_c17|D10|L-SHADE-MA+cma,CEC2017_F9_levy_c17,10,CEC multimodal,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F9_levy_c17|D10|L-SHADE-SPACMA+cma,CEC2017_F9_levy_c17,10,CEC multimodal,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F9_levy_c17|D10|CMA-ES+cma,CEC2017_F9_levy_c17,10,CEC multimodal,CMA-ES+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F9_levy_c17|D10|A-GDESA-ng+cma,CEC2017_F9_levy_c17,10,CEC multimodal,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F9_levy_c17|D10|DE+cma,CEC2017_F9_levy_c17,10,CEC multimodal,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F9_levy_c17|D10|PSO+cma,CEC2017_F9_levy_c17,10,CEC multimodal,PSO+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F9_levy_c17|D30|MDAC-allocTerminal,CEC2017_F9_levy_c17,30,CEC multimodal,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F9_levy_c17|D30|L-SHADE+cma,CEC2017_F9_levy_c17,30,CEC multimodal,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F9_levy_c17|D30|L-SHADE-MA+cma,CEC2017_F9_levy_c17,30,CEC multimodal,L-SHADE-MA+cma,0.15729920705028502,0.5196078431372549,Negligible,0.0,0.003510911781038921,False,T
+CEC2017_F9_levy_c17|D30|L-SHADE-SPACMA+cma,CEC2017_F9_levy_c17,30,CEC multimodal,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F9_levy_c17|D30|CMA-ES+cma,CEC2017_F9_levy_c17,30,CEC multimodal,CMA-ES+cma,0.0004807073629020617,0.6372549019607843,Small,0.0,0.06372055060837381,False,T
+CEC2017_F9_levy_c17|D30|A-GDESA-ng+cma,CEC2017_F9_levy_c17,30,CEC multimodal,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F9_levy_c17|D30|DE+cma,CEC2017_F9_levy_c17,30,CEC multimodal,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CEC2017_F9_levy_c17|D30|PSO+cma,CEC2017_F9_levy_c17,30,CEC multimodal,PSO+cma,5.145276051717656e-10,1.0,Large,0.0,684.6654326243525,True,W
+CL_Ackley|D10|MDAC-allocTerminal,CL_Ackley,10,classic-12,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Ackley|D10|L-SHADE+cma,CL_Ackley,10,classic-12,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Ackley|D10|L-SHADE-MA+cma,CL_Ackley,10,classic-12,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Ackley|D10|L-SHADE-SPACMA+cma,CL_Ackley,10,classic-12,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Ackley|D10|CMA-ES+cma,CL_Ackley,10,classic-12,CMA-ES+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Ackley|D10|A-GDESA-ng+cma,CL_Ackley,10,classic-12,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Ackley|D10|DE+cma,CL_Ackley,10,classic-12,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Ackley|D10|PSO+cma,CL_Ackley,10,classic-12,PSO+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Ackley|D30|MDAC-allocTerminal,CL_Ackley,30,classic-12,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Ackley|D30|L-SHADE+cma,CL_Ackley,30,classic-12,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Ackley|D30|L-SHADE-MA+cma,CL_Ackley,30,classic-12,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Ackley|D30|L-SHADE-SPACMA+cma,CL_Ackley,30,classic-12,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Ackley|D30|CMA-ES+cma,CL_Ackley,30,classic-12,CMA-ES+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Ackley|D30|A-GDESA-ng+cma,CL_Ackley,30,classic-12,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Ackley|D30|DE+cma,CL_Ackley,30,classic-12,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Ackley|D30|PSO+cma,CL_Ackley,30,classic-12,PSO+cma,5.6715146048673e-05,0.7058823529411765,Medium,0.0,0.5943223477824306,True,W
+CL_BentCigar|D10|MDAC-allocTerminal,CL_BentCigar,10,classic-12,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_BentCigar|D10|L-SHADE+cma,CL_BentCigar,10,classic-12,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_BentCigar|D10|L-SHADE-MA+cma,CL_BentCigar,10,classic-12,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_BentCigar|D10|L-SHADE-SPACMA+cma,CL_BentCigar,10,classic-12,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_BentCigar|D10|CMA-ES+cma,CL_BentCigar,10,classic-12,CMA-ES+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_BentCigar|D10|A-GDESA-ng+cma,CL_BentCigar,10,classic-12,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_BentCigar|D10|DE+cma,CL_BentCigar,10,classic-12,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_BentCigar|D10|PSO+cma,CL_BentCigar,10,classic-12,PSO+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_BentCigar|D30|MDAC-allocTerminal,CL_BentCigar,30,classic-12,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_BentCigar|D30|L-SHADE+cma,CL_BentCigar,30,classic-12,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_BentCigar|D30|L-SHADE-MA+cma,CL_BentCigar,30,classic-12,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_BentCigar|D30|L-SHADE-SPACMA+cma,CL_BentCigar,30,classic-12,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_BentCigar|D30|CMA-ES+cma,CL_BentCigar,30,classic-12,CMA-ES+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_BentCigar|D30|A-GDESA-ng+cma,CL_BentCigar,30,classic-12,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_BentCigar|D30|DE+cma,CL_BentCigar,30,classic-12,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_BentCigar|D30|PSO+cma,CL_BentCigar,30,classic-12,PSO+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Discus|D10|MDAC-allocTerminal,CL_Discus,10,classic-12,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Discus|D10|L-SHADE+cma,CL_Discus,10,classic-12,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Discus|D10|L-SHADE-MA+cma,CL_Discus,10,classic-12,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Discus|D10|L-SHADE-SPACMA+cma,CL_Discus,10,classic-12,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Discus|D10|CMA-ES+cma,CL_Discus,10,classic-12,CMA-ES+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Discus|D10|A-GDESA-ng+cma,CL_Discus,10,classic-12,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Discus|D10|DE+cma,CL_Discus,10,classic-12,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Discus|D10|PSO+cma,CL_Discus,10,classic-12,PSO+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Discus|D30|MDAC-allocTerminal,CL_Discus,30,classic-12,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Discus|D30|L-SHADE+cma,CL_Discus,30,classic-12,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Discus|D30|L-SHADE-MA+cma,CL_Discus,30,classic-12,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Discus|D30|L-SHADE-SPACMA+cma,CL_Discus,30,classic-12,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Discus|D30|CMA-ES+cma,CL_Discus,30,classic-12,CMA-ES+cma,0.027707849358079864,0.5588235294117647,Negligible,0.0,8.451443238120956e-09,False,T
+CL_Discus|D30|A-GDESA-ng+cma,CL_Discus,30,classic-12,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Discus|D30|DE+cma,CL_Discus,30,classic-12,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Discus|D30|PSO+cma,CL_Discus,30,classic-12,PSO+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Elliptic|D10|MDAC-allocTerminal,CL_Elliptic,10,classic-12,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Elliptic|D10|L-SHADE+cma,CL_Elliptic,10,classic-12,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Elliptic|D10|L-SHADE-MA+cma,CL_Elliptic,10,classic-12,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Elliptic|D10|L-SHADE-SPACMA+cma,CL_Elliptic,10,classic-12,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Elliptic|D10|CMA-ES+cma,CL_Elliptic,10,classic-12,CMA-ES+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Elliptic|D10|A-GDESA-ng+cma,CL_Elliptic,10,classic-12,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Elliptic|D10|DE+cma,CL_Elliptic,10,classic-12,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Elliptic|D10|PSO+cma,CL_Elliptic,10,classic-12,PSO+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Elliptic|D30|MDAC-allocTerminal,CL_Elliptic,30,classic-12,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Elliptic|D30|L-SHADE+cma,CL_Elliptic,30,classic-12,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Elliptic|D30|L-SHADE-MA+cma,CL_Elliptic,30,classic-12,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Elliptic|D30|L-SHADE-SPACMA+cma,CL_Elliptic,30,classic-12,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Elliptic|D30|CMA-ES+cma,CL_Elliptic,30,classic-12,CMA-ES+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Elliptic|D30|A-GDESA-ng+cma,CL_Elliptic,30,classic-12,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Elliptic|D30|DE+cma,CL_Elliptic,30,classic-12,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Elliptic|D30|PSO+cma,CL_Elliptic,30,classic-12,PSO+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Griewank|D10|MDAC-allocTerminal,CL_Griewank,10,classic-12,MDAC-allocTerminal,0.31731050786291415,0.5098039215686274,Negligible,0.0,0.00019328009034942883,False,T
+CL_Griewank|D10|L-SHADE+cma,CL_Griewank,10,classic-12,L-SHADE+cma,0.06788915486182899,0.5392156862745098,Negligible,0.0,0.0006765528141491514,False,T
+CL_Griewank|D10|L-SHADE-MA+cma,CL_Griewank,10,classic-12,L-SHADE-MA+cma,5.200501269754662e-06,0.7647058823529411,Large,0.0,0.0068107019030678485,True,W
+CL_Griewank|D10|L-SHADE-SPACMA+cma,CL_Griewank,10,classic-12,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Griewank|D10|CMA-ES+cma,CL_Griewank,10,classic-12,CMA-ES+cma,0.0014153153573368978,0.6274509803921569,Small,0.0,0.00509386751461262,False,T
+CL_Griewank|D10|A-GDESA-ng+cma,CL_Griewank,10,classic-12,A-GDESA-ng+cma,5.143040123788453e-10,1.0,Large,0.0,0.04796345413777746,True,W
+CL_Griewank|D10|DE+cma,CL_Griewank,10,classic-12,DE+cma,7.556929455863566e-10,0.9901960784313726,Large,0.0,0.040298173241956954,True,W
+CL_Griewank|D10|PSO+cma,CL_Griewank,10,classic-12,PSO+cma,7.553512643873762e-10,0.9901960784313726,Large,0.0,0.046843490799137744,True,W
+CL_Griewank|D30|MDAC-allocTerminal,CL_Griewank,30,classic-12,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Griewank|D30|L-SHADE+cma,CL_Griewank,30,classic-12,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Griewank|D30|L-SHADE-MA+cma,CL_Griewank,30,classic-12,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Griewank|D30|L-SHADE-SPACMA+cma,CL_Griewank,30,classic-12,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Griewank|D30|CMA-ES+cma,CL_Griewank,30,classic-12,CMA-ES+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Griewank|D30|A-GDESA-ng+cma,CL_Griewank,30,classic-12,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Griewank|D30|DE+cma,CL_Griewank,30,classic-12,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Griewank|D30|PSO+cma,CL_Griewank,30,classic-12,PSO+cma,0.31731050786291415,0.5098039215686274,Negligible,0.0,0.00014502039870816568,False,T
+CL_Levy|D10|MDAC-allocTerminal,CL_Levy,10,classic-12,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Levy|D10|L-SHADE+cma,CL_Levy,10,classic-12,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Levy|D10|L-SHADE-MA+cma,CL_Levy,10,classic-12,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Levy|D10|L-SHADE-SPACMA+cma,CL_Levy,10,classic-12,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Levy|D10|CMA-ES+cma,CL_Levy,10,classic-12,CMA-ES+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Levy|D10|A-GDESA-ng+cma,CL_Levy,10,classic-12,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Levy|D10|DE+cma,CL_Levy,10,classic-12,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Levy|D10|PSO+cma,CL_Levy,10,classic-12,PSO+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Levy|D30|MDAC-allocTerminal,CL_Levy,30,classic-12,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Levy|D30|L-SHADE+cma,CL_Levy,30,classic-12,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Levy|D30|L-SHADE-MA+cma,CL_Levy,30,classic-12,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Levy|D30|L-SHADE-SPACMA+cma,CL_Levy,30,classic-12,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Levy|D30|CMA-ES+cma,CL_Levy,30,classic-12,CMA-ES+cma,0.0047256977341214425,0.5980392156862745,Small,0.0,0.07464638986373533,False,T
+CL_Levy|D30|A-GDESA-ng+cma,CL_Levy,30,classic-12,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Levy|D30|DE+cma,CL_Levy,30,classic-12,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Levy|D30|PSO+cma,CL_Levy,30,classic-12,PSO+cma,5.145276051717656e-10,1.0,Large,0.0,204.58238661612924,True,W
+CL_Rastrigin|D10|MDAC-allocTerminal,CL_Rastrigin,10,classic-12,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Rastrigin|D10|L-SHADE+cma,CL_Rastrigin,10,classic-12,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Rastrigin|D10|L-SHADE-MA+cma,CL_Rastrigin,10,classic-12,L-SHADE-MA+cma,0.31731050786291415,0.5098039215686274,Negligible,0.0,0.01950900111947641,False,T
+CL_Rastrigin|D10|L-SHADE-SPACMA+cma,CL_Rastrigin,10,classic-12,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Rastrigin|D10|CMA-ES+cma,CL_Rastrigin,10,classic-12,CMA-ES+cma,5.110717300328401e-10,1.0,Large,0.0,10.847752004837407,True,W
+CL_Rastrigin|D10|A-GDESA-ng+cma,CL_Rastrigin,10,classic-12,A-GDESA-ng+cma,5.062024874362586e-10,1.0,Large,0.0,7.315980521898061,True,W
+CL_Rastrigin|D10|DE+cma,CL_Rastrigin,10,classic-12,DE+cma,5.076367623795355e-10,1.0,Large,0.0,6.203860281597573,True,W
+CL_Rastrigin|D10|PSO+cma,CL_Rastrigin,10,classic-12,PSO+cma,5.006108759426476e-10,1.0,Large,0.0,5.326388338187358,True,W
+CL_Rastrigin|D30|MDAC-allocTerminal,CL_Rastrigin,30,classic-12,MDAC-allocTerminal,5.121842386896991e-10,1.0,Large,0.0,10.729950023027632,True,W
+CL_Rastrigin|D30|L-SHADE+cma,CL_Rastrigin,30,classic-12,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Rastrigin|D30|L-SHADE-MA+cma,CL_Rastrigin,30,classic-12,L-SHADE-MA+cma,0.15729920705028502,0.5196078431372549,Negligible,0.0,0.03901800223895282,False,T
+CL_Rastrigin|D30|L-SHADE-SPACMA+cma,CL_Rastrigin,30,classic-12,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Rastrigin|D30|CMA-ES+cma,CL_Rastrigin,30,classic-12,CMA-ES+cma,5.145276051717656e-10,1.0,Large,0.0,48.99342336889972,True,W
+CL_Rastrigin|D30|A-GDESA-ng+cma,CL_Rastrigin,30,classic-12,A-GDESA-ng+cma,5.1441579784081e-10,1.0,Large,0.0,44.36563075051464,True,W
+CL_Rastrigin|D30|DE+cma,CL_Rastrigin,30,classic-12,DE+cma,5.143040123788453e-10,1.0,Large,0.0,37.543489846718465,True,W
+CL_Rastrigin|D30|PSO+cma,CL_Rastrigin,30,classic-12,PSO+cma,5.145276051717656e-10,1.0,Large,0.0,60.65594285868125,True,W
+CL_Rosenbrock|D10|MDAC-allocTerminal,CL_Rosenbrock,10,classic-12,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Rosenbrock|D10|L-SHADE+cma,CL_Rosenbrock,10,classic-12,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Rosenbrock|D10|L-SHADE-MA+cma,CL_Rosenbrock,10,classic-12,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Rosenbrock|D10|L-SHADE-SPACMA+cma,CL_Rosenbrock,10,classic-12,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Rosenbrock|D10|CMA-ES+cma,CL_Rosenbrock,10,classic-12,CMA-ES+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Rosenbrock|D10|A-GDESA-ng+cma,CL_Rosenbrock,10,classic-12,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Rosenbrock|D10|DE+cma,CL_Rosenbrock,10,classic-12,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Rosenbrock|D10|PSO+cma,CL_Rosenbrock,10,classic-12,PSO+cma,0.17971249487899976,0.5196078431372549,Negligible,0.0,0.1123076111183629,False,T
+CL_Rosenbrock|D30|MDAC-allocTerminal,CL_Rosenbrock,30,classic-12,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Rosenbrock|D30|L-SHADE+cma,CL_Rosenbrock,30,classic-12,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Rosenbrock|D30|L-SHADE-MA+cma,CL_Rosenbrock,30,classic-12,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Rosenbrock|D30|L-SHADE-SPACMA+cma,CL_Rosenbrock,30,classic-12,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Rosenbrock|D30|CMA-ES+cma,CL_Rosenbrock,30,classic-12,CMA-ES+cma,0.043114446783075355,0.5490196078431373,Negligible,0.0,0.7352645923976602,False,T
+CL_Rosenbrock|D30|A-GDESA-ng+cma,CL_Rosenbrock,30,classic-12,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Rosenbrock|D30|DE+cma,CL_Rosenbrock,30,classic-12,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Rosenbrock|D30|PSO+cma,CL_Rosenbrock,30,classic-12,PSO+cma,2.5613577487758663e-06,0.7843137254901961,Large,0.0,8.7611360755716,True,W
+CL_RotElliptic|D10|MDAC-allocTerminal,CL_RotElliptic,10,classic-12,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_RotElliptic|D10|L-SHADE+cma,CL_RotElliptic,10,classic-12,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_RotElliptic|D10|L-SHADE-MA+cma,CL_RotElliptic,10,classic-12,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_RotElliptic|D10|L-SHADE-SPACMA+cma,CL_RotElliptic,10,classic-12,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_RotElliptic|D10|CMA-ES+cma,CL_RotElliptic,10,classic-12,CMA-ES+cma,0.10880943004054568,0.5294117647058824,Negligible,0.0,1330.9631947367102,False,T
+CL_RotElliptic|D10|A-GDESA-ng+cma,CL_RotElliptic,10,classic-12,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_RotElliptic|D10|DE+cma,CL_RotElliptic,10,classic-12,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_RotElliptic|D10|PSO+cma,CL_RotElliptic,10,classic-12,PSO+cma,0.043114446783075355,0.5490196078431373,Negligible,0.0,813.9464810715918,False,T
+CL_RotElliptic|D30|MDAC-allocTerminal,CL_RotElliptic,30,classic-12,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_RotElliptic|D30|L-SHADE+cma,CL_RotElliptic,30,classic-12,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_RotElliptic|D30|L-SHADE-MA+cma,CL_RotElliptic,30,classic-12,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_RotElliptic|D30|L-SHADE-SPACMA+cma,CL_RotElliptic,30,classic-12,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_RotElliptic|D30|CMA-ES+cma,CL_RotElliptic,30,classic-12,CMA-ES+cma,0.0006549583433856954,0.6470588235294118,Medium,0.0,43733.55897616593,False,T
+CL_RotElliptic|D30|A-GDESA-ng+cma,CL_RotElliptic,30,classic-12,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_RotElliptic|D30|DE+cma,CL_RotElliptic,30,classic-12,DE+cma,0.31731050786291415,0.5098039215686274,Negligible,0.0,10.729998014021719,False,T
+CL_RotElliptic|D30|PSO+cma,CL_RotElliptic,30,classic-12,PSO+cma,0.011718685599768628,0.5784313725490197,Small,0.0,13992.649063361425,False,T
+CL_Schwefel|D10|MDAC-allocTerminal,CL_Schwefel,10,classic-12,MDAC-allocTerminal,2.107269673459095e-06,0.2825836216839677,Large,15.533556963314982,0.0025764694392088204,True,L
+CL_Schwefel|D10|L-SHADE+cma,CL_Schwefel,10,classic-12,L-SHADE+cma,3.8375897126269214e-07,0.21357170319108032,Large,15.533556963314982,0.0013518725556922635,True,L
+CL_Schwefel|D10|L-SHADE-MA+cma,CL_Schwefel,10,classic-12,L-SHADE-MA+cma,0.17185073755228542,0.5934256055363322,Small,15.533556963314982,0.16667245177361076,False,T
+CL_Schwefel|D10|L-SHADE-SPACMA+cma,CL_Schwefel,10,classic-12,L-SHADE-SPACMA+cma,6.805097899963609e-06,0.2687427912341407,Large,15.533556963314982,0.1813098092064441,True,L
+CL_Schwefel|D10|CMA-ES+cma,CL_Schwefel,10,classic-12,CMA-ES+cma,5.796704657296606e-10,0.9807766243752403,Large,15.533556963314982,450.7011722309097,True,W
+CL_Schwefel|D10|A-GDESA-ng+cma,CL_Schwefel,10,classic-12,A-GDESA-ng+cma,0.6192729245819939,0.652633602460592,Medium,15.533556963314982,1.0627652048233716,False,T
+CL_Schwefel|D10|DE+cma,CL_Schwefel,10,classic-12,DE+cma,0.8659996883321677,0.6566705113417917,Medium,15.533556963314982,1.2398338164267604,False,T
+CL_Schwefel|D10|PSO+cma,CL_Schwefel,10,classic-12,PSO+cma,7.311015655707556e-09,0.8929257977700885,Large,15.533556963314982,158.89797414484016,True,W
+CL_Schwefel|D30|MDAC-allocTerminal,CL_Schwefel,30,classic-12,MDAC-allocTerminal,0.6527635040598475,0.6562860438292963,Medium,9.579623916528327,2.4267565893190777,False,T
+CL_Schwefel|D30|L-SHADE+cma,CL_Schwefel,30,classic-12,L-SHADE+cma,5.145276051717656e-10,0.0,Large,9.579623916528327,0.0024229296655796455,True,L
+CL_Schwefel|D30|L-SHADE-MA+cma,CL_Schwefel,30,classic-12,L-SHADE-MA+cma,0.0013917710935552976,0.3881199538638985,Small,9.579623916528327,0.4855402966738492,False,T
+CL_Schwefel|D30|L-SHADE-SPACMA+cma,CL_Schwefel,30,classic-12,L-SHADE-SPACMA+cma,5.145276051717656e-10,0.014994232987312589,Large,9.579623916528327,0.036990729139884646,True,L
+CL_Schwefel|D30|CMA-ES+cma,CL_Schwefel,30,classic-12,CMA-ES+cma,5.145276051717656e-10,1.0,Large,9.579623916528327,2929.377267488534,True,W
+CL_Schwefel|D30|A-GDESA-ng+cma,CL_Schwefel,30,classic-12,A-GDESA-ng+cma,5.796704657296606e-10,0.9876970396001539,Large,9.579623916528327,885.211456690888,True,W
+CL_Schwefel|D30|DE+cma,CL_Schwefel,30,classic-12,DE+cma,3.726205531298954e-09,0.9207996924259899,Large,9.579623916528327,382.0138237983556,True,W
+CL_Schwefel|D30|PSO+cma,CL_Schwefel,30,classic-12,PSO+cma,5.145276051717656e-10,1.0,Large,9.579623916528327,1641.9126461317628,True,W
+CL_Sphere|D10|MDAC-allocTerminal,CL_Sphere,10,classic-12,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Sphere|D10|L-SHADE+cma,CL_Sphere,10,classic-12,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Sphere|D10|L-SHADE-MA+cma,CL_Sphere,10,classic-12,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Sphere|D10|L-SHADE-SPACMA+cma,CL_Sphere,10,classic-12,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Sphere|D10|CMA-ES+cma,CL_Sphere,10,classic-12,CMA-ES+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Sphere|D10|A-GDESA-ng+cma,CL_Sphere,10,classic-12,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Sphere|D10|DE+cma,CL_Sphere,10,classic-12,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Sphere|D10|PSO+cma,CL_Sphere,10,classic-12,PSO+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Sphere|D30|MDAC-allocTerminal,CL_Sphere,30,classic-12,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Sphere|D30|L-SHADE+cma,CL_Sphere,30,classic-12,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Sphere|D30|L-SHADE-MA+cma,CL_Sphere,30,classic-12,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Sphere|D30|L-SHADE-SPACMA+cma,CL_Sphere,30,classic-12,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Sphere|D30|CMA-ES+cma,CL_Sphere,30,classic-12,CMA-ES+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Sphere|D30|A-GDESA-ng+cma,CL_Sphere,30,classic-12,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Sphere|D30|DE+cma,CL_Sphere,30,classic-12,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Sphere|D30|PSO+cma,CL_Sphere,30,classic-12,PSO+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Zakharov|D10|MDAC-allocTerminal,CL_Zakharov,10,classic-12,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Zakharov|D10|L-SHADE+cma,CL_Zakharov,10,classic-12,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Zakharov|D10|L-SHADE-MA+cma,CL_Zakharov,10,classic-12,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Zakharov|D10|L-SHADE-SPACMA+cma,CL_Zakharov,10,classic-12,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Zakharov|D10|CMA-ES+cma,CL_Zakharov,10,classic-12,CMA-ES+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Zakharov|D10|A-GDESA-ng+cma,CL_Zakharov,10,classic-12,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Zakharov|D10|DE+cma,CL_Zakharov,10,classic-12,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Zakharov|D10|PSO+cma,CL_Zakharov,10,classic-12,PSO+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Zakharov|D30|MDAC-allocTerminal,CL_Zakharov,30,classic-12,MDAC-allocTerminal,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Zakharov|D30|L-SHADE+cma,CL_Zakharov,30,classic-12,L-SHADE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Zakharov|D30|L-SHADE-MA+cma,CL_Zakharov,30,classic-12,L-SHADE-MA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Zakharov|D30|L-SHADE-SPACMA+cma,CL_Zakharov,30,classic-12,L-SHADE-SPACMA+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Zakharov|D30|CMA-ES+cma,CL_Zakharov,30,classic-12,CMA-ES+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Zakharov|D30|A-GDESA-ng+cma,CL_Zakharov,30,classic-12,A-GDESA-ng+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Zakharov|D30|DE+cma,CL_Zakharov,30,classic-12,DE+cma,1.0,0.5,Negligible,0.0,0.0,False,T
+CL_Zakharov|D30|PSO+cma,CL_Zakharov,30,classic-12,PSO+cma,1.0,0.5,Negligible,0.0,0.0,False,T

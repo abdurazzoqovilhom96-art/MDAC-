@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.exe
+checkpoint_*.csv
+mdac_results/
+
+# official third-party sources: download them as described in the reference READMEs
+benchmarks/cec2017_reference_c/cec17_test_func.cpp
+benchmarks/cec2011_reference/download/
+benchmarks/cec2011_reference/src_*/
+benchmarks/cec2020rw_reference/download/
+benchmarks/cec2020rw_reference/src/

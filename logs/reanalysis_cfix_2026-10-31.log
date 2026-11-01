@@ -1,0 +1,665 @@
+﻿
+######## reanalyse.py --dir FINAL_fes --tag full
+  reanalyse: FINAL_fes/raw_full.csv, 68544 rows, 8 algorithms -> FINAL_fes/*_full.*
+
+  budget utilisation (fraction of MaxFES):
+    MDAC                   min 1.0000  mean 1.0000
+    MDAC-ctr               min 1.0000  mean 1.0000
+    MDAC-noFCP             min 1.0000  mean 1.0000
+    jSO                    min 1.0000  mean 1.0000
+    L-SHADE-SPACMA         min 1.0000  mean 1.0000
+    L-SHADE                min 1.0000  mean 1.0000
+    EBOwithCMAR            min 1.0000  mean 1.0000
+    CMA-ES                 min 1.0000  mean 1.0000
+
+  excluded from statistics (raw rows kept): CEC2017_F2_sum_diff_pow_c17
+
+  ==========================================================================
+  OVERALL FRIEDMAN RANK  (164 cells, ref = MDAC)
+  ==========================================================================
+    algorithm                rank (1e-8 conv)     rank (raw)
+    1. EBOwithCMAR                      3.701          3.847
+    2. MDAC                             3.745          3.589  <<<
+    3. L-SHADE-SPACMA                   3.758          3.617
+    4. jSO                              4.126          4.202
+    5. MDAC-noFCP                       4.335          4.263
+    6. L-SHADE                          4.448          4.398
+    7. MDAC-ctr                         4.790          4.726
+    8. CMA-ES                           7.095          7.357
+
+  --------------------------------------------------------------------------
+  RANK BY CATEGORY (1e-8 convention)
+  [T] = declared target category, fixed before this run
+  --------------------------------------------------------------------------
+          CEC composition    MDAC  3.42  (pos 2/8)   best: EBOwithCMAR  3.13
+          CEC hybrid         MDAC  3.91  (pos 3/8)   best: L-SHADE-SPACMA  3.07
+  [T] WIN CEC multimodal     MDAC  2.83  (pos 1/8)   best: MDAC  2.83
+      WIN CEC unimodal       MDAC  3.98  (pos 1/8)   best: MDAC  3.98
+          classic-12         MDAC  4.38  (pos 5/8)   best: EBOwithCMAR  3.94
+
+  ==========================================================================
+  TARGET-CATEGORY VERDICT: 1 / 1 targets won outright
+    CEC multimodal     rank  2.83  pos 1/8  -> WON
+  ==========================================================================
+
+  --------------------------------------------------------------------------
+  MDAC vs each competitor -- Holm-corrected W/T/L (m=1148)
+  --------------------------------------------------------------------------
+    competitor                W    T    L   meanA12
+    MDAC-ctr                 55   94   15     0.627
+    MDAC-noFCP               49   98   17     0.600
+    jSO                      46   86   32     0.548
+    L-SHADE-SPACMA           25  118   21     0.527
+    L-SHADE                  48  100   16     0.611
+    EBOwithCMAR              26   93   45     0.468
+    CMA-ES                  126   36    2     0.868
+
+  --------------------------------------------------------------------------
+  W/T/L BY CATEGORY (all competitors pooled)
+  --------------------------------------------------------------------------
+    CEC composition    W/T/L =  114/ 130/  36   meanA12 = 0.654
+    CEC hybrid         W/T/L =  103/ 108/  69   meanA12 = 0.584
+    CEC multimodal     W/T/L =  103/  85/   8   meanA12 = 0.738
+    CEC unimodal       W/T/L =   10/  46/   0   meanA12 = 0.574
+    classic-12         W/T/L =   45/ 256/  35   meanA12 = 0.517
+
+  --------------------------------------------------------------------------
+  CEC-CONVENTION FRIEDMAN -- rank of MEAN error per cell, subset 'all' (164 cells)
+  --------------------------------------------------------------------------
+    Friedman chi2 = 424.32  p = 1.45e-87   Iman-Davenport F = 95.57   Nemenyi CD(0.05) = 0.820
+    algorithm              mean-rk  med-rk    diff  z-test p  Holm   better/eq/worse Wilcoxon p  Holm
+    EBOwithCMAR              3.393   3.713  -0.418  1.23e-01     F          38/47/79   5.01e-04     T
+    L-SHADE-SPACMA           3.704   3.720  -0.107  6.93e-01     F          59/51/54   7.00e-01     F
+    MDAC                     3.811   3.668  +0.000  <<<
+    jSO                      3.942   4.012  +0.131  6.28e-01     F          63/47/54   8.69e-01     F
+    MDAC-noFCP               4.238   4.305  +0.427  1.15e-01     F          75/48/41   9.46e-03     T
+    L-SHADE                  4.463   4.421  +0.652  1.59e-02     F          78/47/39   1.14e-03     T
+    MDAC-ctr                 4.939   5.003  +1.128  3.04e-05     T          78/48/38   7.17e-04     T
+    CMA-ES                   7.509   7.159  +3.698  1.50e-42     T          143/18/3   2.38e-25     T
+    better/eq/worse counts cells where MDAC's mean error is lower/equal/higher.
+
+  --------------------------------------------------------------------------
+  CEC-CONVENTION FRIEDMAN -- rank of MEAN error per cell, subset 'CEC2017 only' (116 cells)
+  --------------------------------------------------------------------------
+    Friedman chi2 = 327.66  p = 7.43e-67   Iman-Davenport F = 77.80   Nemenyi CD(0.05) = 0.975
+    algorithm              mean-rk  med-rk    diff  z-test p  Holm   better/eq/worse Wilcoxon p  Holm
+    EBOwithCMAR              3.203   3.629  -0.405  2.08e-01     F          35/10/71   1.74e-03     T
+    L-SHADE-SPACMA           3.552   3.483  -0.056  8.62e-01     F          56/13/47   9.37e-01     F
+    MDAC                     3.608   3.358  +0.000  <<<
+    jSO                      3.759   3.836  +0.151  6.39e-01     F          56/12/48   6.50e-01     F
+    MDAC-noFCP               4.323   4.353  +0.716  2.61e-02     F          70/12/34   2.07e-03     T
+    L-SHADE                  4.651   4.534  +1.043  1.18e-03     T          73/11/32   1.74e-04     T
+    MDAC-ctr                 5.039   5.099  +1.431  8.62e-06     T          71/12/33   3.31e-04     T
+    CMA-ES                   7.866   7.707  +4.259  5.11e-40     T           112/3/1   2.88e-20     T
+    better/eq/worse counts cells where MDAC's mean error is lower/equal/higher.
+
+  cells where BOTH medians are 0 under the 1e-8 convention: 360 / 1148
+  (these carry no information; ranking them on raw values is the artefact
+   the convention exists to remove)
+
+  artifacts -> <repo>\FINAL_fes
+######## reanalyse.py --dir FINAL_fes --tag full --suffix _pub --algs MDAC jSO L-SHADE-SPACMA L-SHADE EBOwithCMAR CMA-ES
+  reanalyse: FINAL_fes/raw_full.csv, 51408 rows, 6 algorithms -> FINAL_fes/*_full_pub.*
+
+  budget utilisation (fraction of MaxFES):
+    MDAC                   min 1.0000  mean 1.0000
+    jSO                    min 1.0000  mean 1.0000
+    L-SHADE-SPACMA         min 1.0000  mean 1.0000
+    L-SHADE                min 1.0000  mean 1.0000
+    EBOwithCMAR            min 1.0000  mean 1.0000
+    CMA-ES                 min 1.0000  mean 1.0000
+
+  excluded from statistics (raw rows kept): CEC2017_F2_sum_diff_pow_c17
+
+  ==========================================================================
+  OVERALL FRIEDMAN RANK  (164 cells, ref = MDAC)
+  ==========================================================================
+    algorithm                rank (1e-8 conv)     rank (raw)
+    1. EBOwithCMAR                      2.910          3.000
+    2. MDAC                             2.975          2.843  <<<
+    3. L-SHADE-SPACMA                   2.998          2.882
+    4. jSO                              3.259          3.287
+    5. L-SHADE                          3.496          3.444
+    6. CMA-ES                           5.361          5.545
+
+  --------------------------------------------------------------------------
+  RANK BY CATEGORY (1e-8 convention)
+  [T] = declared target category, fixed before this run
+  --------------------------------------------------------------------------
+          CEC composition    MDAC  2.79  (pos 2/6)   best: EBOwithCMAR  2.49
+          CEC hybrid         MDAC  3.09  (pos 3/6)   best: L-SHADE-SPACMA  2.51
+  [T] WIN CEC multimodal     MDAC  2.33  (pos 1/6)   best: MDAC  2.33
+      WIN CEC unimodal       MDAC  3.09  (pos 1/6)   best: MDAC  3.09
+          classic-12         MDAC  3.39  (pos 4/6)   best: EBOwithCMAR  3.07
+
+  ==========================================================================
+  TARGET-CATEGORY VERDICT: 1 / 1 targets won outright
+    CEC multimodal     rank  2.33  pos 1/6  -> WON
+  ==========================================================================
+
+  --------------------------------------------------------------------------
+  MDAC vs each competitor -- Holm-corrected W/T/L (m=820)
+  --------------------------------------------------------------------------
+    competitor                W    T    L   meanA12
+    jSO                      47   85   32     0.548
+    L-SHADE-SPACMA           27  116   21     0.527
+    L-SHADE                  51   97   16     0.611
+    EBOwithCMAR              26   93   45     0.468
+    CMA-ES                  126   36    2     0.868
+
+  --------------------------------------------------------------------------
+  W/T/L BY CATEGORY (all competitors pooled)
+  --------------------------------------------------------------------------
+    CEC composition    W/T/L =   83/  87/  30   meanA12 = 0.641
+    CEC hybrid         W/T/L =   76/  70/  54   meanA12 = 0.581
+    CEC multimodal     W/T/L =   74/  58/   8   meanA12 = 0.734
+    CEC unimodal       W/T/L =    8/  32/   0   meanA12 = 0.582
+    classic-12         W/T/L =   36/ 180/  24   meanA12 = 0.522
+
+  --------------------------------------------------------------------------
+  CEC-CONVENTION FRIEDMAN -- rank of MEAN error per cell, subset 'all' (164 cells)
+  --------------------------------------------------------------------------
+    Friedman chi2 = 350.74  p = 1.22e-73   Iman-Davenport F = 121.83   Nemenyi CD(0.05) = 0.589
+    algorithm              mean-rk  med-rk    diff  z-test p  Holm   better/eq/worse Wilcoxon p  Holm
+    EBOwithCMAR              2.686   2.921  -0.351  8.97e-02     F          38/47/79   5.01e-04     T
+    L-SHADE-SPACMA           2.960   3.018  -0.076  7.12e-01     F          59/51/54   7.00e-01     F
+    MDAC                     3.037   2.939  +0.000  <<<
+    jSO                      3.155   3.207  +0.119  5.65e-01     F          63/47/54   8.69e-01     F
+    L-SHADE                  3.512   3.518  +0.476  2.13e-02     F          78/47/39   1.14e-03     T
+    CMA-ES                   5.649   5.396  +2.613  1.17e-36     T          143/18/3   2.38e-25     T
+    better/eq/worse counts cells where MDAC's mean error is lower/equal/higher.
+
+  --------------------------------------------------------------------------
+  CEC-CONVENTION FRIEDMAN -- rank of MEAN error per cell, subset 'CEC2017 only' (116 cells)
+  --------------------------------------------------------------------------
+    Friedman chi2 = 269.26  p = 4.03e-56   Iman-Davenport F = 99.65   Nemenyi CD(0.05) = 0.700
+    algorithm              mean-rk  med-rk    diff  z-test p  Holm   better/eq/worse Wilcoxon p  Holm
+    EBOwithCMAR              2.556   2.866  -0.371  1.31e-01     F          35/10/71   1.74e-03     T
+    L-SHADE-SPACMA           2.897   2.892  -0.030  9.02e-01     F          56/13/47   9.37e-01     F
+    MDAC                     2.927   2.746  +0.000  <<<
+    jSO                      3.056   3.095  +0.129  5.99e-01     F          56/12/48   6.50e-01     F
+    L-SHADE                  3.664   3.616  +0.737  2.70e-03     T          73/11/32   1.74e-04     T
+    CMA-ES                   5.901   5.784  +2.974  9.68e-34     T           112/3/1   2.88e-20     T
+    better/eq/worse counts cells where MDAC's mean error is lower/equal/higher.
+
+  cells where BOTH medians are 0 under the 1e-8 convention: 253 / 820
+  (these carry no information; ranking them on raw values is the artefact
+   the convention exists to remove)
+
+  artifacts -> <repo>\FINAL_fes
+######## reanalyse.py --dir FINAL_time --tag full
+  reanalyse: FINAL_time/raw_full.csv, 68544 rows, 8 algorithms -> FINAL_time/*_full.*
+
+  budget utilisation (fraction of MaxFES):
+    MDAC                   min 1.0000  mean 1.0000
+    MDAC-ctr               min 1.0000  mean 1.0000
+    MDAC-noFCP             min 1.0000  mean 1.0000
+    jSO                    min 1.0000  mean 1.0000
+    L-SHADE-SPACMA         min 1.0000  mean 1.0000
+    L-SHADE                min 1.0000  mean 1.0000
+    EBOwithCMAR            min 1.0000  mean 1.0000
+    CMA-ES                 min 1.0000  mean 1.0000
+
+  excluded from statistics (raw rows kept): CEC2017_F2_sum_diff_pow_c17
+
+  ==========================================================================
+  OVERALL FRIEDMAN RANK  (164 cells, ref = MDAC)
+  ==========================================================================
+    algorithm                rank (1e-8 conv)     rank (raw)
+    1. L-SHADE                          3.653          3.412
+    2. MDAC-noFCP                       3.806          3.611
+    3. jSO                              4.078          4.132
+    4. L-SHADE-SPACMA                   4.114          4.149
+    5. MDAC-ctr                         4.193          4.166
+    6. MDAC                             4.291          4.473  <<<
+    7. EBOwithCMAR                      5.190          5.389
+    8. CMA-ES                           6.675          6.668
+
+  --------------------------------------------------------------------------
+  RANK BY CATEGORY (1e-8 convention)
+  [T] = declared target category, fixed before this run
+  --------------------------------------------------------------------------
+          CEC composition    MDAC  4.07  (pos 2/8)   best: EBOwithCMAR  3.36
+          CEC hybrid         MDAC  3.68  (pos 5/8)   best: L-SHADE-SPACMA  3.34
+  [T]     CEC multimodal     MDAC  4.75  (pos 7/8)   best: L-SHADE  3.45
+          CEC unimodal       MDAC  4.98  (pos 5/8)   best: jSO  3.00
+          classic-12         MDAC  4.61  (pos 6/8)   best: L-SHADE  3.44
+
+  ==========================================================================
+  TARGET-CATEGORY VERDICT: 0 / 1 targets won outright
+    CEC multimodal     rank  4.75  pos 7/8  -> LOST to L-SHADE by +1.29 rank
+  ==========================================================================
+
+  --------------------------------------------------------------------------
+  MDAC vs each competitor -- Holm-corrected W/T/L (m=1148)
+  --------------------------------------------------------------------------
+    competitor                W    T    L   meanA12
+    MDAC-ctr                 35   86   43     0.487
+    MDAC-noFCP               27   79   58     0.427
+    jSO                      44   64   56     0.469
+    L-SHADE-SPACMA           13  115   36     0.464
+    L-SHADE                  27   78   59     0.418
+    EBOwithCMAR              70   63   31     0.653
+    CMA-ES                  112   42   10     0.802
+
+  --------------------------------------------------------------------------
+  W/T/L BY CATEGORY (all competitors pooled)
+  --------------------------------------------------------------------------
+    CEC composition    W/T/L =   82/ 134/  64   meanA12 = 0.561
+    CEC hybrid         W/T/L =  129/  75/  76   meanA12 = 0.620
+    CEC multimodal     W/T/L =   41/  98/  57   meanA12 = 0.466
+    CEC unimodal       W/T/L =   12/  25/  19   meanA12 = 0.437
+    classic-12         W/T/L =   64/ 195/  77   meanA12 = 0.487
+
+  --------------------------------------------------------------------------
+  CEC-CONVENTION FRIEDMAN -- rank of MEAN error per cell, subset 'all' (164 cells)
+  --------------------------------------------------------------------------
+    Friedman chi2 = 316.38  p = 1.92e-64   Iman-Davenport F = 62.01   Nemenyi CD(0.05) = 0.820
+    algorithm              mean-rk  med-rk    diff  z-test p  Holm   better/eq/worse Wilcoxon p  Holm
+    L-SHADE                  3.634   3.570  -0.838  1.94e-03     T          45/36/83   1.84e-02     F
+    jSO                      3.735   4.052  -0.738  6.38e-03     T          49/33/82   2.60e-02     F
+    MDAC-noFCP               3.762   3.710  -0.710  8.64e-03     T          47/36/81   5.44e-02     F
+    L-SHADE-SPACMA           4.079   4.131  -0.393  1.46e-01     F          58/34/72   2.58e-01     F
+    MDAC-ctr                 4.174   4.223  -0.299  2.69e-01     F          53/36/75   4.40e-01     F
+    MDAC                     4.473   4.238  +0.000  <<<
+    EBOwithCMAR              4.899   5.238  +0.427  1.15e-01     F          87/19/58   9.79e-02     F
+    CMA-ES                   7.244   6.838  +2.771  1.24e-24     T         137/11/16   9.17e-24     T
+    better/eq/worse counts cells where MDAC's mean error is lower/equal/higher.
+
+  --------------------------------------------------------------------------
+  CEC-CONVENTION FRIEDMAN -- rank of MEAN error per cell, subset 'CEC2017 only' (116 cells)
+  --------------------------------------------------------------------------
+    Friedman chi2 = 245.64  p = 2.34e-49   Iman-Davenport F = 49.88   Nemenyi CD(0.05) = 0.975
+    algorithm              mean-rk  med-rk    diff  z-test p  Holm   better/eq/worse Wilcoxon p  Holm
+    jSO                      3.668   4.009  -0.672  3.66e-02     F           42/9/65   2.40e-02     F
+    L-SHADE                  3.784   3.634  -0.556  8.38e-02     F          45/10/61   3.25e-01     F
+    MDAC-noFCP               3.875   3.754  -0.466  1.48e-01     F          46/10/60   4.41e-01     F
+    L-SHADE-SPACMA           4.060   4.034  -0.280  3.84e-01     F          52/10/54   9.13e-01     F
+    MDAC-ctr                 4.155   4.172  -0.185  5.64e-01     F          46/10/60   4.12e-01     F
+    MDAC                     4.341   4.095  +0.000  <<<
+    EBOwithCMAR              4.453   4.892  +0.112  7.28e-01     F           58/6/52   4.60e-01     F
+    CMA-ES                   7.664   7.409  +3.323  5.02e-25     T           107/2/7   1.01e-18     T
+    better/eq/worse counts cells where MDAC's mean error is lower/equal/higher.
+
+  cells where BOTH medians are 0 under the 1e-8 convention: 252 / 1148
+  (these carry no information; ranking them on raw values is the artefact
+   the convention exists to remove)
+
+  artifacts -> <repo>\FINAL_time
+######## reanalyse.py --dir FINAL_time --tag full --suffix _pub --algs MDAC jSO L-SHADE-SPACMA L-SHADE EBOwithCMAR CMA-ES
+  reanalyse: FINAL_time/raw_full.csv, 51408 rows, 6 algorithms -> FINAL_time/*_full_pub.*
+
+  budget utilisation (fraction of MaxFES):
+    MDAC                   min 1.0000  mean 1.0000
+    jSO                    min 1.0000  mean 1.0000
+    L-SHADE-SPACMA         min 1.0000  mean 1.0000
+    L-SHADE                min 1.0000  mean 1.0000
+    EBOwithCMAR            min 1.0000  mean 1.0000
+    CMA-ES                 min 1.0000  mean 1.0000
+
+  excluded from statistics (raw rows kept): CEC2017_F2_sum_diff_pow_c17
+
+  ==========================================================================
+  OVERALL FRIEDMAN RANK  (164 cells, ref = MDAC)
+  ==========================================================================
+    algorithm                rank (1e-8 conv)     rank (raw)
+    1. L-SHADE                          2.796          2.625
+    2. jSO                              3.039          3.045
+    3. L-SHADE-SPACMA                   3.092          3.068
+    4. MDAC                             3.199          3.275  <<<
+    5. EBOwithCMAR                      3.842          3.979
+    6. CMA-ES                           5.032          5.008
+
+  --------------------------------------------------------------------------
+  RANK BY CATEGORY (1e-8 convention)
+  [T] = declared target category, fixed before this run
+  --------------------------------------------------------------------------
+          CEC composition    MDAC  3.15  (pos 2/6)   best: EBOwithCMAR  2.53
+          CEC hybrid         MDAC  2.73  (pos 4/6)   best: L-SHADE-SPACMA  2.52
+  [T]     CEC multimodal     MDAC  3.51  (pos 5/6)   best: L-SHADE  2.70
+          CEC unimodal       MDAC  3.50  (pos 3/6)   best: jSO  2.26
+          classic-12         MDAC  3.40  (pos 4/6)   best: L-SHADE  2.64
+
+  ==========================================================================
+  TARGET-CATEGORY VERDICT: 0 / 1 targets won outright
+    CEC multimodal     rank  3.51  pos 5/6  -> LOST to L-SHADE by +0.81 rank
+  ==========================================================================
+
+  --------------------------------------------------------------------------
+  MDAC vs each competitor -- Holm-corrected W/T/L (m=820)
+  --------------------------------------------------------------------------
+    competitor                W    T    L   meanA12
+    jSO                      44   63   57     0.469
+    L-SHADE-SPACMA           13  115   36     0.464
+    L-SHADE                  27   77   60     0.418
+    EBOwithCMAR              70   62   32     0.653
+    CMA-ES                  112   42   10     0.802
+
+  --------------------------------------------------------------------------
+  W/T/L BY CATEGORY (all competitors pooled)
+  --------------------------------------------------------------------------
+    CEC composition    W/T/L =   62/  91/  47   meanA12 = 0.568
+    CEC hybrid         W/T/L =  102/  50/  48   meanA12 = 0.656
+    CEC multimodal     W/T/L =   32/  71/  37   meanA12 = 0.500
+    CEC unimodal       W/T/L =   12/  17/  11   meanA12 = 0.503
+    classic-12         W/T/L =   58/ 130/  52   meanA12 = 0.522
+
+  --------------------------------------------------------------------------
+  CEC-CONVENTION FRIEDMAN -- rank of MEAN error per cell, subset 'all' (164 cells)
+  --------------------------------------------------------------------------
+    Friedman chi2 = 259.08  p = 6.19e-54   Iman-Davenport F = 75.29   Nemenyi CD(0.05) = 0.589
+    algorithm              mean-rk  med-rk    diff  z-test p  Holm   better/eq/worse Wilcoxon p  Holm
+    L-SHADE                  2.784   2.750  -0.518  1.21e-02     T          45/36/83   1.84e-02     F
+    jSO                      2.808   2.991  -0.494  1.68e-02     F          49/33/82   2.60e-02     F
+    L-SHADE-SPACMA           3.085   3.122  -0.216  2.95e-01     F          58/34/72   2.58e-01     F
+    MDAC                     3.302   3.137  +0.000  <<<
+    EBOwithCMAR              3.613   3.860  +0.311  1.32e-01     F          87/19/58   9.79e-02     F
+    CMA-ES                   5.409   5.140  +2.107  2.04e-24     T         137/11/16   9.17e-24     T
+    better/eq/worse counts cells where MDAC's mean error is lower/equal/higher.
+
+  --------------------------------------------------------------------------
+  CEC-CONVENTION FRIEDMAN -- rank of MEAN error per cell, subset 'CEC2017 only' (116 cells)
+  --------------------------------------------------------------------------
+    Friedman chi2 = 210.45  p = 1.64e-43   Iman-Davenport F = 65.49   Nemenyi CD(0.05) = 0.700
+    algorithm              mean-rk  med-rk    diff  z-test p  Holm   better/eq/worse Wilcoxon p  Holm
+    jSO                      2.772   2.940  -0.448  6.80e-02     F           42/9/65   2.40e-02     F
+    L-SHADE                  2.905   2.802  -0.315  2.00e-01     F          45/10/61   3.25e-01     F
+    L-SHADE-SPACMA           3.112   3.073  -0.108  6.61e-01     F          52/10/54   9.13e-01     F
+    MDAC                     3.220   3.039  +0.000  <<<
+    EBOwithCMAR              3.280   3.582  +0.060  8.06e-01     F           58/6/52   4.60e-01     F
+    CMA-ES                   5.711   5.565  +2.491  3.60e-24     T           107/2/7   1.01e-18     T
+    better/eq/worse counts cells where MDAC's mean error is lower/equal/higher.
+
+  cells where BOTH medians are 0 under the 1e-8 convention: 166 / 820
+  (these carry no information; ranking them on raw values is the artefact
+   the convention exists to remove)
+
+  artifacts -> <repo>\FINAL_time
+######## reanalyse.py --dir FINAL_abl --tag abl51
+  reanalyse: FINAL_abl/raw_abl51.csv, 160650 rows, 25 algorithms -> FINAL_abl/*_abl51.*
+
+  budget utilisation (fraction of MaxFES):
+    MDAC                   min 1.0000  mean 1.0000
+    MDAC-crFull            min 1.0000  mean 1.0000
+    MDAC-crShared          min 1.0000  mean 1.0000
+    MDAC-noDiv             min 1.0000  mean 1.0000
+    MDAC-allocFixed        min 1.0000  mean 1.0000
+    MDAC-allocRandom       min 1.0000  mean 1.0000
+    MDAC-allocWide         min 1.0000  mean 1.0000
+    MDAC-dimAware          min 1.0000  mean 1.0000
+    MDAC-ctr               min 1.0000  mean 1.0000
+    MDAC-nL6               min 1.0000  mean 1.0000
+    MDAC-nL24              min 1.0000  mean 1.0000
+    MDAC-T0_05             min 1.0000  mean 1.0000
+    MDAC-T0_20             min 1.0000  mean 1.0000
+    MDAC-cr07              min 1.0000  mean 1.0000
+    MDAC-cr10              min 1.0000  mean 1.0000
+    MDAC-nu03              min 1.0000  mean 1.0000
+    MDAC-nu09              min 1.0000  mean 1.0000
+    MDAC-allocTerminal     min 1.0000  mean 1.0000
+    MDAC-cmaRestart        min 1.0000  mean 1.0000
+    MDAC-seedCov           min 1.0000  mean 1.0000
+    MDAC-noFCP             min 1.0000  mean 1.0000
+    MDAC-noMetro           min 1.0000  mean 1.0000
+    MDAC-mom               min 1.0000  mean 1.0000
+    MDAC-momArch           min 1.0000  mean 1.0000
+    L-SHADE                min 1.0000  mean 1.0000
+
+  excluded from statistics (raw rows kept): CEC2017_F2_sum_diff_pow_c17
+
+  ==========================================================================
+  OVERALL FRIEDMAN RANK  (123 cells, ref = MDAC)
+  ==========================================================================
+    algorithm                rank (1e-8 conv)     rank (raw)
+    1. MDAC-nu09                       11.804         11.613
+    2. MDAC-nu03                       11.887         11.717
+    3. MDAC-nL24                       11.944         11.785
+    4. MDAC-T0_20                      11.949         11.795
+    5. MDAC-allocWide                  11.999         11.764
+    6. MDAC                            12.055         11.867  <<<
+    7. MDAC-noDiv                      12.055         11.867
+    8. MDAC-seedCov                    12.055         11.867
+    9. MDAC-nL6                        12.100         11.917
+    10. MDAC-noMetro                    12.120         11.910
+    11. MDAC-cmaRestart                 12.132         12.035
+    12. MDAC-T0_05                      12.135         11.959
+    13. MDAC-cr07                       12.143         12.027
+    14. MDAC-crShared                   12.483         12.401
+    15. MDAC-cr10                       12.486         12.354
+    16. MDAC-crFull                     13.177         12.903
+    17. MDAC-allocFixed                 13.647         13.737
+    18. MDAC-dimAware                   13.747         13.836
+    19. MDAC-allocRandom                13.777         14.103
+    20. MDAC-noFCP                      13.878         14.207
+    21. L-SHADE                         14.240         14.637
+    22. MDAC-ctr                        14.857         15.093
+    23. MDAC-mom                        14.915         14.772
+    24. MDAC-momArch                    15.228         15.202
+    25. MDAC-allocTerminal              16.189         17.628
+
+  --------------------------------------------------------------------------
+  RANK BY CATEGORY (1e-8 convention)
+  [T] = declared target category, fixed before this run
+  --------------------------------------------------------------------------
+          CEC composition    MDAC 11.79  (pos 8/25)   best: MDAC-nu03 11.49
+          CEC hybrid         MDAC 11.72  (pos 8/25)   best: MDAC-nu09 11.09
+  [T]     CEC multimodal     MDAC 11.39  (pos 6/25)   best: MDAC-crFull 10.98
+      WIN CEC unimodal       MDAC 13.00  (pos 1/25)   best: MDAC 13.00
+          classic-12         MDAC 12.79  (pos 11/25)   best: L-SHADE 11.95
+
+  ==========================================================================
+  TARGET-CATEGORY VERDICT: 0 / 1 targets won outright
+    CEC multimodal     rank 11.39  pos 6/25  -> LOST to MDAC-crFull by +0.41 rank
+  ==========================================================================
+
+  --------------------------------------------------------------------------
+  MDAC vs each competitor -- Holm-corrected W/T/L (m=2952)
+  --------------------------------------------------------------------------
+    competitor                W    T    L   meanA12
+    MDAC-crFull              16  101    6     0.538
+    MDAC-crShared             6  112    5     0.520
+    MDAC-noDiv                0  123    0     0.500
+    MDAC-allocFixed          13  110    0     0.566
+    MDAC-allocRandom         13  110    0     0.573
+    MDAC-allocWide            0  122    1     0.495
+    MDAC-dimAware            15  107    1     0.571
+    MDAC-ctr                 33   82    8     0.606
+    MDAC-nL6                  0  123    0     0.503
+    MDAC-nL24                 0  123    0     0.497
+    MDAC-T0_05                0  123    0     0.502
+    MDAC-T0_20                0  123    0     0.495
+    MDAC-cr07                 0  123    0     0.505
+    MDAC-cr10                 1  122    0     0.515
+    MDAC-nu03                 0  123    0     0.494
+    MDAC-nu09                 0  122    1     0.489
+    MDAC-allocTerminal       41   77    5     0.654
+    MDAC-cmaRestart           0  122    1     0.500
+    MDAC-seedCov              0  123    0     0.500
+    MDAC-noFCP               23   90   10     0.577
+    MDAC-noMetro              0  123    0     0.503
+    MDAC-mom                 24   98    1     0.606
+    MDAC-momArch             22  101    0     0.618
+    L-SHADE                  24   90    9     0.590
+
+  --------------------------------------------------------------------------
+  W/T/L BY CATEGORY (all competitors pooled)
+  --------------------------------------------------------------------------
+    CEC composition    W/T/L =   60/ 648/  12   meanA12 = 0.549
+    CEC hybrid         W/T/L =   77/ 631/  12   meanA12 = 0.551
+    CEC multimodal     W/T/L =   65/ 435/   4   meanA12 = 0.567
+    CEC unimodal       W/T/L =    0/ 144/   0   meanA12 = 0.500
+    classic-12         W/T/L =   29/ 815/  20   meanA12 = 0.508
+
+  --------------------------------------------------------------------------
+  CEC-CONVENTION FRIEDMAN -- rank of MEAN error per cell, subset 'all' (123 cells)
+  --------------------------------------------------------------------------
+    Friedman chi2 = 277.68  p = 5.07e-45   Iman-Davenport F = 12.67   Nemenyi CD(0.05) = 3.433
+    algorithm              mean-rk  med-rk    diff  z-test p  Holm   better/eq/worse Wilcoxon p  Holm
+    MDAC-nu03               11.118  10.874  -0.354  7.06e-01     F          33/47/43   4.22e-01     F
+    MDAC-nu09               11.224  10.699  -0.248  7.92e-01     F          38/46/39   8.57e-01     F
+    MDAC-T0_20              11.313  10.947  -0.159  8.66e-01     F          35/49/39   9.98e-01     F
+    MDAC-cr07               11.350  11.614  -0.122  8.97e-01     F          37/46/40   9.82e-01     F
+    MDAC-crShared           11.366  12.646  -0.106  9.10e-01     F          38/44/41   6.78e-01     F
+    MDAC-noDiv              11.472  11.703  +0.000  1.00e+00     F           0/123/0   1.00e+00     F
+    MDAC-seedCov            11.472  11.703  +0.000  1.00e+00     F           0/123/0   1.00e+00     F
+    MDAC                    11.472  11.703  +0.000  <<<
+    MDAC-nL24               11.618  11.024  +0.146  8.76e-01     F          39/47/37   2.61e-01     F
+    MDAC-T0_05              11.695  11.533  +0.224  8.12e-01     F          40/48/35   2.63e-01     F
+    MDAC-allocWide          11.732  10.939  +0.260  7.82e-01     F          39/45/39   5.52e-01     F
+    MDAC-noMetro            11.931  11.443  +0.459  6.25e-01     F          38/45/40   9.38e-01     F
+    MDAC-cmaRestart         12.012  12.061  +0.541  5.65e-01     F          43/57/23   1.48e-02     F
+    MDAC-nL6                12.106  11.821  +0.634  4.99e-01     F          43/45/35   1.06e-01     F
+    MDAC-noFCP              13.545  14.191  +2.073  2.72e-02     F          53/42/28   4.56e-02     F
+    MDAC-cr10               13.638  12.276  +2.167  2.10e-02     F          54/46/23   1.33e-04     T
+    MDAC-crFull             13.776  13.211  +2.305  1.41e-02     F          53/40/30   1.63e-02     F
+    L-SHADE                 14.211  14.386  +2.740  3.51e-03     F          55/41/27   7.59e-03     F
+    MDAC-ctr                14.520  15.423  +3.049  1.16e-03     T          52/42/29   8.55e-03     F
+    MDAC-allocFixed         14.528  14.707  +3.057  1.12e-03     T          55/46/22   5.71e-04     T
+    MDAC-allocRandom        14.728  15.041  +3.256  5.21e-04     T          58/44/21   4.68e-05     T
+    MDAC-dimAware           15.093  15.163  +3.622  1.14e-04     T          56/43/24   8.88e-04     T
+    MDAC-allocTerminal      15.142  16.675  +3.671  9.18e-05     T          56/39/28   2.00e-03     T
+    MDAC-mom                16.561  16.317  +5.089  5.86e-08     T          65/39/19   1.23e-07     T
+    MDAC-momArch            17.378  16.898  +5.907  3.10e-10     T          70/41/12   1.54e-09     T
+    better/eq/worse counts cells where MDAC's mean error is lower/equal/higher.
+
+  --------------------------------------------------------------------------
+  CEC-CONVENTION FRIEDMAN -- rank of MEAN error per cell, subset 'CEC2017 only' (87 cells)
+  --------------------------------------------------------------------------
+    Friedman chi2 = 259.98  p = 1.72e-41   Iman-Davenport F = 12.23   Nemenyi CD(0.05) = 4.082
+    algorithm              mean-rk  med-rk    diff  z-test p  Holm   better/eq/worse Wilcoxon p  Holm
+    MDAC-T0_20              10.598  10.178  -0.339  7.61e-01     F          31/18/38   6.43e-01     F
+    MDAC-nu03               10.598  10.190  -0.339  7.61e-01     F          32/16/39   4.26e-01     F
+    MDAC-nu09               10.701   9.989  -0.236  8.33e-01     F          36/15/36   8.97e-01     F
+    MDAC                    10.937  11.236  +0.000  <<<
+    MDAC-seedCov            10.937  11.236  +0.000  1.00e+00     F            0/87/0   1.00e+00     F
+    MDAC-noDiv              10.937  11.236  +0.000  1.00e+00     F            0/87/0   1.00e+00     F
+    MDAC-crShared           11.017  12.782  +0.080  9.43e-01     F          37/13/37   7.98e-01     F
+    MDAC-cr07               11.063  11.316  +0.126  9.10e-01     F          36/15/36   8.09e-01     F
+    MDAC-nL24               11.121  10.391  +0.184  8.69e-01     F          36/16/35   3.81e-01     F
+    MDAC-allocWide          11.190  10.247  +0.253  8.21e-01     F          36/14/37   6.78e-01     F
+    MDAC-T0_05              11.425  11.040  +0.489  6.62e-01     F          39/17/31   1.61e-01     F
+    MDAC-noMetro            11.483  10.948  +0.546  6.25e-01     F          34/15/38   7.83e-01     F
+    MDAC-nL6                11.500  11.333  +0.563  6.14e-01     F          38/15/34   2.55e-01     F
+    MDAC-cmaRestart         11.874  11.891  +0.937  4.01e-01     F          41/26/20   1.31e-02     F
+    MDAC-crFull             13.460  12.425  +2.523  2.38e-02     F          47/12/28   5.87e-02     F
+    MDAC-cr10               13.540  11.724  +2.603  1.96e-02     F          50/15/22   7.00e-04     T
+    MDAC-noFCP              14.195  15.121  +3.259  3.50e-03     F          51/12/24   2.45e-02     F
+    L-SHADE                 15.149  15.414  +4.213  1.60e-04     T          53/11/23   3.33e-03     F
+    MDAC-allocFixed         15.201  15.362  +4.264  1.33e-04     T          52/16/19   1.49e-04     T
+    MDAC-ctr                15.379  16.454  +4.443  6.86e-05     T          49/12/26   6.33e-03     F
+    MDAC-allocRandom        15.506  15.839  +4.569  4.23e-05     T          55/14/18   8.15e-06     T
+    MDAC-allocTerminal      15.713  17.638  +4.776  1.87e-05     T          51/11/25   1.80e-03     T
+    MDAC-dimAware           15.764  16.006  +4.828  1.52e-05     T          51/15/21   2.76e-04     T
+    MDAC-mom                17.264  17.161  +6.328  1.42e-08     T          57/12/18   1.35e-06     T
+    MDAC-momArch            18.448  17.845  +7.511  1.68e-11     T          63/13/11   2.01e-08     T
+    better/eq/worse counts cells where MDAC's mean error is lower/equal/higher.
+
+  cells where BOTH medians are 0 under the 1e-8 convention: 1125 / 2952
+  (these carry no information; ranking them on raw values is the artefact
+   the convention exists to remove)
+
+  artifacts -> <repo>\FINAL_abl
+######## reanalyse.py --dir FINAL_parity --tag parity
+  reanalyse: FINAL_parity/raw_parity.csv, 38556 rows, 9 algorithms -> FINAL_parity/*_parity.*
+
+  budget utilisation (fraction of MaxFES):
+    MDAC                   min 1.0000  mean 1.0000
+    MDAC-allocTerminal     min 1.0000  mean 1.0000
+    L-SHADE+cma            min 1.0000  mean 1.0000
+    L-SHADE-MA+cma         min 1.0000  mean 1.0000
+    L-SHADE-SPACMA+cma     min 1.0000  mean 1.0000
+    CMA-ES+cma             min 1.0000  mean 1.0000
+    A-GDESA-ng+cma         min 1.0000  mean 1.0000
+    DE+cma                 min 1.0000  mean 1.0000
+    PSO+cma                min 1.0000  mean 1.0000
+
+  excluded from statistics (raw rows kept): CEC2017_F2_sum_diff_pow_c17
+
+  ==========================================================================
+  OVERALL FRIEDMAN RANK  (82 cells, ref = MDAC)
+  ==========================================================================
+    algorithm                rank (1e-8 conv)     rank (raw)
+    1. MDAC                             3.662          3.251  <<<
+    2. L-SHADE-SPACMA+cma               3.747          3.384
+    3. L-SHADE+cma                      3.868          3.670
+    4. MDAC-allocTerminal               4.336          4.289
+    5. L-SHADE-MA+cma                   4.684          4.425
+    6. DE+cma                           5.049          5.477
+    7. A-GDESA-ng+cma                   5.636          6.156
+    8. CMA-ES+cma                       6.876          6.932
+    9. PSO+cma                          7.141          7.417
+
+  --------------------------------------------------------------------------
+  RANK BY CATEGORY (1e-8 convention)
+  [T] = declared target category, fixed before this run
+  --------------------------------------------------------------------------
+      WIN CEC composition    MDAC  3.46  (pos 1/9)   best: MDAC  3.46
+      WIN CEC hybrid         MDAC  3.13  (pos 1/9)   best: MDAC  3.13
+  [T] WIN CEC multimodal     MDAC  2.71  (pos 1/9)   best: MDAC  2.71
+      WIN CEC unimodal       MDAC  5.00  (pos 1/9)   best: MDAC  5.00
+          classic-12         MDAC  4.60  (pos 3/9)   best: L-SHADE+cma  4.40
+
+  ==========================================================================
+  TARGET-CATEGORY VERDICT: 1 / 1 targets won outright
+    CEC multimodal     rank  2.71  pos 1/9  -> WON
+  ==========================================================================
+
+  --------------------------------------------------------------------------
+  MDAC vs each competitor -- Holm-corrected W/T/L (m=656)
+  --------------------------------------------------------------------------
+    competitor                W    T    L   meanA12
+    MDAC-allocTerminal       26   48    8     0.621
+    L-SHADE+cma              21   53    8     0.578
+    L-SHADE-MA+cma           30   50    2     0.648
+    L-SHADE-SPACMA+cma       13   64    5     0.546
+    CMA-ES+cma               46   36    0     0.791
+    A-GDESA-ng+cma           36   37    9     0.687
+    DE+cma                   33   40    9     0.655
+    PSO+cma                  52   30    0     0.815
+
+  --------------------------------------------------------------------------
+  W/T/L BY CATEGORY (all competitors pooled)
+  --------------------------------------------------------------------------
+    CEC composition    W/T/L =   70/  75/  15   meanA12 = 0.691
+    CEC hybrid         W/T/L =   95/  49/  16   meanA12 = 0.737
+    CEC multimodal     W/T/L =   70/  37/   5   meanA12 = 0.786
+    CEC unimodal       W/T/L =    0/  32/   0   meanA12 = 0.500
+    classic-12         W/T/L =   22/ 165/   5   meanA12 = 0.549
+
+  --------------------------------------------------------------------------
+  CEC-CONVENTION FRIEDMAN -- rank of MEAN error per cell, subset 'all' (82 cells)
+  --------------------------------------------------------------------------
+    Friedman chi2 = 256.38  p = 7.64e-51   Iman-Davenport F = 51.97   Nemenyi CD(0.05) = 1.327
+    algorithm              mean-rk  med-rk    diff  z-test p  Holm   better/eq/worse Wilcoxon p  Holm
+    L-SHADE+cma              3.707   3.744  -0.177  6.79e-01     F          30/28/24   7.93e-01     F
+    L-SHADE-SPACMA+cma       3.707   3.622  -0.177  6.79e-01     F          27/31/24   7.64e-01     F
+    MDAC                     3.884   3.616  +0.000  <<<
+    MDAC-allocTerminal       4.012   4.299  +0.128  7.65e-01     F          30/28/24   4.51e-01     F
+    DE+cma                   4.683   4.909  +0.799  6.18e-02     F          37/25/20   8.40e-02     F
+    L-SHADE-MA+cma           5.018   4.750  +1.134  8.01e-03     T          40/25/17   2.43e-02     F
+    A-GDESA-ng+cma           5.232   5.738  +1.348  1.63e-03     T          36/26/20   1.38e-02     F
+    CMA-ES+cma               7.250   7.030  +3.366  3.56e-15     T           58/20/4   4.31e-09     T
+    PSO+cma                  7.506   7.293  +3.622  2.49e-17     T           61/18/3   2.98e-10     T
+    better/eq/worse counts cells where MDAC's mean error is lower/equal/higher.
+
+  --------------------------------------------------------------------------
+  CEC-CONVENTION FRIEDMAN -- rank of MEAN error per cell, subset 'CEC2017 only' (58 cells)
+  --------------------------------------------------------------------------
+    Friedman chi2 = 201.18  p = 3.60e-39   Iman-Davenport F = 43.63   Nemenyi CD(0.05) = 1.577
+    algorithm              mean-rk  med-rk    diff  z-test p  Holm   better/eq/worse Wilcoxon p  Holm
+    L-SHADE-SPACMA+cma       3.509   3.284  -0.147  7.73e-01     F           27/9/22   4.71e-01     F
+    L-SHADE+cma              3.534   3.474  -0.121  8.12e-01     F           29/7/22   5.24e-01     F
+    MDAC                     3.655   3.207  +0.000  <<<
+    MDAC-allocTerminal       3.862   4.147  +0.207  6.84e-01     F           28/8/22   3.47e-01     F
+    DE+cma                   4.483   4.750  +0.828  1.04e-01     F           32/7/19   1.77e-01     F
+    L-SHADE-MA+cma           5.207   4.759  +1.552  2.28e-03     T           37/6/15   1.08e-02     F
+    A-GDESA-ng+cma           5.250   5.853  +1.595  1.71e-03     T           32/7/19   2.63e-02     F
+    CMA-ES+cma               7.638   7.664  +3.983  4.82e-15     T            48/6/4   1.64e-07     T
+    PSO+cma                  7.862   7.862  +4.207  1.31e-16     T            49/6/3   2.13e-08     T
+    better/eq/worse counts cells where MDAC's mean error is lower/equal/higher.
+
+  cells where BOTH medians are 0 under the 1e-8 convention: 232 / 656
+  (these carry no information; ranking them on raw values is the artefact
+   the convention exists to remove)
+
+  artifacts -> <repo>\FINAL_parity

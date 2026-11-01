@@ -1,0 +1,81 @@
+{
+  "tag": "rw",
+  "reference": "MDAC",
+  "algorithms": [
+    "MDAC",
+    "MDAC-ctr",
+    "MDAC-noFCP",
+    "jSO",
+    "L-SHADE-SPACMA",
+    "L-SHADE",
+    "EBOwithCMAR",
+    "CMA-ES"
+  ],
+  "cells": 8,
+  "overall_rank_thr": {
+    "MDAC": 4.4754901960784315,
+    "MDAC-ctr": 3.6127450980392153,
+    "MDAC-noFCP": 4.019607843137255,
+    "jSO": 4.264705882352941,
+    "L-SHADE-SPACMA": 4.607843137254902,
+    "L-SHADE": 4.205882352941177,
+    "EBOwithCMAR": 3.188725490196078,
+    "CMA-ES": 7.625
+  },
+  "overall_rank_raw": {
+    "MDAC": 4.4754901960784315,
+    "MDAC-ctr": 3.6127450980392153,
+    "MDAC-noFCP": 4.019607843137255,
+    "jSO": 4.264705882352941,
+    "L-SHADE-SPACMA": 4.607843137254902,
+    "L-SHADE": 4.205882352941177,
+    "EBOwithCMAR": 3.188725490196078,
+    "CMA-ES": 7.625
+  },
+  "category_rank_thr": {
+    "CEC2011 real-world": {
+      "MDAC": 4.4754901960784315,
+      "MDAC-ctr": 3.6127450980392153,
+      "MDAC-noFCP": 4.019607843137255,
+      "jSO": 4.264705882352941,
+      "L-SHADE-SPACMA": 4.607843137254902,
+      "L-SHADE": 4.205882352941177,
+      "EBOwithCMAR": 3.188725490196078,
+      "CMA-ES": 7.625
+    }
+  },
+  "zero_threshold": 1e-08,
+  "benchmark": "CEC2011_* real-world problems, ported from the official MATLAB code (crosscheck_cec2011_octave.py)",
+  "excluded_from_stats": [],
+  "pairing": "runs paired by run index (shared seed)",
+  "cec_friedman": {
+    "all": {
+      "cells": 8,
+      "k": 8,
+      "friedman_chi2": 23.875,
+      "friedman_p": 0.0011984401903099063,
+      "iman_davenport_F": 5.202334630350195,
+      "nemenyi_cd_0.05": 3.712052836976543,
+      "mean_rank": {
+        "MDAC": 5.0,
+        "MDAC-ctr": 3.375,
+        "MDAC-noFCP": 3.5,
+        "jSO": 4.75,
+        "L-SHADE-SPACMA": 4.75,
+        "L-SHADE": 3.625,
+        "EBOwithCMAR": 3.0,
+        "CMA-ES": 8.0
+      },
+      "median_rank": {
+        "MDAC": 4.375,
+        "MDAC-ctr": 3.1875,
+        "MDAC-noFCP": 3.8125,
+        "jSO": 4.5,
+        "L-SHADE-SPACMA": 5.0,
+        "L-SHADE": 3.625,
+        "EBOwithCMAR": 3.5,
+        "CMA-ES": 8.0
+      }
+    }
+  }
+}

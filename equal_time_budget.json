@@ -1,0 +1,325 @@
+{
+ "source": "FINAL_fes (68544 rows, 8 algorithms, 51 runs)",
+ "rule": "median over algorithms of their median task seconds on that (function, dim)",
+ "machine": "measured on one machine at one worker count -- NOT portable; re-measure elsewhere",
+ "budget": {
+  "CEC2017_F10_schwefel": {
+   "10": 1.3777,
+   "30": 3.816,
+   "50": 8.6205,
+   "100": 50.0321
+  },
+  "CEC2017_F11_hybrid_zakharov_rosenbrock_rastrigin": {
+   "10": 1.2321,
+   "30": 2.451,
+   "50": 4.6282,
+   "100": 28.3568
+  },
+  "CEC2017_F12_hybrid_elliptic_schwefel_bent_cigar": {
+   "10": 1.3621,
+   "30": 2.6774,
+   "50": 5.4461,
+   "100": 30.0064
+  },
+  "CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek": {
+   "10": 1.2676,
+   "30": 2.4994,
+   "50": 4.8735,
+   "100": 29.0919
+  },
+  "CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_rastrigin": {
+   "10": 1.3532,
+   "30": 2.5826,
+   "50": 4.9755,
+   "100": 28.836
+  },
+  "CEC2017_F15_hybrid_bent_cigar_hgbat_rastrigin_rosenbrock": {
+   "10": 1.2778,
+   "30": 2.3571,
+   "50": 4.6776,
+   "100": 28.2938
+  },
+  "CEC2017_F16_hybrid_schaffer_f6_hgbat_rosenbrock_schwefel": {
+   "10": 1.4831,
+   "30": 2.9759,
+   "50": 5.9774,
+   "100": 30.2254
+  },
+  "CEC2017_F17_hybrid_katsuura_ackley_grie_rosen_schwefel_rastrigin": {
+   "10": 1.6338,
+   "30": 3.4858,
+   "50": 6.8282,
+   "100": 35.6698
+  },
+  "CEC2017_F18_hybrid_elliptic_ackley_rastrigin_hgbat_discus": {
+   "10": 1.3409,
+   "30": 2.4312,
+   "50": 4.619,
+   "100": 27.487
+  },
+  "CEC2017_F19_hybrid_bent_cigar_rastrigin_grie_rosen_weierstrass_schaffer_f6": {
+   "10": 1.5654,
+   "30": 3.4523,
+   "50": 7.9203,
+   "100": 41.9525
+  },
+  "CEC2017_F1_bent_cigar": {
+   "10": 1.0925,
+   "30": 2.1476,
+   "50": 4.2384,
+   "100": 26.9264
+  },
+  "CEC2017_F20_hybrid_happycat_katsuura_ackley_rastrigin_schwefel_schaffer_f7": {
+   "10": 1.7003,
+   "30": 3.7735,
+   "50": 7.0363,
+   "100": 35.2857
+  },
+  "CEC2017_F21_comp_rosenbrock_elliptic_rastrigin": {
+   "10": 1.5368,
+   "30": 2.8201,
+   "50": 6.9507,
+   "100": 43.0538
+  },
+  "CEC2017_F22_comp_rastrigin_griewank_schwefel": {
+   "10": 1.767,
+   "30": 4.3264,
+   "50": 11.0753,
+   "100": 63.3654
+  },
+  "CEC2017_F23_comp_rosenbrock_ackley_schwefel_rastrigin": {
+   "10": 1.9335,
+   "30": 4.9661,
+   "50": 11.3407,
+   "100": 68.6271
+  },
+  "CEC2017_F24_comp_ackley_elliptic_griewank_rastrigin": {
+   "10": 1.6794,
+   "30": 3.6828,
+   "50": 7.4999,
+   "100": 46.4143
+  },
+  "CEC2017_F25_comp_rastrigin_happycat_ackley_discus_rosenbrock": {
+   "10": 1.7851,
+   "30": 3.6423,
+   "50": 8.0045,
+   "100": 52.6641
+  },
+  "CEC2017_F26_comp_schaffer_f6_schwefel_griewank_rosenbrock_rastrigin": {
+   "10": 2.1167,
+   "30": 5.2507,
+   "50": 12.2434,
+   "100": 78.0952
+  },
+  "CEC2017_F27_comp_hgbat_rastrigin_schwefel_bent_cigar_elliptic_schaffer_f6": {
+   "10": 2.1512,
+   "30": 5.4511,
+   "50": 11.4729,
+   "100": 77.1374
+  },
+  "CEC2017_F28_comp_ackley_griewank_discus_rosenbrock_happycat_schaffer_f6": {
+   "10": 1.9797,
+   "30": 4.3731,
+   "50": 8.9396,
+   "100": 60.5885
+  },
+  "CEC2017_F29_comp_H15_H16_H17": {
+   "10": 2.6767,
+   "30": 5.3803,
+   "50": 10.4519,
+   "100": 51.7726
+  },
+  "CEC2017_F2_sum_diff_pow": {
+   "10": 1.0611,
+   "30": 2.1584,
+   "50": 4.5491,
+   "100": 27.5274
+  },
+  "CEC2017_F30_comp_H15_H18_H19": {
+   "10": 2.348,
+   "30": 4.7971,
+   "50": 10.8659,
+   "100": 55.4832
+  },
+  "CEC2017_F3_zakharov": {
+   "10": 1.1319,
+   "30": 2.1631,
+   "50": 4.1689,
+   "100": 26.5616
+  },
+  "CEC2017_F4_rosenbrock": {
+   "10": 1.1109,
+   "30": 2.1768,
+   "50": 4.4094,
+   "100": 29.8672
+  },
+  "CEC2017_F5_rastrigin": {
+   "10": 1.1404,
+   "30": 2.2864,
+   "50": 4.5689,
+   "100": 29.2081
+  },
+  "CEC2017_F6_schaffer_f6": {
+   "10": 1.1535,
+   "30": 2.4754,
+   "50": 5.1767,
+   "100": 33.3177
+  },
+  "CEC2017_F7_lunacek": {
+   "10": 1.1915,
+   "30": 2.5209,
+   "50": 5.3939,
+   "100": 32.4515
+  },
+  "CEC2017_F8_noncont_rastrigin": {
+   "10": 1.1309,
+   "30": 2.4309,
+   "50": 5.1946,
+   "100": 31.6047
+  },
+  "CEC2017_F9_levy": {
+   "10": 1.182,
+   "30": 2.4585,
+   "50": 5.036,
+   "100": 32.2577
+  },
+  "CL_Ackley": {
+   "10": 1.1117,
+   "30": 2.1317,
+   "50": 4.2691,
+   "100": 26.8383
+  },
+  "CL_BentCigar": {
+   "10": 1.0891,
+   "30": 2.0018,
+   "50": 4.0035,
+   "100": 25.8158
+  },
+  "CL_Discus": {
+   "10": 1.0825,
+   "30": 1.8543,
+   "50": 4.165,
+   "100": 25.7843
+  },
+  "CL_Elliptic": {
+   "10": 1.0745,
+   "30": 2.048,
+   "50": 5.0341,
+   "100": 26.7119
+  },
+  "CL_Griewank": {
+   "10": 1.0928,
+   "30": 2.0552,
+   "50": 4.2047,
+   "100": 25.6129
+  },
+  "CL_Levy": {
+   "10": 1.1849,
+   "30": 2.0896,
+   "50": 4.894,
+   "100": 30.9602
+  },
+  "CL_Rastrigin": {
+   "10": 1.0883,
+   "30": 2.1059,
+   "50": 4.6886,
+   "100": 29.06
+  },
+  "CL_Rosenbrock": {
+   "10": 1.0745,
+   "30": 2.0583,
+   "50": 5.0387,
+   "100": 28.8707
+  },
+  "CL_RotElliptic": {
+   "10": 1.08,
+   "30": 1.9566,
+   "50": 4.2292,
+   "100": 27.5843
+  },
+  "CL_Schwefel": {
+   "10": 1.1581,
+   "30": 2.7724,
+   "50": 6.1463,
+   "100": 38.1836
+  },
+  "CL_Sphere": {
+   "10": 1.015,
+   "30": 1.9624,
+   "50": 3.7485,
+   "100": 25.2944
+  },
+  "CL_Zakharov": {
+   "10": 1.0677,
+   "30": 2.1762,
+   "50": 3.9505,
+   "100": 25.5771
+  },
+  "CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17": {
+   "10": 1.4415,
+   "30": 2.4242,
+   "50": 4.0479,
+   "100": 21.9663
+  },
+  "CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin": {
+   "10": 1.4329,
+   "30": 2.508,
+   "50": 4.3938,
+   "100": 22.4322
+  },
+  "CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17": {
+   "10": 1.7857,
+   "30": 3.5994,
+   "50": 6.7035,
+   "100": 30.5357
+  },
+  "CEC2017_F2_sum_diff_pow_c17": {
+   "10": 1.1379,
+   "30": 2.2481,
+   "50": 3.8062,
+   "100": 21.7475
+  },
+  "CEC2017_F6_schaffer_f7_c17_unrotated": {
+   "10": 1.2547,
+   "30": 2.4655,
+   "50": 4.7246,
+   "100": 25.1593
+  },
+  "CEC2017_F7_lunacek_c17": {
+   "10": 1.2858,
+   "30": 2.3863,
+   "50": 4.3136,
+   "100": 23.303
+  },
+  "CEC2017_F8_noncont_rastrigin_c17": {
+   "10": 1.2146,
+   "30": 2.2808,
+   "50": 4.095,
+   "100": 22.8154
+  },
+  "CEC2017_F9_levy_c17": {
+   "10": 1.2944,
+   "30": 2.4015,
+   "50": 4.5082,
+   "100": 25.8051
+  }
+ },
+ "amendments": [
+  {
+   "added": [
+    "CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17",
+    "CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin",
+    "CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17",
+    "CEC2017_F2_sum_diff_pow_c17",
+    "CEC2017_F6_schaffer_f7_c17_unrotated",
+    "CEC2017_F7_lunacek_c17",
+    "CEC2017_F8_noncont_rastrigin_c17",
+    "CEC2017_F9_levy_c17"
+   ],
+   "source": "FINAL_fes_cfix (13056 rows, 8 algorithms, 51 runs)",
+   "rule": "median over algorithms of their median task seconds on that (function, dim)",
+   "machine": "i7-13700F, 20 workers",
+   "note": "C-exact re-run, 2026-10-31; the original entries were measured on an i5-13400F at 15 workers"
+  }
+ ]
+}

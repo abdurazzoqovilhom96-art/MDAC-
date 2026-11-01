@@ -1,0 +1,28 @@
+﻿MDAC (ours) vs the authors' submitted results -- 29 C-matching functions x 4 D, Holm m=348
+
+                           overall        multimodal       composition            hybrid          unimodal
+jSO               0.551 (47/36/33)   0.763 (18/10/0)  0.537 (16/11/13)   0.416 (12/8/20)     0.554 (1/7/0)
+L-SHADE-SPACMA    0.521 (36/55/25)    0.540 (6/20/2)  0.545 (16/13/11)  0.490 (14/14/12)     0.493 (0/8/0)
+EBOwithCMAR       0.484 (36/42/38)    0.539 (9/12/7)  0.457 (13/13/14)  0.459 (13/10/17)     0.555 (1/7/0)
+ALL 3           0.519 (119/133/96)   0.614 (33/42/9)  0.513 (45/37/38)  0.455 (39/32/49)    0.534 (2/22/0)
+
+by dimension (all 3 rivals pooled):
+  D=10  overall 0.375 (8/45/34)   multimodal 0.526 (4/14/3)
+  D=30  overall 0.577 (38/32/17)   multimodal 0.540 (7/10/4)
+  D=50  overall 0.548 (33/33/21)   multimodal 0.616 (9/10/2)
+  D=100 overall 0.576 (40/23/24)   multimodal 0.775 (13/8/0)
+
+for reference -- MDAC vs OUR ports on the same 116 cells (unpaired A12):
+  jSO              overall     vs authors' results 0.551   vs our port 0.570
+  jSO              multimodal  vs authors' results 0.763   vs our port 0.769
+  L-SHADE-SPACMA   overall     vs authors' results 0.521   vs our port 0.539
+  L-SHADE-SPACMA   multimodal  vs authors' results 0.540   vs our port 0.660
+  EBOwithCMAR      overall     vs authors' results 0.484   vs our port 0.476
+  EBOwithCMAR      multimodal  vs authors' results 0.539   vs our port 0.547
+
+Friedman over 116 cells, MDAC + authors' results:
+  mean-error ranks  : EBOwithCMAR 2.211  jSO 2.573  L-SHADE-SPACMA 2.595  MDAC 2.621
+  median-error ranks: EBOwithCMAR 2.345  MDAC 2.491  jSO 2.582  L-SHADE-SPACMA 2.582
+  cell-level Wilcoxon on means, MDAC vs jSO            : better 55 / equal 11 / worse 50   p = 7.77e-01
+  cell-level Wilcoxon on means, MDAC vs L-SHADE-SPACMA : better 46 / equal 13 / worse 57   p = 9.11e-01
+  cell-level Wilcoxon on means, MDAC vs EBOwithCMAR    : better 41 / equal 12 / worse 63   p = 1.32e-01

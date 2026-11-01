@@ -1,0 +1,127 @@
+{
+  "tag": "full_pub",
+  "reference": "MDAC",
+  "algorithms": [
+    "MDAC",
+    "jSO",
+    "L-SHADE-SPACMA",
+    "L-SHADE",
+    "EBOwithCMAR",
+    "CMA-ES"
+  ],
+  "cells": 164,
+  "overall_rank_thr": {
+    "MDAC": 2.9751315160210425,
+    "jSO": 3.259325681492109,
+    "L-SHADE-SPACMA": 2.998206599713056,
+    "L-SHADE": 3.495994739359158,
+    "EBOwithCMAR": 2.9104495456719275,
+    "CMA-ES": 5.360891917742707
+  },
+  "overall_rank_raw": {
+    "MDAC": 2.8425992348158777,
+    "jSO": 3.286704925872788,
+    "L-SHADE-SPACMA": 2.8818149210903874,
+    "L-SHADE": 3.4436872309899567,
+    "EBOwithCMAR": 3.0004184600669537,
+    "CMA-ES": 5.544775227164037
+  },
+  "category_rank_thr": {
+    "CEC multimodal": {
+      "MDAC": 2.3277310924369745,
+      "jSO": 3.7815126050420167,
+      "L-SHADE-SPACMA": 3.0556722689075633,
+      "L-SHADE": 3.539215686274509,
+      "EBOwithCMAR": 2.6218487394957983,
+      "CMA-ES": 5.674019607843137
+    },
+    "CEC hybrid": {
+      "MDAC": 3.0919117647058827,
+      "jSO": 2.6174019607843135,
+      "L-SHADE-SPACMA": 2.50735294117647,
+      "L-SHADE": 3.5519607843137253,
+      "EBOwithCMAR": 3.298039215686275,
+      "CMA-ES": 5.933333333333333
+    },
+    "CEC unimodal": {
+      "MDAC": 3.0882352941176467,
+      "jSO": 3.3529411764705883,
+      "L-SHADE-SPACMA": 3.482843137254902,
+      "L-SHADE": 3.2401960784313726,
+      "EBOwithCMAR": 3.0980392156862746,
+      "CMA-ES": 4.737745098039216
+    },
+    "CEC composition": {
+      "MDAC": 2.7946078431372547,
+      "jSO": 3.2321078431372547,
+      "L-SHADE-SPACMA": 2.9541666666666666,
+      "L-SHADE": 3.7193627450980395,
+      "EBOwithCMAR": 2.4899509803921567,
+      "CMA-ES": 5.809803921568628
+    },
+    "classic-12": {
+      "MDAC": 3.387050653594771,
+      "jSO": 3.496732026143791,
+      "L-SHADE-SPACMA": 3.329656862745098,
+      "L-SHADE": 3.280637254901961,
+      "EBOwithCMAR": 3.074959150326798,
+      "CMA-ES": 4.430964052287582
+    }
+  },
+  "zero_threshold": 1e-08,
+  "benchmark": "CL_* shifted classics + CEC2017_* official, C-exact (crosscheck_cec2017_c.py 30/30)",
+  "excluded_from_stats": [
+    "CEC2017_F2_sum_diff_pow_c17"
+  ],
+  "pairing": "runs paired by run index (shared seed)",
+  "cec_friedman": {
+    "all": {
+      "cells": 164,
+      "k": 6,
+      "friedman_chi2": 350.7350993377483,
+      "friedman_p": 1.2157322061703652e-73,
+      "iman_davenport_F": 121.82846215724182,
+      "nemenyi_cd_0.05": 0.5887447729035339,
+      "mean_rank": {
+        "MDAC": 3.0365853658536586,
+        "jSO": 3.1554878048780486,
+        "L-SHADE-SPACMA": 2.9603658536585367,
+        "L-SHADE": 3.5121951219512195,
+        "EBOwithCMAR": 2.6859756097560976,
+        "CMA-ES": 5.649390243902439
+      },
+      "median_rank": {
+        "MDAC": 2.9390243902439024,
+        "jSO": 3.207317073170732,
+        "L-SHADE-SPACMA": 3.018292682926829,
+        "L-SHADE": 3.518292682926829,
+        "EBOwithCMAR": 2.9207317073170733,
+        "CMA-ES": 5.396341463414634
+      }
+    },
+    "CEC2017 only": {
+      "cells": 116,
+      "k": 6,
+      "friedman_chi2": 269.260042283298,
+      "friedman_p": 4.0348843921403703e-56,
+      "iman_davenport_F": 99.64893182745944,
+      "nemenyi_cd_0.05": 0.7000353861122525,
+      "mean_rank": {
+        "MDAC": 2.9267241379310347,
+        "jSO": 3.0560344827586206,
+        "L-SHADE-SPACMA": 2.896551724137931,
+        "L-SHADE": 3.663793103448276,
+        "EBOwithCMAR": 2.5560344827586206,
+        "CMA-ES": 5.900862068965517
+      },
+      "median_rank": {
+        "MDAC": 2.7456896551724137,
+        "jSO": 3.0948275862068964,
+        "L-SHADE-SPACMA": 2.8922413793103448,
+        "L-SHADE": 3.6163793103448274,
+        "EBOwithCMAR": 2.8663793103448274,
+        "CMA-ES": 5.7844827586206895
+      }
+    }
+  }
+}

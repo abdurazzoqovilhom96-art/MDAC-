@@ -1,0 +1,55 @@
+{
+ "source": "FINAL_fes_cfix (13056 rows, 8 algorithms, 51 runs)",
+ "rule": "median over algorithms of their median task seconds on that (function, dim)",
+ "machine": "measured on one machine at one worker count -- NOT portable; re-measure elsewhere",
+ "budget": {
+  "CEC2017_F13_hybrid_bent_cigar_rosenbrock_lunacek_c17": {
+   "10": 1.4415,
+   "30": 2.4242,
+   "50": 4.0479,
+   "100": 21.9663
+  },
+  "CEC2017_F14_hybrid_elliptic_ackley_schaffer_f7_c17_rastrigin": {
+   "10": 1.4329,
+   "30": 2.508,
+   "50": 4.3938,
+   "100": 22.4322
+  },
+  "CEC2017_F20_hybrid_hgbat_katsuura_ackley_rastrigin_schwefel_schaffer_f7_c17": {
+   "10": 1.7857,
+   "30": 3.5994,
+   "50": 6.7035,
+   "100": 30.5357
+  },
+  "CEC2017_F2_sum_diff_pow_c17": {
+   "10": 1.1379,
+   "30": 2.2481,
+   "50": 3.8062,
+   "100": 21.7475
+  },
+  "CEC2017_F6_schaffer_f7_c17_unrotated": {
+   "10": 1.2547,
+   "30": 2.4655,
+   "50": 4.7246,
+   "100": 25.1593
+  },
+  "CEC2017_F7_lunacek_c17": {
+   "10": 1.2858,
+   "30": 2.3863,
+   "50": 4.3136,
+   "100": 23.303
+  },
+  "CEC2017_F8_noncont_rastrigin_c17": {
+   "10": 1.2146,
+   "30": 2.2808,
+   "50": 4.095,
+   "100": 22.8154
+  },
+  "CEC2017_F9_levy_c17": {
+   "10": 1.2944,
+   "30": 2.4015,
+   "50": 4.5082,
+   "100": 25.8051
+  }
+ }
+}

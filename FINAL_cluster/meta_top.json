@@ -1,0 +1,81 @@
+{
+  "tag": "top",
+  "reference": "MDAC",
+  "algorithms": [
+    "MDAC",
+    "MDAC-ctr",
+    "jSO",
+    "L-SHADE-SPACMA",
+    "L-SHADE",
+    "EBOwithCMAR",
+    "CMA-ES",
+    "k-means++"
+  ],
+  "cells": 6,
+  "overall_rank_thr": {
+    "MDAC": 5.446078431372549,
+    "MDAC-ctr": 5.251633986928105,
+    "jSO": 4.638888888888888,
+    "L-SHADE-SPACMA": 4.511437908496732,
+    "L-SHADE": 5.0620915032679745,
+    "EBOwithCMAR": 4.169934640522876,
+    "CMA-ES": 5.53921568627451,
+    "k-means++": 1.3807189542483658
+  },
+  "overall_rank_raw": {
+    "MDAC": 5.446078431372549,
+    "MDAC-ctr": 5.251633986928105,
+    "jSO": 4.638888888888888,
+    "L-SHADE-SPACMA": 4.511437908496732,
+    "L-SHADE": 5.0620915032679745,
+    "EBOwithCMAR": 4.169934640522876,
+    "CMA-ES": 5.53921568627451,
+    "k-means++": 1.3807189542483658
+  },
+  "category_rank_thr": {
+    "clustering": {
+      "MDAC": 5.446078431372549,
+      "MDAC-ctr": 5.251633986928105,
+      "jSO": 4.638888888888888,
+      "L-SHADE-SPACMA": 4.511437908496732,
+      "L-SHADE": 5.0620915032679745,
+      "EBOwithCMAR": 4.169934640522876,
+      "CMA-ES": 5.53921568627451,
+      "k-means++": 1.3807189542483658
+    }
+  },
+  "zero_threshold": 1e-08,
+  "benchmark": "CL2_* clustering on real UCI data",
+  "excluded_from_stats": [],
+  "pairing": "runs paired by run index (shared seed)",
+  "cec_friedman": {
+    "all": {
+      "cells": 6,
+      "k": 8,
+      "friedman_chi2": 27.111111111111114,
+      "friedman_p": 0.0003182757437723601,
+      "iman_davenport_F": 9.104477611940302,
+      "nemenyi_cd_0.05": 4.286309409349043,
+      "mean_rank": {
+        "MDAC": 6.666666666666667,
+        "MDAC-ctr": 5.666666666666667,
+        "jSO": 3.0,
+        "L-SHADE-SPACMA": 4.833333333333333,
+        "L-SHADE": 4.5,
+        "EBOwithCMAR": 3.5,
+        "CMA-ES": 6.833333333333333,
+        "k-means++": 1.0
+      },
+      "median_rank": {
+        "MDAC": 6.833333333333333,
+        "MDAC-ctr": 5.916666666666667,
+        "jSO": 3.8333333333333335,
+        "L-SHADE-SPACMA": 4.416666666666667,
+        "L-SHADE": 5.25,
+        "EBOwithCMAR": 3.5833333333333335,
+        "CMA-ES": 5.0,
+        "k-means++": 1.1666666666666667
+      }
+    }
+  }
+}

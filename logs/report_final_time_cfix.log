@@ -1,0 +1,139 @@
+﻿==============================================================================
+  MDAC FINAL REPORT -- <repo>\FINAL_time
+==============================================================================
+==============================================================================
+  0. RUN INTEGRITY
+==============================================================================
+  rows            : 68544
+  algorithms      : 8  (CMA-ES, EBOwithCMAR, L-SHADE, L-SHADE-SPACMA, MDAC, MDAC-ctr, MDAC-noFCP, jSO)
+  functions       : 42
+  dims            : [10, 30, 50, 100]
+  runs per cell   : 51
+  failures        : 0
+
+  budget utilisation (fraction of MaxFES):
+    CMA-ES               min 1.0000  mean 1.0000
+    EBOwithCMAR          min 1.0000  mean 1.0000
+    L-SHADE              min 1.0000  mean 1.0000
+    L-SHADE-SPACMA       min 1.0000  mean 1.0000
+    MDAC                 min 1.0000  mean 1.0000
+    MDAC-ctr             min 1.0000  mean 1.0000
+    MDAC-noFCP           min 1.0000  mean 1.0000
+    jSO                  min 1.0000  mean 1.0000
+
+==============================================================================
+  1. OVERALL FRIEDMAN RANK  (164 cells, all 8 algorithms, 1e-8 convention)
+==============================================================================
+    #  algorithm               rank (1e-8)   rank (raw)
+    1  L-SHADE                       3.653        3.412
+    2  MDAC-noFCP                    3.806        3.611
+    3  jSO                           4.078        4.132
+    4  L-SHADE-SPACMA                4.114        4.149
+    5  MDAC-ctr                      4.193        4.166
+    6  MDAC                          4.291        4.473   <<< proposed
+    7  EBOwithCMAR                   5.190        5.389
+    8  CMA-ES                        6.675        6.668
+
+    MDAC position : 6 / 8  (1e-8 convention)   |   6 / 8  (raw ranks)
+    margin to leader   : +0.638 rank units  vs L-SHADE
+
+==============================================================================
+  2. MEAN RANK BY CATEGORY (all 5 algorithms; every category reported)
+==============================================================================
+    category              MDAC            leader  leader rank      gap  verdict
+    CEC unimodal         4.983               jSO        3.002   +1.980  5/8
+    CEC multimodal       4.745           L-SHADE        3.451   +1.294  7/8
+    CEC hybrid           3.680    L-SHADE-SPACMA        3.345   +0.335  5/8
+    CEC composition      4.068       EBOwithCMAR        3.359   +0.709  2/8
+    classic-12           4.605           L-SHADE        3.440   +1.165  6/8
+
+==============================================================================
+  3. CATEGORY W/T/L and A12 vs the TOP METHODS ONLY
+==============================================================================
+    pooled competitors : EBOwithCMAR, L-SHADE, L-SHADE-SPACMA, jSO
+    not pooled         : CMA-ES, MDAC-ctr, MDAC-noFCP  (CMA-ES by rule 6; own variants are not rivals)
+    A12 > 0.5 favours MDAC. W/T/L is Holm-corrected over the whole run family.
+
+    category              W    T    L   netW     A12   verdict
+    CEC unimodal          7   16    9     -2   0.473   marginal loss
+    CEC multimodal       17   59   36    -19   0.433   LOSS
+    CEC hybrid           63   50   47    +16   0.577   WIN
+    CEC composition      29   84   47    -18   0.483   marginal loss
+    classic-12           38  111   43     -5   0.497   marginal loss
+
+==============================================================================
+  4. CATEGORY x DIMENSION A12   (top methods only; W/L in parentheses)
+==============================================================================
+    category                        D=10              D=30              D=50             D=100
+    CEC unimodal              0.500(0/0)        0.625(2/0)        0.366(2/4)        0.399(3/5)
+    CEC multimodal            0.603(7/2)       0.416(6/10)        0.399(3/9)       0.316(1/15)
+    CEC hybrid               0.471(6/13)       0.779(28/4)       0.665(19/8)      0.393(10/22)
+    CEC composition          0.438(1/11)       0.613(11/7)       0.603(15/6)       0.280(2/23)
+    classic-12                0.516(3/3)        0.506(7/7)      0.472(14/17)      0.492(14/16)
+
+==============================================================================
+  5. MDAC vs EACH TOP METHOD, BY CATEGORY
+==============================================================================
+    A 'beats each individually' claim needs every row of a category to favour us:
+    A12 > 0.5 AND more significant wins than losses (an even W/L record is not a win).
+
+    CEC unimodal
+        vs jSO                W/T/L   0/  4/  4   A12 0.250
+        vs L-SHADE-SPACMA     W/T/L   1/  6/  1   A12 0.504
+        vs L-SHADE            W/T/L   0/  4/  4   A12 0.263
+        vs EBOwithCMAR        W/T/L   6/  2/  0   A12 0.873
+        -> beats each individually: no
+
+    CEC multimodal
+        vs jSO                W/T/L   9/  9/ 10   A12 0.461
+        vs L-SHADE-SPACMA     W/T/L   0/ 21/  7   A12 0.438
+        vs L-SHADE            W/T/L   3/ 14/ 11   A12 0.321
+        vs EBOwithCMAR        W/T/L   5/ 15/  8   A12 0.514
+        -> beats each individually: no
+
+    CEC hybrid
+        vs jSO                W/T/L  18/  3/ 19   A12 0.506
+        vs L-SHADE-SPACMA     W/T/L   4/ 26/ 10   A12 0.457
+        vs L-SHADE            W/T/L  13/ 10/ 17   A12 0.502
+        vs EBOwithCMAR        W/T/L  28/ 11/  1   A12 0.844
+        -> beats each individually: no
+
+    CEC composition
+        vs jSO                W/T/L  10/ 18/ 12   A12 0.490
+        vs L-SHADE-SPACMA     W/T/L   3/ 31/  6   A12 0.512
+        vs L-SHADE            W/T/L  11/ 19/ 10   A12 0.541
+        vs EBOwithCMAR        W/T/L   5/ 16/ 19   A12 0.390
+        -> beats each individually: no
+
+    classic-12
+        vs jSO                W/T/L   7/ 30/ 11   A12 0.462
+        vs L-SHADE-SPACMA     W/T/L   5/ 31/ 12   A12 0.439
+        vs L-SHADE            W/T/L   0/ 31/ 17   A12 0.328
+        vs EBOwithCMAR        W/T/L  26/ 19/  3   A12 0.757
+        -> beats each individually: no
+
+    OVERALL, vs each top method (all categories):
+        vs jSO                W/T/L  44/ 64/ 56   A12 0.469
+        vs L-SHADE-SPACMA     W/T/L  13/115/ 36   A12 0.464
+        vs L-SHADE            W/T/L  27/ 78/ 59   A12 0.418
+        vs EBOwithCMAR        W/T/L  70/ 63/ 31   A12 0.653
+
+==============================================================================
+  6. INFORMATION CONTENT
+==============================================================================
+    pairs where BOTH medians are 0 under the 1e-8 convention: 140 / 656  (21.3%)
+    Those pairs are saturated: they can produce a tie and nothing else, and
+    ranking them on raw values is the artefact the convention exists to remove.
+
+==============================================================================
+  7. STATISTICAL POWER (rule 3 -- recomputed, not assumed)
+==============================================================================
+    runs per cell n          : 51
+    Holm family size m       : 1148
+    strictest threshold 0.05/m: 4.355e-05
+    min attainable p = 2/2^n : 8.882e-16
+    => REACHABLE. W/T/L from this family is quotable.
+
+==============================================================================
+  RUN IS CLEAN: zero failures, full budget parity. Numbers above are reportable.
+==============================================================================
